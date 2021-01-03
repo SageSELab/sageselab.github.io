@@ -19,12 +19,12 @@
           </a>
           {% endif %}
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global"
+          <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#navbar_global"
             aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="navbar-collapse collapse" id="navbar_global">
-            <div class="navbar-collapse-header">
+          <div class="navbar-collapse collapse bg-success" id="navbar_global">
+            <div class="navbar-collapse-header bg-success">
               <div class="row">
                 <div class="col-6 collapse-brand">
                   {% if site.data.settings.header_settings.mobile_logo_image %}
@@ -36,7 +36,7 @@
                     <img src="{{ site.data.settings.header_settings.logo_image | relative_url }}">
                   </a>
                   {% else %}
-                  <a class="navbar-brand" href="{{ site.baseurl }}/">
+                  <a class="navbar-brand bg-success" href="{{ site.baseurl }}/">
                     {{ site.data.settings.basic_settings.site_title }}
                   </a>
                   {% endif %}
@@ -53,7 +53,7 @@
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
               {% for item in site.data.settings.menu_settings.menu_items %}
                 {% if item.submenu_items %}
-                  <li class="nav-item dropdown">
+                  <li class="nav-item dropdown bg-success">
                     <a href="javascript:;" class="nav-link" data-toggle="dropdown" role="button">
                       <span class="nav-link-inner--text">{{ item.title }}</span>
                     </a>
