@@ -1,5 +1,5 @@
 {% if page.url != "/" and page.featured_image and site.data.settings.header_settings.allow_transparent == "yes" %}
-<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent headroom">
+<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg bg-success navbar-transparent headroom">
   {% elsif site.data.settings.header_settings.theme == "blue" %}
   <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg bg-success navbar-dark headroom">
     {% elsif site.data.settings.header_settings.theme == "dark" %}
@@ -8,7 +8,7 @@
       <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg bg-success headroom">
         {% endif %}
 
-        <div class="container">
+        <div class="container bg-success">
           {% if site.data.settings.header_settings.logo_image %}
           <a href="{{ site.baseurl }}/" class="navbar-brand bg-success mr-lg-5">
             <img src="{{ site.data.settings.header_settings.logo_image | relative_url }}">
