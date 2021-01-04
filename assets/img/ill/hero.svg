@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="0 0 515.5 360.9" width="515.5" height="360.9">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 516 361" width="516" height="361">
   <defs>
     <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#f71d69"/>
@@ -57,8 +57,8 @@
     </linearGradient>
     <linearGradient id="Obj_Gradient_9" xl:href="#Gradient_9" gradientTransform="translate(126.79597 199.81138) rotate(37.88474) scale(122.91207)"/>
   </defs>
-  <metadata> Produced by OmniGraffle 7.18.1\n2021-01-03 20:24:20 +0000</metadata>
-  <g id="Canvas_1" stroke-dasharray="none" fill-opacity="1" stroke-opacity="1" fill="none" stroke="none">
+  <metadata> Produced by OmniGraffle 7.18.1\n2021-01-04 22:46:05 +0000</metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke-dasharray="none" stroke-opacity="1" stroke="none" fill="none">
     <title>Canvas 1</title>
     <g id="Canvas_1_Layer_1">
       <title>Layer 1</title>
@@ -66,49 +66,49 @@
         <title>Layer_1</title>
         <g id="Group_3">
           <g id="Graphic_18">
-            <path d="M 49.5 190.9 C 41.8 139.4 24.5 134.9 11.2 108.9 C -.9 85.3 -10.6 46.6 23.5 18.9 C 76.5 -24.1 141.5 19.9 141.5 19.9 C 141.5 19.9 244.5 78.9 262.5 81.9 C 280.5 84.9 324.5 114.9 379.5 78.9 C 434.5 42.9 481.5 45.9 496.5 72.9 C 511.5 99.9 477.5 177.9 469.5 193.9 C 461.5 209.9 473.5 259.9 486.5 279.9 C 499.5 299.9 540.5 361.9 452.5 359.9 C 364.5 357.9 100.5 360.9 100.5 360.9 C 100.5 360.9 5.7 359.1 22.5 266.9 C 36.5 189.9 52.5 210.9 49.5 190.9 Z" fill="#009051" fill-opacity=".10717612"/>
+            <path d="M 49.488835 190.85525 C 41.788835 139.35525 24.488835 134.85525 11.188835 108.85525 C -.9111649 85.25525 -10.611165 46.555253 23.488835 18.855253 C 76.488835 -24.144747 141.48884 19.855253 141.48884 19.855253 C 141.48884 19.855253 244.48884 78.85525 262.48884 81.85525 C 280.48884 84.85525 324.48884 114.85525 379.48884 78.85525 C 434.48884 42.855253 481.48884 45.855253 496.48884 72.85525 C 511.48884 99.85525 477.48884 177.85525 469.48884 193.85525 C 461.48884 209.85525 473.48884 259.85525 486.48884 279.85525 C 499.48884 299.85525 540.48884 361.85525 452.48884 359.85525 C 364.48884 357.85525 100.48884 360.85525 100.48884 360.85525 C 100.48884 360.85525 5.688835 359.05525 22.488835 266.85525 C 36.488835 189.85525 52.488835 210.85525 49.488835 190.85525 Z" fill="#009051" fill-opacity=".10717612"/>
           </g>
           <g id="Graphic_17">
-            <circle cx="83.5" cy="163.9" r="20.0000419580539" fill="#009051" fill-opacity=".7908475"/>
+            <circle cx="83.48884" cy="163.85525" r="20.0000419580539" fill="#009051" fill-opacity=".7908475"/>
           </g>
           <g id="Graphic_16">
-            <circle cx="50" cy="188.4" r="13.5000283216864" fill="#4e8f00" fill-opacity=".6555257"/>
+            <circle cx="49.988835" cy="188.35525" r="13.5000283216864" fill="#4e8f00" fill-opacity=".6555257"/>
           </g>
           <g id="Graphic_15">
-            <circle cx="52" cy="157.4" r="7.50001573427021" fill="#009051" fill-opacity=".5"/>
+            <circle cx="51.988835" cy="157.35525" r="7.50001573427022" fill="#009051" fill-opacity=".5"/>
           </g>
           <g id="Graphic_14">
-            <circle cx="495.5352" cy="298.84573" r="20.0003464563747" fill="#009051" fill-opacity=".8008589"/>
+            <circle cx="495.524" cy="298.801" r="20.0003464563747" fill="#009051" fill-opacity=".8008589"/>
           </g>
           <g id="Graphic_13">
-            <circle cx="15" cy="62.4" r="7.50001573427021" fill="#009051" fill-opacity=".28616515"/>
+            <circle cx="14.988835" cy="62.35525" r="7.50001573427021" fill="#009051" fill-opacity=".28616515"/>
           </g>
           <g id="Graphic_12">
-            <circle cx="140" cy="297.4" r="35.5000744755456" fill="#008f00" fill-opacity=".32566743"/>
+            <circle cx="139.98884" cy="297.35525" r="35.5000744755456" fill="#008f00" fill-opacity=".32566743"/>
           </g>
           <g id="Graphic_11">
-            <circle cx="374.5" cy="325.9" r="24.0000503496646" fill="#4e8f00" fill-opacity=".23926428"/>
+            <circle cx="378.20003" cy="336.85523" r="24.0000503496646" fill="#4e8f00" fill-opacity=".23926428"/>
           </g>
           <g id="Graphic_10">
-            <circle cx="466.5" cy="201.9" r="13.0000272727351" fill="#00fa00" fill-opacity=".34318088"/>
+            <circle cx="466.48884" cy="201.85525" r="13.0000272727351" fill="#00fa00" fill-opacity=".34318088"/>
           </g>
           <g id="Graphic_9">
-            <circle cx="369.5" cy="84.9" r="26.0000545454701" fill="#008f00" fill-opacity=".2095923"/>
+            <circle cx="369.48884" cy="84.85525" r="26.00005454547" fill="#008f00" fill-opacity=".2095923"/>
           </g>
           <g id="Graphic_8">
-            <circle cx="131" cy="15.4" r="12.5000262237837" fill="#009051" fill-opacity=".6927773"/>
+            <circle cx="130.98884" cy="15.355253" r="12.5000262237837" fill="#009051" fill-opacity=".6927773"/>
           </g>
           <g id="Graphic_7">
-            <circle cx="91" cy="264.4" r="12.5000262237837" fill="#008f00" fill-opacity=".22053498"/>
+            <circle cx="90.98884" cy="264.35525" r="12.5000262237837" fill="#008f00" fill-opacity=".22053498"/>
           </g>
           <g id="Graphic_6">
-            <circle cx="494" cy="119.4" r="12.5000262237837" fill="#4e8f00" fill-opacity=".57967715"/>
+            <circle cx="493.98884" cy="119.35525" r="12.5000262237837" fill="#4e8f00" fill-opacity=".57967715"/>
           </g>
           <g id="Graphic_5">
-            <circle cx="474" cy="331.4" r="13.5000283216864" fill="#009051" fill-opacity=".8559603"/>
+            <circle cx="473.98884" cy="331.35525" r="13.5000283216864" fill="#009051" fill-opacity=".8559603"/>
           </g>
           <g id="Graphic_4">
-            <circle cx="504" cy="338.4" r="7.50001573427026" fill="#68bc36" fill-opacity=".587024"/>
+            <circle cx="503.98884" cy="338.35525" r="7.50001573427031" fill="#68bc36" fill-opacity=".587024"/>
           </g>
         </g>
       </g>
@@ -117,16 +117,16 @@
         <g id="Group_38">
           <title>Computer</title>
           <g id="Graphic_67">
-            <path d="M 288.2 283.1 L 406.4 283.1 C 406.4 283.1 410.8 282.9 410.8 277.7 L 410.8 267.5 L 283.5 267.5 L 283.5 279.8 C 284.2 281.9 286 283.2 288.2 283.1" fill="#009051" fill-opacity=".7744205"/>
+            <path d="M 288.2 283.1012 L 406.4 283.1012 C 406.4 283.1012 410.8 282.94606 410.8 278.91233 L 410.8 271 L 283.5 271 L 283.5 280.54134 C 284.2 282.17035 286 283.17878 288.2 283.1012" fill="#009051" fill-opacity=".7744205"/>
           </g>
           <g id="Graphic_66">
-            <path d="M 283.5 190.8 L 283.4 271.5 L 410.7 270.3 L 410.7 188.4 C 410.7 188.4 411.5 183.7 406.5 183.7 L 288.3 183.7 C 288.3 183.8 283 183.8 283.5 190.8" fill="#009051" fill-opacity=".7744205"/>
+            <rect x="283.447" y="183.7" width="127.3" height="87.3" fill="#009051" fill-opacity=".7744205"/>
           </g>
           <g id="Graphic_65">
-            <path d="M 337.1 304.8 L 337.1 282.3 L 355.7 283.1 L 355.7 302.8 Z" fill="#009051" fill-opacity=".7744205"/>
+            <rect x="337.00363" y="283.1054" width="18.792746" height="19.29462" fill="#009051" fill-opacity=".7744205"/>
           </g>
           <g id="Graphic_64">
-            <path d="M 307.5 302.5 L 384.9 302.5 L 385 306.4 L 307.5 306.4 Z" fill="#009051" fill-opacity=".7744205"/>
+            <path d="M 307.6 302.4 L 385 302.4 L 385.1 306.3 L 307.6 306.3 Z" fill="#009051" fill-opacity=".7744205"/>
           </g>
           <g id="Graphic_63">
             <path d="M 346 273.1 C 348.1 273.1 349.7 274.7 349.7 276.8 C 349.7 278.9 348.1 280.5 346 280.5 C 343.9 280.5 342.3 278.9 342.3 276.8 C 342.3 274.7 344 273.1 346 273.1" fill="white"/>
@@ -234,7 +234,7 @@
             <path d="M 205.9 294.6 C 205.9 296.7 204.3 298.3 202.2 298.3 L 148.4 298.3 C 146.4 298.3 144.7 296.7 144.7 294.6 L 144.7 180.5 C 144.7 178.5 146.3 176.8 148.4 176.8 L 202.2 176.8 C 204.2 176.8 205.9 178.4 205.9 180.5 Z" fill="url(#Obj_Gradient_9)"/>
           </g>
           <g id="Graphic_26">
-            <rect x="150.9" y="193" width="49.5" height="90" fill="white"/>
+            <rect x="150.9" y="192.7" width="49.5" height="90.3" fill="white"/>
           </g>
           <g id="Graphic_25">
             <path d="M 151 283.1 L 151 192.9 L 184.3 192.8 L 164.5 283 Z" fill="white"/>
