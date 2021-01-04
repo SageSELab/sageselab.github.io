@@ -3,8 +3,8 @@ basic_settings:
   favicon_image: /assets/img/favicon.png
 
 header_settings:
-  logo_image: /assets/img/brand/sage-logo-white.png
-  mobile_logo_image: /assets/img/brand/sage-logo-white.png
+  logo_image: /assets/img/brand/sage-logo-white.svg
+  mobile_logo_image: /assets/img/brand/sage-logo-white.svg
   # Choose a color for your header [blue, dark, light].
   theme: dark
   # If the page has a featured image, it turns transparent if allow_transparent is set to "yes".

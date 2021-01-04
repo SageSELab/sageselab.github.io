@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="219 -893.35 2768.9 597" width="2768.9" height="597">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="475" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="400" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.1\n2021-01-03 19:31:28 +0000</metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke-dasharray="none" stroke-opacity="1" stroke="none" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_9">
+        <text transform="translate(940 -878)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="475" font-weight="400" fill="white" x="682121e-18" y="452">S</tspan>
+          <tspan font-family="Helvetica Neue" font-size="400" font-weight="400" fill="white" y="452">AGE</tspan>
+          <tspan font-family="Helvetica Neue" font-size="475" font-weight="400" fill="white" y="452"> Lab</tspan>
+        </text>
+      </g>
+      <g id="Group_13">
+        <g id="Graphic_17">
+          <path d="M 814.9697 -884.9649 C 812.881 -890.039 807.9151 -893.35 802.4327 -893.35 C 275.98768 -893.35 219.00127 -675.1188 219.00127 -581.28205 C 219.00127 -459.54866 311.69958 -377.7592 449.6601 -377.7592 C 623.9024 -377.7592 660.4017 -543.5629 679.9933 -632.6512 C 699.043 -723.341 745.0659 -806.1341 812.0122 -870.2031 C 815.89315 -874.0828 817.0596 -879.8908 814.9697 -884.9649 Z" fill="#01693f"/>
+        </g>
+        <g id="Graphic_16">
+          <path d="M 232.56862 -296.35003 C 225.07897 -296.35003 219 -302.429 219 -309.91864 C 219 -390.5951 358.88763 -649.4495 579.425 -756.3117 C 586.182 -759.5681 594.2962 -756.7735 597.55254 -750.0165 C 600.8089 -743.2595 598.0143 -735.1453 591.2573 -731.889 C 368.5499 -623.96716 246.13723 -373.3351 246.13723 -309.91737 C 246.13723 -302.42773 240.05826 -296.35003 232.56862 -296.35003 Z" fill="white"/>
+        </g>
+        <g id="Graphic_15">
+          <path d="M 449.6601 -377.7592 C 311.6983 -377.7592 219.00127 -459.54866 219.00127 -581.28205 C 219.00127 -675.1188 275.85157 -893.35 802.4327 -893.35 C 807.9685 -893.35 812.96115 -889.9576 815.0244 -884.8288 C 817.0863 -879.6733 815.8117 -873.7838 811.8227 -869.9576 C 744.5787 -805.8072 699.0163 -723.7735 680.048 -632.78606 C 660.4284 -543.5616 623.9571 -377.7592 449.6601 -377.7592 Z M 769.8423 -865.8604 C 589.5757 -862.0342 246.13723 -822.9044 246.13723 -581.28205 C 246.13723 -475.7758 327.9267 -404.89514 449.6601 -404.89514 C 590.3618 -404.89514 628.6521 -525.4621 653.5086 -638.458 C 671.3105 -723.8562 711.3091 -801.8729 769.8423 -865.8604 Z" fill="white"/>
+        </g>
+        <g id="Graphic_14">
+          <path d="M 232.56862 -296.35003 C 225.07897 -296.35003 219 -302.429 219 -309.91864 C 219 -390.5951 358.88763 -649.4495 579.425 -756.3117 C 586.182 -759.5681 594.2682 -756.7735 597.55254 -750.0432 C 600.8089 -743.28626 598.0143 -735.17205 591.2573 -731.9157 C 368.5499 -623.96716 246.13723 -373.3351 246.13723 -309.91737 C 246.13723 -302.42773 240.05826 -296.35003 232.56862 -296.35003 Z" fill="white"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
