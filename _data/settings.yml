@@ -8,7 +8,7 @@ header_settings:
   # Choose a color for your header [blue, dark, light].
   theme: dark
   # If the page has a featured image, it turns transparent if allow_transparent is set to "yes".
-  allow_transparent: "yes"
+  allow_transparent: "no"
 
 home_settings:
   # Choose a layout for your home page:
