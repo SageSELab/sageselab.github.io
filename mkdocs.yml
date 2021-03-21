@@ -1,6 +1,6 @@
-site_name: GMU CS Virtual Open House 2021
-site_author: GMU CS Dept.
-copyright: '©2021 GMU CS Dept.'
+site_name: SAGE Research Lab
+site_author: SAGE Lab Members
+copyright: '©2021 SAGE Research Lab'
 
 nav:
   - Home: index.md
