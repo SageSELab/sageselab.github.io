@@ -12,8 +12,8 @@ nav:
 
 theme:
   name: 'material'
-  logo: 'images/GMU-Logo.png'
-  favicon: 'images/GMU-Logo.png'
+  logo: 'images/sage-logo.png'
+  favicon: 'images/sage-logo.png'
   features:
     - navigation.tabs
   palette:
