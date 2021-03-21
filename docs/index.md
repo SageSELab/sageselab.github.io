@@ -1,9 +1,3 @@
----
-hide:
-  - navigation 
-  - toc        
----
-
 <style>
 
     /* Application header should be static for the landing page */
