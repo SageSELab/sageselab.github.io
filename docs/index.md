@@ -41,15 +41,6 @@ hide:
   <section class="mdx-container">
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
-        <div class="mdx-hero__image">
-          <img
-            src="assets/images/illustration.png"
-            alt=""
-            width="1659"
-            height="1200"
-            draggable="false"
-          >
-        </div>
         <div class="mdx-hero__content">
           <h1>SAGE Research Lab</h1>
           <p>The Software Automation, Generation, and Engineering (SAGE) research lab is a software engineering research group led by Dr. Kevin Moran at George Mason University.</p>
