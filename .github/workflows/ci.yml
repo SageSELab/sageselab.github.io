@@ -17,4 +17,4 @@ jobs:
       - run: pip install mkdocs-encryptcontent-plugin
       - run: mkdocs gh-deploy --force
 env:
-  GH_TOKEN: ${{ MKDOCS_SECRET }}
+  GH_TOKEN: ${{ secrets.MKDOCS_SECRET }}
