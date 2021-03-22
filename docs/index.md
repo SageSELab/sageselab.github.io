@@ -1,5 +1,5 @@
 ---
-template: home.html
+template: overrides/index.html
 title: Home
 ---
 
