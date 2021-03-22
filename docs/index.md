@@ -1,4 +1,4 @@
 ---
-template: layouts/home.html
+template: home.html
 title: Home
 ---
