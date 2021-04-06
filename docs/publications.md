@@ -5,5 +5,5 @@ hide:
 ---
 
 
- <script src="https://bibbase.org/show?bib=../bib/SAGE-Lab.bib&jsonp=1"></script> 
+ <script src="https://bibbase.org/show?bib=https://sagelab.io/bib/SAGE-Lab.bib&jsonp=1"></script> 
 
