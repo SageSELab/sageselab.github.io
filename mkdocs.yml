@@ -22,15 +22,15 @@ theme:
     scheme: slate
     primary: 'green'
     accent: 'light green'
-    #toggle:
-    #    icon: material/toggle-switch-off-outline
-    #    name: Switch to dark mode
+    toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
 
-    # Toggle Light Mode
-  #- scheme: gmu
-  #  toggle:
-  #      icon: material/toggle-switch
-  #      name: Switch to light mode
+     Toggle Light Mode
+  - scheme: gmu
+    toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 plugins:
     - search
