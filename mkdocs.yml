@@ -18,19 +18,22 @@ theme:
 
   features:
     - navigation.tabs
+    
   palette:
-    scheme: slate
+
+    # Toggle Light Mode
+  - scheme: gmu
+    toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+    #Toggle Dark Mode
+  - scheme: slate
     primary: 'green'
     accent: 'light green'
     toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-
-     Toggle Light Mode
-  - scheme: gmu
-    toggle:
         icon: material/toggle-switch
-        name: Switch to light mode
+        name: Switch to dark mode
 
 plugins:
     - search
