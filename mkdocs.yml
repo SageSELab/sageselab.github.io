@@ -18,8 +18,15 @@ theme:
 
   features:
     - navigation.tabs
-    
+
   palette:
+
+ - scheme: slate
+    primary: 'green'
+    accent: 'light green'
+    toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
 
     # Toggle Light Mode
   - scheme: gmu
@@ -28,12 +35,7 @@ theme:
         name: Switch to light mode
 
     #Toggle Dark Mode
-  - scheme: slate
-    primary: 'green'
-    accent: 'light green'
-    toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
+ 
 
 plugins:
     - search
