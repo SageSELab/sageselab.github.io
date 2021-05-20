@@ -8,7 +8,7 @@
 [data-md-color-scheme="slate"] {
   --md-default-fg-color--light: hsla(134.3, 0%, 99.5%, 0.61);
   --md-default-fg-color--lightest: hsla(232, 0%, 100%, 0.92);
-  --md-primary-fg-color: #01693F;
+  --md-primary-fg-color: #4cae4f;
 }
 
 .md-typeset table:not([class]){
@@ -21,6 +21,10 @@
 
 .md-tabs{
   background-color: #01693F;
+}
+
+th{
+  background-color : ;
 }
 
 p {
@@ -44,12 +48,13 @@ font-size: 16px;
 }
 
 .md-footer__inner {
-	display: none;
-	visibility: hidden;
+  display: none;
+  visibility: hidden;
 }
 
-.md-grid {
-  max-width: 1000px;
+.md-button--primary{
+  background-color: #01693F !important;
+  border-color: #01693F !important; 
 }
 
 /*.md-sidebar--primary {
@@ -63,6 +68,21 @@ font-size: 16px;
   }
 }*/
 
+@media only screen 
+  and (max-width: 76.25em){
+    .md-sidebar--primary {
+    visibility: visible;
+  }
 }
 
+@media only screen 
+  and (min-width: 76.25em){
+    .md-sidebar--primary {
+    visibility: hidden;
+    width: 150px;
+  }
+}
+
+
+}
 
