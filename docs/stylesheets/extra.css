@@ -7,6 +7,7 @@
 }
 
 [data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #01693F;
   --md-default-fg-color--light: hsla(134.3, 0%, 99.5%, 0.61);
   --md-default-fg-color--lightest: hsla(232, 0%, 100%, 0.92);
   --md-primary-fg-color: #4cae4f;
