@@ -15,6 +15,7 @@ theme:
   custom_dir: 'docs/overrides'
   logo: 'images/sage-logo.png'
   favicon: 'images/sage-logo.png'
+  font: false
 
   features:
     - navigation.tabs
