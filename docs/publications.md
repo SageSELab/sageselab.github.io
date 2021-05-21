@@ -5,7 +5,7 @@ hide:
 ---
 
 <style>
-.md-grid {
+.md-content {
   max-width: 900px;
 }
 </style>
