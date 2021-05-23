@@ -111,18 +111,14 @@ hide:
 
 <h2>Research Focus Areas</h2>
 
-      <div class="responsive-grid">
-        <div class="card">
-          <div class="logo">
-            <img src="images/smartphone.png" alt="Illustration of a modern smartphone.">
-          </div>
-          <div class="card-content">
-            <h5>Mobile Applications</h5>
-            <p>
-              Given their ubiquity in today's society, creating effective developer tools and software engineering
-              practices for mobile applications is essential. Our research looks to build forward thinking programming
-              tools for mobile apps.
-            </p>
+<div class="responsive-grid">
+	<div class="card">
+		<div class="logo">
+			<img src="images/smartphone.png" alt="Illustration of a modern smartphone.">
+       </div>
+       <div class="card-content">
+       	<h5>Mobile Applications</h5>
+          <p>Given their ubiquity in today's society, creating effective developer tools and software engineering practices for mobile applications is essential. Our research looks to build forward thinking programming tools for mobile apps.</p>
           </div>
         </div>
 
@@ -163,7 +159,7 @@ hide:
       </div>
 
 
-      <div class="responsive-grid">
+  <div class="responsive-grid">
         <div class="card">
           <div class="logo">
             <img src="images/security.png" alt="Depiction of a Lock denoting computer security.">
