@@ -19,7 +19,7 @@ theme:
 
   icon:
     admonition:
-      success: fontawesome/solid/newspaper
+      success: fontawesome/solid/rss-square
 
   features:
     - navigation.tabs
