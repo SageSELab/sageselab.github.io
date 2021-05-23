@@ -2,375 +2,391 @@
 {% block tabs %}
 {{ super() }}
 <style>
-    :root {
-        --wtf-primary-color: #3f0649;
+  :root {
+    --wtf-primary-color: #3f0649;
+  }
+
+  .md-header {
+    position: initial
+  }
+
+  .md-main__inner {
+    margin: 0
+  }
+
+  .md-content {
+    display: none
+  }
+
+  .tx-container {
+    padding-top: px2rem(20px);
+    background:
+      var(--md-url) no-repeat bottom,
+      linear-gradient(to bottom,
+        var(--md-primary-fg-color),
+        hsla(159.5, 64%, 44.7%, 1) 99%,
+        var(--md-default-bg-color) 99%);
+  }
+
+  .tx-hero {
+    margin: 0 .8rem;
+    color: var(--md-primary-bg-color)
+  }
+
+  .tx-hero h1 {
+    margin-bottom: 1rem;
+    color: currentColor;
+    font-weight: 500
+  }
+
+  .lowerc {
+    font-size: 0.8em !important;
+  }
+
+
+  .tx-hero__content {
+    padding-bottom: 6rem
+  }
+
+  .tx-hero .md-button--primary {
+    margin-top: .5rem;
+    margin-right: .5rem;
+    color: var(--md-primary-fg-color) !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important
+  }
+
+  .tx-hero .md-button {
+    margin-top: .5rem;
+    margin-right: .5rem;
+    color: var(--md-primary-bg-color)
+  }
+
+  .tx-hero .md-button:focus,
+  .tx-hero .md-button:hover {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-default-bg-color);
+    border-color: var(--md-default-bg-color)
+  }
+
+  @media screen and (max-width:70em) {
+    .tx-hero h1 {
+      font-size: 1.4rem
     }
 
-    .md-header {
-        position: initial
+    .tx-hero__image {
+      text-align: center;
     }
 
-    .md-main__inner {
-        margin: 0
+    .tx-hero__image img {
+      max-width: 20rem;
     }
+  }
 
-    .md-content {
-        display: none
+  @media screen and (min-width:70em) {
+    .md-sidebar--secondary {
+      display: none
     }
-
-    .tx-container {
-  padding-top: px2rem(20px);
-  background:
-    var(--md-url) no-repeat bottom,
-    linear-gradient(
-      to bottom,
-      var(--md-primary-fg-color),
-      hsla(159.5,64%,44.7%, 1) 99%,
-      var(--md-default-bg-color) 99%
-    );
-}
 
     .tx-hero {
-        margin: 0 .8rem;
-        color: var(--md-primary-bg-color)
+      display: flex;
+      align-items: stretch
     }
-
-    .tx-hero h1 {
-        margin-bottom: 1rem;
-        color: currentColor;
-        font-weight: 500
-    }
-
-    .lowerc{
-        font-size: 0.8em !important;
-    }
-
 
     .tx-hero__content {
-        padding-bottom: 6rem
+      max-width: 30rem;
+      margin-top: 3.5rem;
+      padding-bottom: 14vw
     }
 
-.tx-hero .md-button--primary {
-        margin-top: .5rem;
-        margin-right: .5rem;
-        color: var(--md-primary-fg-color) !important;
-        background-color: #ffffff !important;
-        border-color: #ffffff!important
+    .tx-hero__image {
+      order: 1;
+      margin-left: auto;
+      margin-top: 3.0rem;
     }
 
-    .tx-hero .md-button {
-        margin-top: .5rem;
-        margin-right: .5rem;
-        color: var(--md-primary-bg-color)
+    .tx-hero__image img {
+      max-width: 25rem;
     }
-
-    .tx-hero .md-button:focus,
-    .tx-hero .md-button:hover {
-        background-color: var(--md-primary-fg-color);
-        color: var(--md-default-bg-color);
-        border-color: var(--md-default-bg-color)
-    }
-
-    @media screen and (max-width:70em) {
-        .tx-hero h1 {
-            font-size: 1.4rem
-        }
-
-        .tx-hero__image {
-            text-align: center;
-        }
-
-        .tx-hero__image img {
-            max-width: 20rem;
-        }
-    }
-
-    @media screen and (min-width:70em) {
-        .md-sidebar--secondary {
-            display: none
-        }
-
-        .tx-hero {
-            display: flex;
-            align-items: stretch
-        }
-
-        .tx-hero__content {
-            max-width: 30rem;
-            margin-top: 3.5rem;
-            padding-bottom: 14vw
-        }
-
-        .tx-hero__image {
-            order: 1;
-            margin-left: auto;
-            margin-top: 3.0rem;
-        }
-
-        .tx-hero__image img {
-            max-width: 25rem;
-        }
-    }
-
-    @media screen and (min-width:76.25em) {
-        .md-sidebar--primary {
-            display: none
-        }
-
-        .tx-hero__image {
-            margin-left: auto;
-        }
-
-        .tx-hero__image img {
-            max-width: 25rem;
-        }
-    }
-
-.responsive-grid {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 2rem;
-}
-@media screen and (min-width: 64rem) {
-.responsive-grid {
-    grid-template-columns: repeat(3, 1fr);
   }
-}
 
-.card-wrapper {
-  text-decoration: none;
-  transition: none;
-  background: none;
-  padding: 0;
-}
+  @media screen and (min-width:76.25em) {
+    .md-sidebar--primary {
+      display: none
+    }
 
-.card {
-  position: relative;
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  -moz-box-align: center;
-  align-items: center;
-  height: 100%;
-  -moz-box-pack: start;
-  justify-content: flex-start;
-  box-shadow: rgba(0, 0, 0, 0.09) 0.3125rem 0.3125rem 0px -0.0625rem, rgba(0, 0, 0, 0.15) 0px 0.25rem 0.5rem 0px;
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
-}
-.card:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0.3125rem 0.3125rem 0px -0.0625rem, rgba(0, 0, 0, 0.26) 0px 0.25rem 0.5rem 0px;
-}
+    .tx-hero__image {
+      margin-left: auto;
+    }
 
-@media screen and (min-width: 75rem) {
+    .tx-hero__image img {
+      max-width: 25rem;
+    }
+  }
+
+  .responsive-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+
+  @media screen and (min-width: 64rem) {
+    .responsive-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .card-wrapper {
+    text-decoration: none;
+    transition: none;
+    background: none;
+    padding: 0;
+  }
+
   .card {
-    padding: 2rem 2.5rem;
+    position: relative;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    -moz-box-align: center;
+    align-items: center;
+    height: 100%;
+    -moz-box-pack: start;
+    justify-content: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.09) 0.3125rem 0.3125rem 0px -0.0625rem, rgba(0, 0, 0, 0.15) 0px 0.25rem 0.5rem 0px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+  }
+
+  .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0.3125rem 0.3125rem 0px -0.0625rem, rgba(0, 0, 0, 0.26) 0px 0.25rem 0.5rem 0px;
+  }
+
+  @media screen and (min-width: 75rem) {
+    .card {
+      padding: 2rem 2.5rem;
       margin: 0px 1px;
       border-radius: 4px;
+    }
   }
-}
-@media screen and (min-width: 36rem) {
-  .card {
-    padding: 1rem 1.5rem;
+
+  @media screen and (min-width: 36rem) {
+    .card {
+      padding: 1rem 1.5rem;
       margin: 0px 1px;
       border-radius: 4px;
 
-  }
-}
-
- .card .logo {
-  margin-right: 0.75rem;
-  width: 80px;
-  height:80px;
-}
-
-.card .card-content {
-  display: flex;
-  flex: 1 1 0%;
-  flex-direction: column;
-  width: 100%;
-}
-
- .card .card-content h5 {
-  margin: 0;
-}
-
- .card .card-content p {
-  margin-top: 0.25em;
-  margin-bottom: 0;
-  font-size: 12px;
-}
-
-.card .card-content code {
-  background: rgba(0, 0, 0, 0.05) none repeat scroll 0% 0%;
-  padding: 2px 6px;
-  border-radius: 4px;
-}
-
-
-.component-wrapper span.em {
-  color: rgb(61, 61, 61);
-}
-
-.component-wrapper a {
-  transition: color 125ms;
-  padding: 2px 6px;
-  margin: 0px 1px;
-  border-radius: 4px;
-  display: inline;
-  cursor: pointer;
-}
-
-.component-wrapper a:hover {
-  color: var(--md-typeset-a-color);
-  background: var(--md-accent-fg-color--transparent);
-}
-
-news-textarea {
-        overflow-y: scroll;
-        height: 100px;
-        resize: none; /* Remove this if you want the user to resize the textarea */
     }
+  }
 
-.left{
-  top: 0;
-  left: 0;
-  width: 60vw;
-}
+  .card .logo {
+    margin-right: 0.75rem;
+    width: 80px;
+    height: 80px;
+  }
 
-.right {
-  right: 0;
-  top: 0;
-  width: 40vw;
-}
+  .card .card-content {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    width: 100%;
+  }
 
+  .card .card-content h5 {
+    margin: 0;
+  }
+
+  .card .card-content p {
+    margin-top: 0.25em;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .card .card-content code {
+    background: rgba(0, 0, 0, 0.05) none repeat scroll 0% 0%;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+
+
+  .component-wrapper span.em {
+    color: rgb(61, 61, 61);
+  }
+
+  .component-wrapper a {
+    transition: color 125ms;
+    padding: 2px 6px;
+    margin: 0px 1px;
+    border-radius: 4px;
+    display: inline;
+    cursor: pointer;
+  }
+
+  .component-wrapper a:hover {
+    color: var(--md-typeset-a-color);
+    background: var(--md-accent-fg-color--transparent);
+  }
+
+  news-textarea {
+    overflow-y: scroll;
+    height: 100px;
+    resize: none;
+    /* Remove this if you want the user to resize the textarea */
+  }
+
+  .left {
+    top: 0;
+    left: 0;
+    width: 60vw;
+  }
+
+  .right {
+    right: 0;
+    top: 0;
+    width: 40vw;
+  }
 </style>
 
 <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
 
 <section class="tx-container">
-    <div class="md-grid md-typeset">
-        <div class="tx-hero">
-            <div class="tx-hero__image">
-                <img src="images/hero.png" alt="" draggable="false">
-            </div>
-            <div class="tx-hero__content">
+  <div class="md-grid md-typeset">
+    <div class="tx-hero">
+      <div class="tx-hero__image">
+        <img src="images/hero.png" alt="" draggable="false">
+      </div>
+      <div class="tx-hero__content">
 
-                <h1>Welcome to the S<span class='lowerc'>AGE</span> Lab</h1>
-                <p>
-                    The Software Automation, Generation, and Engineering (SAGE) Lab is a software engineering research group in the Department of Computer Science at George Mason University.
-                </p>
-                <p>
-                    The research group is currently led by Dr. Kevin Moran, and pursues academic and industrial research with the primary focus of creating useful automation for software developers which allows them to write code efficently and accurately.
-                </p>
-                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}"
-                    class="md-button md-button--primary">
-                    Our Research
-                </a>
-                <a href="/team" class="md-button">
-                    Lab Members
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-      <div class="md-grid md-typeset">
-        <div class="component-wrapper" style="display: block;">
-          <div class="left">
-            <div class="centered">
-              <news-textarea>
-                <h2>Lab News</h2>
-                  <ul>
-                    <li><b>May 2021: </b> Dr. Moran has been awarded a distinguished reviewer award at ICPC'21!!🏆</li>
-                    <li><b>May 2021: </b> Dr. Moran has been awarded a distinguished reviewer award at MSR'21!!🏆</li>
-                    <li><b>April 2021: </b> Sabiha Salma and Hasan Mansur have passed their Comprehensive Exams. Congrats to them both on this academic milestone!</li>
-                    <li><b>February 2021: </b> MSR’21 Data Showcase paper accepted: “AndroR2: A Dataset of Manually-Reproduced Bug Reports for Mobile Apps”!! Congrats to SAGE Lab members Junayed and Hasan!!</li>
-                    <li><b>November 2020: </b>Journal Paper entitled “Systematic Mutation-based Evaluation of the Soundness of Security-focused Android Static Analysis Techniques” accepted to ACM TOPS!!</li>
-                    <li><b>July 2020: </b>Two grants from the NSF have been awarded to support our research on Bug Reporting and Automated Software Traceability!! Thank you to the NSF!!</li>
-                  </ul>
-                </news-textarea>
-              </div>
-          </div>
-        <div class="right">
-          <div class="centered">
-            <img src="images/newspaper.png" alt="Newspaper Logo." width="150">
-          </div>
-        </div>
+        <h1>Welcome to the S<span class='lowerc'>AGE</span> Lab</h1>
+        <p>
+          The Software Automation, Generation, and Engineering (SAGE) Lab is a software engineering research group in
+          the Department of Computer Science at George Mason University.
+        </p>
+        <p>
+          The research group is currently led by Dr. Kevin Moran, and pursues academic and industrial research with the
+          primary focus of creating useful automation for software developers which allows them to write code efficently
+          and accurately.
+        </p>
+        <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}"
+          class="md-button md-button--primary">
+          Our Research
+        </a>
+        <a href="/team" class="md-button">
+          Lab Members
+        </a>
+      </div>
     </div>
   </div>
 </section>
 <section>
-    <div class="md-grid md-typeset">
-       <div class="component-wrapper" style="display: block;">
-          <h2>Research Focus Areas</h2>
+  <div class="md-grid md-typeset">
+    <div class="component-wrapper" style="display: block;">
+      <div class="left">
+        <div class="centered">
+          <news-textarea>
+            <h2>Lab News</h2>
+            <ul>
+              <li><b>May 2021: </b> Dr. Moran has been awarded a distinguished reviewer award at ICPC'21!!🏆</li>
+              <li><b>May 2021: </b> Dr. Moran has been awarded a distinguished reviewer award at MSR'21!!🏆</li>
+              <li><b>April 2021: </b> Sabiha Salma and Hasan Mansur have passed their Comprehensive Exams. Congrats to
+                them both on this academic milestone!</li>
+              <li><b>February 2021: </b> MSR’21 Data Showcase paper accepted: “AndroR2: A Dataset of Manually-Reproduced
+                Bug Reports for Mobile Apps”!! Congrats to SAGE Lab members Junayed and Hasan!!</li>
+              <li><b>November 2020: </b>Journal Paper entitled “Systematic Mutation-based Evaluation of the Soundness of
+                Security-focused Android Static Analysis Techniques” accepted to ACM TOPS!!</li>
+              <li><b>July 2020: </b>Two grants from the NSF have been awarded to support our research on Bug Reporting
+                and Automated Software Traceability!! Thank you to the NSF!!</li>
+            </ul>
+          </news-textarea>
+        </div>
+      </div>
+      <div class="right">
+        <div class="centered">
+          <img src="images/newspaper.png" alt="Newspaper Logo." width="150">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="md-grid md-typeset">
+    <div class="component-wrapper" style="display: block;">
+      <h2>Research Focus Areas</h2>
 
-          <!-- Arch as code -->
-          <div class="responsive-grid">
-              <div class="card">
-                <div class="logo">
-                    <img src="images/smartphone.png" alt="Illustration of a modern smartphone." >
-                </div>
-                <div class="card-content">
-                  <h5>Mobile Applications</h5>
-                  <p>
-                    Given their ubiquity in today's society, creating effective developer tools and software engineering practices for mobile applications is essential. Our research looks to build forward thinking programming tools for mobile apps.
-                  </p>
-                </div>
-              </div>
-
-            <!-- Networking -->
-            
-              <div class="card">
-                <div class="logo">
-                   <img src="images/ai.png" alt="Depiction of Computer AI.">
-                </div>
-                <div class="card-content">
-                  <h5>AI and Software Engineering</h5>
-                  <p>
-                    Advances in artifical intelligence continue at a rapid pace and are beginning to shape the way software is developed. Our lab conducts research on using new advances in artificial intelligene (with a focus on Deep Learning) to help build atuomated develoepr tools. Additionally, we examine how we best design tools and practices to engineer reliable systems that make use of artificial intelligence.
-                  </p>
-                </div>
-              </div>
-            
-
-            <!-- Customize -->
-            
-              <div class="card">
-                <div class="logo">
-                    <img src="images/bug.png" alt="Bug illustrated in Code.">
-                </div>
-                <div class="card-content">
-                  <h5>Bug Reporting</h5>
-                  <p>
-                    Software is becoming increasingly important in user's lives as it permeates our daily activities. Given the complexity of modern applications, bugs often contnue to persist after release, and users need effective mechanisms to report them. Our research has pioneered interactive bug reporting systems, and we continue to advance error reporting methods for software.
-                  </p>
-                </div>
-              </div>
+      <!-- Arch as code -->
+      <div class="responsive-grid">
+        <div class="card">
+          <div class="logo">
+            <img src="images/smartphone.png" alt="Illustration of a modern smartphone.">
           </div>
-        
+          <div class="card-content">
+            <h5>Mobile Applications</h5>
+            <p>
+              Given their ubiquity in today's society, creating effective developer tools and software engineering
+              practices for mobile applications is essential. Our research looks to build forward thinking programming
+              tools for mobile apps.
+            </p>
+          </div>
+        </div>
 
-          <div class="responsive-grid">
-              <div class="card">
-                <div class="logo">
-                    <img src="images/security.png" alt="Depiction of a Lock denoting computer security.">
-                </div>
-                <div class="card-content">
-                  <h5>Software Security</h5>
-                  <p>
-                    Given that software is interwoven into user's personal lives, the stakes of software security and privacy have never been higher. Our research examines how we can apply software engineering principles and practices to help ensure the security of complex software systems.
-                  </p>
-                </div>
-              </div>
-            </div>
+        <!-- Networking -->
+
+        <div class="card">
+          <div class="logo">
+            <img src="images/ai.png" alt="Depiction of Computer AI.">
+          </div>
+          <div class="card-content">
+            <h5>AI and Software Engineering</h5>
+            <p>
+              Advances in artifical intelligence continue at a rapid pace and are beginning to shape the way software is
+              developed. Our lab conducts research on using new advances in artificial intelligene (with a focus on Deep
+              Learning) to help build atuomated develoepr tools. Additionally, we examine how we best design tools and
+              practices to engineer reliable systems that make use of artificial intelligence.
+            </p>
+          </div>
+        </div>
+
+
+        <!-- Customize -->
+
+        <div class="card">
+          <div class="logo">
+            <img src="images/bug.png" alt="Bug illustrated in Code.">
+          </div>
+          <div class="card-content">
+            <h5>Bug Reporting</h5>
+            <p>
+              Software is becoming increasingly important in user's lives as it permeates our daily activities. Given
+              the complexity of modern applications, bugs often contnue to persist after release, and users need
+              effective mechanisms to report them. Our research has pioneered interactive bug reporting systems, and we
+              continue to advance error reporting methods for software.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="responsive-grid">
+        <div class="card">
+          <div class="logo">
+            <img src="images/security.png" alt="Depiction of a Lock denoting computer security.">
+          </div>
+          <div class="card-content">
+            <h5>Software Security</h5>
+            <p>
+              Given that software is interwoven into user's personal lives, the stakes of software security and privacy
+              have never been higher. Our research examines how we can apply software engineering principles and
+              practices to help ensure the security of complex software systems.
+            </p>
           </div>
         </div>
       </div>
     </div>
-        <br>
-        <br>
-        <br>
-</section>    
+  </div>
+  <br>
+  <br>
+  <br>
+</section>
 {% endblock %}
 {% block content %}{% endblock %}
 {% block footer %}{% endblock %}
