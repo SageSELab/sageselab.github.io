@@ -232,24 +232,18 @@ news-textarea {
         resize: none; /* Remove this if you want the user to resize the textarea */
     }
 
-.split-one {
-  width: 60%;
-  padding-top: 20px;
-}
-
-.split-two{
-  width: 40%;
-  padding-top: 20px;
-}
-
-/* Control the left side */
-.left {
+.left{
+  position: absolute;
+  top: 0;
   left: 0;
+  width: 60vw;
 }
 
-/* Control the right side */
 .right {
+  position: absolute;
   right: 0;
+  top: 0;
+  width: 40vw;
 }
 
 </style>
@@ -284,29 +278,27 @@ news-textarea {
 </section>
 <section>
       <div class="md-grid md-typeset">
-       <div class="component-wrapper" style="display: block;">
-        
-        <div class="split-one left">
-        <div class="centered">
-    <news-textarea>
-         <h2>Lab News</h2>
-          <ul>
-            <li><b>May 2021: </b> Dr. Moran has been awarded a distinguished reviewer award at ICPC'21!!🏆</li>
-            <li><b>May 2021: </b> Dr. Moran has been awarded a distinguished reviewer award at MSR'21!!🏆</li>
-            <li><b>April 2021: </b> Sabiha Salma and Hasan Mansur have passed their Comprehensive Exams. Congrats to them both on this academic milestone!</li>
-            <li><b>February 2021: </b> MSR’21 Data Showcase paper accepted: “AndroR2: A Dataset of Manually-Reproduced Bug Reports for Mobile Apps”!! Congrats to SAGE Lab members Junayed and Hasan!!</li>
-            <li><b>November 2020: </b>Journal Paper entitled “Systematic Mutation-based Evaluation of the Soundness of Security-focused Android Static Analysis Techniques” accepted to ACM TOPS!!</li>
-            <li><b>July 2020: </b>Two grants from the NSF have been awarded to support our research on Bug Reporting and Automated Software Traceability!! Thank you to the NSF!!</li>
-          </ul>
-        </news-textarea>
-  </div>
-</div>
-
-<div class="split-two right">
-  <div class="centered">
-    <img src="images/newspaper.png" alt="Newspaper Logo.">
-  </div>
-</div>
+        <div class="component-wrapper" style="display: block;">
+          <div class="left">
+            <div class="centered">
+              <news-textarea>
+                <h2>Lab News</h2>
+                  <ul>
+                    <li><b>May 2021: </b> Dr. Moran has been awarded a distinguished reviewer award at ICPC'21!!🏆</li>
+                    <li><b>May 2021: </b> Dr. Moran has been awarded a distinguished reviewer award at MSR'21!!🏆</li>
+                    <li><b>April 2021: </b> Sabiha Salma and Hasan Mansur have passed their Comprehensive Exams. Congrats to them both on this academic milestone!</li>
+                    <li><b>February 2021: </b> MSR’21 Data Showcase paper accepted: “AndroR2: A Dataset of Manually-Reproduced Bug Reports for Mobile Apps”!! Congrats to SAGE Lab members Junayed and Hasan!!</li>
+                    <li><b>November 2020: </b>Journal Paper entitled “Systematic Mutation-based Evaluation of the Soundness of Security-focused Android Static Analysis Techniques” accepted to ACM TOPS!!</li>
+                    <li><b>July 2020: </b>Two grants from the NSF have been awarded to support our research on Bug Reporting and Automated Software Traceability!! Thank you to the NSF!!</li>
+                  </ul>
+                </news-textarea>
+              </div>
+          </div>
+        <div class="right">
+          <div class="centered">
+            <img src="images/newspaper.png" alt="Newspaper Logo.">
+          </div>
+        </div>
     </div>
   </div>
 </section>
