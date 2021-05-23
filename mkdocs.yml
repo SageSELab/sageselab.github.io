@@ -17,6 +17,10 @@ theme:
   favicon: 'images/sage-logo.png'
   font: false
 
+  icon:
+    admonition:
+      abstract: fontawesome/solid/newspaper
+
   features:
     - navigation.tabs
 
