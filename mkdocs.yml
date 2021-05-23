@@ -19,7 +19,7 @@ theme:
 
   icon:
     admonition:
-      abstract: fontawesome/solid/newspaper
+      success: fontawesome/solid/newspaper
 
   features:
     - navigation.tabs
@@ -65,3 +65,8 @@ markdown_extensions:
 
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sageselab
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/sageselab
