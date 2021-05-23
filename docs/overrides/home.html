@@ -234,30 +234,22 @@
     /* Remove this if you want the user to resize the textarea */
   }
 
-  .first-column {
-  padding-right: 100px;
-  flex: 0 1 auto;
-  height: auto;
+  .split {
+  height: 100%;
   width: 50%;
-}
-@media screen and (max-width: 1012px) {
-  .first-column {
-    padding-right: 0px;
-    width: 100%;
-    margin-bottom: 32px;
-  }
+  z-index: 1;
+  top: 0;
+  padding-top: 20px;
 }
 
-.second-column {
-  flex: 0 1 auto;
-  height: auto;
-  width: 50%;
+/* Control the left side */
+.left {
+  left: 0;
 }
-@media screen and (max-width: 1012px) {
-  .second-column {
-    width: 100%;
-    margin-bottom: 32px;
-  }
+
+/* Control the right side */
+.right {
+  right: 0;
 }
 
 </style>
@@ -296,7 +288,7 @@
 <section>
   <div class="md-grid md-typeset">
     <div class="component-wrapper" style="display: block;">
-      <div class="first-column">
+      <div class="split-left">
         <news-textarea>
           <h2>Lab News</h2>
           <ul>
@@ -313,7 +305,7 @@
           </ul>
         </news-textarea>
       </div>
-      <div class="second-column">
+      <div class="split-right">
         <h2>Twitter Feed</h2>
         <a class="twitter-timeline" data-width="500" data-height="700" data-theme="dark" href="https://twitter.com/SageSELab?ref_src=twsrc%5Etfw">Tweets by SageSELab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
