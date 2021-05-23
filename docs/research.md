@@ -116,16 +116,14 @@ hide:
 		<div class="logo">
 			<img src="images/smartphone.png" alt="Illustration of a modern smartphone.">
        </div>
-       <div class="card-content">
+<div class="card-content">
        	<h5>Mobile Applications</h5>
           <p>Given their ubiquity in today's society, creating effective developer tools and software engineering practices for mobile applications is essential. Our research looks to build forward thinking programming tools for mobile apps.</p>
-          </div>
-        </div>
-
-        <!-- Networking -->
-
-        <div class="card">
-          <div class="logo">
+</div>
+</div>
+<!-- Networking -->
+<div class="card">
+	<div class="logo">
             <img src="images/ai.png" alt="Depiction of Computer AI.">
           </div>
           <div class="card-content">
@@ -138,11 +136,8 @@ hide:
             </p>
           </div>
         </div>
-
-
         <!-- Customize -->
-
-        <div class="card">
+<div class="card">
           <div class="logo">
             <img src="images/bug.png" alt="Bug illustrated in Code.">
           </div>
