@@ -234,17 +234,33 @@
     /* Remove this if you want the user to resize the textarea */
   }
 
-  .left {
-    top: 0;
-    left: 0;
-    width: 60vw;
-  }
+  .first-column {
+  padding-right: 100px;
+  flex: 0 1 auto;
+  height: auto;
+  width: 50%;
+}
 
-  .right {
-    right: 0;
-    top: 0;
-    width: 40vw;
+@media screen and (max-width: 1012px) {
+  .first-column {
+    padding-right: 0px;
+    width: 100%;
+    margin-bottom: 32px;
   }
+}
+
+.second-column {
+  flex: 0 1 auto;
+  height: auto;
+  width: 50%;
+}
+@media screen and (max-width: 1012px) {
+  .second-column {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
+
 </style>
 
 <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
@@ -281,7 +297,7 @@
 <section>
   <div class="md-grid md-typeset">
     <div class="component-wrapper" style="display: block;">
-      <div class="left">
+      <div class="first-column">
         <news-textarea>
           <h2>Lab News</h2>
           <ul>
@@ -298,7 +314,7 @@
           </ul>
         </news-textarea>
       </div>
-      <div class="right">
+      <div class="second-column">
         <img src="images/newspaper.png" alt="Newspaper Logo." width="150">
       </div>
     </div>
