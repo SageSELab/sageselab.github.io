@@ -114,7 +114,7 @@ hide:
 <div class="responsive-grid">
 	<div class="card">
 		<div class="logo">
-			<img src="images/smartphone.png" alt="Illustration of a modern smartphone.">
+			<img src="../images/smartphone.png" alt="Illustration of a modern smartphone.">
        </div>
 <div class="card-content">
        	<h5>Mobile Applications</h5>
@@ -124,7 +124,7 @@ hide:
 <!-- Networking -->
 <div class="card">
 	<div class="logo">
-            <img src="images/ai.png" alt="Depiction of Computer AI.">
+            <img src="../images/ai.png" alt="Depiction of Computer AI.">
           </div>
           <div class="card-content">
             <h5>AI and Software Engineering</h5>
@@ -139,7 +139,7 @@ hide:
         <!-- Customize -->
 <div class="card">
           <div class="logo">
-            <img src="images/bug.png" alt="Bug illustrated in Code.">
+            <img src="../images/bug.png" alt="Bug illustrated in Code.">
           </div>
           <div class="card-content">
             <h5>Bug Reporting</h5>
@@ -157,7 +157,7 @@ hide:
   <div class="responsive-grid">
         <div class="card">
           <div class="logo">
-            <img src="images/security.png" alt="Depiction of a Lock denoting computer security.">
+            <img src="../images/security.png" alt="Depiction of a Lock denoting computer security.">
           </div>
           <div class="card-content">
             <h5>Software Security</h5>
