@@ -128,12 +128,7 @@ hide:
           </div>
           <div class="card-content">
             <h5>AI and Software Engineering</h5>
-            <p>
-              Advances in artifical intelligence continue at a rapid pace and are beginning to shape the way software is
-              developed. Our lab conducts research on using new advances in artificial intelligene (with a focus on Deep
-              Learning) to help build atuomated develoepr tools. Additionally, we examine how we best design tools and
-              practices to engineer reliable systems that make use of artificial intelligence.
-            </p>
+            <p>Our lab conducts research that aims to leverage new advances in artificial intelligence (with a focus on Deep Learning) to help build automated developer tools. Additionally, we examine how we best design tools and practices to engineer reliable systems that make use of artificial intelligence.</p>
           </div>
         </div>
         <!-- Customize -->
@@ -143,12 +138,7 @@ hide:
           </div>
           <div class="card-content">
             <h5>Bug Reporting</h5>
-            <p>
-              Software is becoming increasingly important in user's lives as it permeates our daily activities. Given
-              the complexity of modern applications, bugs often contnue to persist after release, and users need
-              effective mechanisms to report them. Our research has pioneered interactive bug reporting systems, and we
-              continue to advance error reporting methods for software.
-            </p>
+            <p>Software is becoming increasingly important in user's lives as it permeates our daily activities. Given the complexity of modern applications, bugs often contnue to persist after release, and users need effective mechanisms to report them. Our research has pioneered interactive bug reporting systems, and we continue to advance error reporting methods for software.</p>
           </div>
         </div>
       </div>
@@ -161,11 +151,7 @@ hide:
           </div>
           <div class="card-content">
             <h5>Software Security</h5>
-            <p>
-              Given that software is interwoven into user's personal lives, the stakes of software security and privacy
-              have never been higher. Our research examines how we can apply software engineering principles and
-              practices to help ensure the security of complex software systems.
-            </p>
+            <p>Given that software is interwoven into user's personal lives, the stakes of software security and privacy have never been higher. Our research examines how we can apply software engineering principles and practices to help ensure the security of complex software systems.</p>
           </div>
         </div>
       </div>
