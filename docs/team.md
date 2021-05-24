@@ -17,7 +17,7 @@ hide:
 
   @media screen and (min-width: 64rem) {
     .responsive-grid {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 
