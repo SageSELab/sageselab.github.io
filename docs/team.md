@@ -96,6 +96,12 @@ hide:
     margin: 0;
   }
 
+  .card .card-content li {
+    margin-top: 0.25em;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
   .card .card-content p {
     margin-top: 0.25em;
     margin-bottom: 0;
