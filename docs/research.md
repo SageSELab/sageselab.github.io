@@ -158,6 +158,7 @@ Our research mission is to pursue a more complete understanding of how engineers
             <p>Given the complexity of modern applications, bugs often contnue to persist after release, and users need effective mechanisms to report them. Our research has pioneered interactive bug reporting systems, and we continue to advance error reporting methods for software.</p>
           </div>
         </div>
+        <br>
       </div>
 
 
@@ -240,6 +241,7 @@ The SAGE Lab graciously acknowledges support from our sponsors including the [Na
           </ul>
 </div>
 </div>
+<br>
 </div>
       
 <div class="responsive-grid">
