@@ -149,8 +149,7 @@ hide:
 			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/kevin.png">
 			<ul>
 				<li><b>Bio:</b> Kevin Moran is an Assistant Professor in the Department of Computer Science at George Mason University.  He graduated with his B.A. in Physics with a Computer Science Minor from the College of the Holy Cross in 2013. He graduated with his M.S. in Computer Science from William & Mary in 2015, and his Ph.D. in Computer Science from William & Mary in 2018. Dr. Moran directs the SAGE Research Lab.</li>
-  				<li><a href="https://www.kpmoran.com"><span class="iconify" data-align="bottom" data-width="16" data-height="16" data-icon="bx:bxs-home" data-inline="false"></span></a></li>
-  				<li><a href="https://twitter.com/kevpmo"><span class="iconify" data-align="bottom" data-width="16" data-height="16" data-icon="logos:twitter" data-inline="false"></span></a></li>	
+  				<li><a href="https://www.kpmoran.com"><span class="iconify" data-align="bottom" data-width="20" data-height="20" data-icon="bx:bxs-home" data-inline="false"></span></a> <a href="https://twitter.com/kevpmo"><span class="iconify" data-align="bottom" data-width="20" data-height="20" data-icon="logos:twitter" data-inline="false"></span></a> <a href="https://scholar.google.com/citations?user=CllWHUcAAAAJ&hl=en&gmla=AJsN-F78UepV0Z898WH2A0mfcnlI9zEgUSCK0ayjTjMDF7dgPL3vThX8UaBv6rYew576mmMsSow7N_8ZCVXG_vRZ3HHAoiU3Nt8MMFjR7yt78D4zLQK8GjKyO93tYocfbX54VSTN9Kac"><span class="iconify" data-align="bottom" data-width="20" data-height="20" data-icon="simple-icons:googlescholar" data-inline="false"></span></a> <a href="https://gitlab.com/kpmoran"><span class="iconify" data-align="bottom" data-width="20" data-height="20" data-icon="cib:gitlab" data-inline="false"></span></a> <a href="https://github.com/kpmoran"><span class="iconify" data-align="bottom" data-width="20" data-height="20" data-icon="ant-design:github-filled" data-inline="false"></span></a></li>
   			<ul>
 		</td>
 	</tr>
