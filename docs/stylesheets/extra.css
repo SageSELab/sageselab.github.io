@@ -14,7 +14,7 @@
 }
 
 .md-nav__title{
-  background-color: #01693F;
+  background-color: #01693F !important;
 }
 
 .md-typeset table:not([class]){
