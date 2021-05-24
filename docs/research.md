@@ -1,13 +1,10 @@
 ---
 hide:
-  - navigation   
+  - navigation
+  - toc
 ---
 
 <style>
-
-.md-sidebar--secondary:not([hidden]) {
-  display: none;
-}
 
   .responsive-grid {
     display: grid;
