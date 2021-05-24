@@ -142,8 +142,6 @@
   float:left; 
   margin-right:20px;
   width:50%;
-  height: 500px;
-  overflow-y: auto;
 }
 #two { 
   overflow:hidden;
@@ -158,6 +156,11 @@
     width:100%;
     border:0;
   }
+}
+
+.newsfeed {
+  height: 700px;
+  overflow-y: auto;
 }
 
 </style>
@@ -199,7 +202,7 @@
       <div class="wrapperhome">
       <div id="one">
         <h2>Lab News</h2>
-
+        <div class="newsfeed">
         <div class="admonition success"> <p class="admonition-title">May 2021</p> 
           <ul>
             <li> Dr. Moran has been awarded a distinguished reviewer award at ICPC'21!!🏆</li>
@@ -230,6 +233,7 @@
             <li> Two grants from the NSF have been awarded to support our research on Bug Reporting and Automated Software Traceability!! Thank you to the NSF!!</li>
           </ul> 
         </div>
+      </div>
       </div>
       <div id="two">
         <h2>Twitter Feed</h2>
