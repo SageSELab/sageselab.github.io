@@ -134,23 +134,21 @@ hide:
 
 ## Lab Director
 
-<div class="responsive-grid">
-	<div class="card">
-			<div class="logo">
-			<img src="../images/kevin.png" alt="Headshot of Dr. Kevin Moran.">
-       </div>
-       <div class="card-content">
-       	<h3>Dr. Kevin Moran</h3>
-       	<ul>
-  				<li><b>Bio:</b> Kevin Moran is an Assistant Professor in the Department of Computer Science at George Mason University.  He graduated with his B.A. in Physics with a Computer Science Minor from the College of the Holy Cross in 2013. He graduated with his M.S. in Computer Science from William & Mary in 2015, and his Ph.D. in Computer Science from William & Mary in 2018. Dr. Moran directs the SAGE Research Lab.</li>
+<table width="100%">
+	<tr>
+		<th width="50%"> <h3>Dr. Kevin Moran</h3> </th>
+	</tr>
+	<tr>
+		<td width="50%">
+			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/kevin.png">
+			<ul>
+				<li><b>Bio:</b> Kevin Moran is an Assistant Professor in the Department of Computer Science at George Mason University.  He graduated with his B.A. in Physics with a Computer Science Minor from the College of the Holy Cross in 2013. He graduated with his M.S. in Computer Science from William & Mary in 2015, and his Ph.D. in Computer Science from William & Mary in 2018. Dr. Moran directs the SAGE Research Lab.</li>
   				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.kpmoran.com">kpmoran.com</a></li>
-  				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/kevpmo">kevpmo</a></li>
-			</ul>
-</div>
-</div>
-<br>
-<br>
-</div>
+  				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/kevpmo">kevpmo</a></li>	
+  			<ul>
+		</td>
+	</tr>
+</table>
 
 ## Ph.D. Students
 
