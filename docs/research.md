@@ -83,6 +83,10 @@ hide:
     margin-bottom: 0;
     font-size: 12px;
   }
+  
+    .card .card-content li {
+    font-size: 12px;
+  }
 
   .card .card-content code {
     background: rgba(0, 0, 0, 0.05) none repeat scroll 0% 0%;
@@ -114,7 +118,7 @@ hide:
 
 Our research mission is to pursue a more complete understanding of how engineers develop software and to build the next generation of intelligent developer tools to help facilitate the software engineering process. In essence, we aim to make it as easy as possible for engineers to go from *ideas* to *working products*.
 
-<h2>Research Focus Areas</h2>
+## Research Focus Areas
 
 <div class="responsive-grid">
 	<div class="card">
@@ -177,4 +181,71 @@ Our research mission is to pursue a more complete understanding of how engineers
             <p>Our lab follows <i>open science</i> practices. We strive to make all our papers, software, and data freely available to the public to support replication, scientific progress, and the advancement of software engineering research.</p>
           </div>
         </div>
+        <br>
+        <br>
   </div>
+  
+  
+  
+## Research Sponsors
+
+The SAGE Lab graciously acknowledges support from our sponsors including the [National Science Foundation](https://www.nsf.gov), and [Cisco Systems](https://research.cisco.com).
+
+
+<div class="responsive-grid">
+	<div class="card">
+		<div class="logo">
+			<img src="../images/nsf.png" alt="NSF Logo">
+       </div>
+<div class="card-content">
+       	<h5>SHF: Small Towards a Holistic Causal Model for Continuous Software Traceability</h5>
+          <ul>
+          <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2007246&HistoricalAwards=false">CCF-2007246</a></li>
+          <li><b>Funding Amount: </b> $500,000</li>
+          <li><b>Funding Period: </b> October 1st, 2020 - September 30th, 2023</li>
+          </ul>
+</div>
+</div>
+<div class="card">
+		<div class="logo">
+			<img src="../images/nsf.png" alt="NSF Logo">
+       </div>
+<div class="card-content">
+       	<h5>Collaborative Research: SHF: Medium: Bug Report Management 2.0</h5>
+          <ul>
+          <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955853&HistoricalAwards=false">CCF-2007246</a></li>
+          <li><b>Funding Amount: </b> $1,200,000</li>
+          <li><b>Funding Period: </b> October 1st, 2020 - September 30th, 2024</li>
+          </ul>
+</div>
+</div>
+<div class="card">
+		<div class="logo">
+			<img src="../images/nsf.png" alt="NSF Logo">
+       </div>
+<div class="card-content">
+       	<h5>EAGER: Mapping Future Synergies between Deep Learning and Software Engineering</h5>
+          <ul>
+          <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1927679">CCF-2007246</a></li>
+          <li><b>Funding Amount: </b> $82,828</li>
+          <li><b>Funding Period: </b> July 15th, 2019 - June 30th, 2020</li>
+          </ul>
+</div>
+</div>
+</div>
+      
+<div class="responsive-grid">
+<div class="card">
+		<div class="logo">
+			<img src="../images/cisco.png" alt="NSF Logo">
+       </div>
+<div class="card-content">
+       	<h5>Identifying and Tracing Security-Related Software Requirements</h5>
+          <ul>
+          <li><b>Award Info: </b> Cisco Advanced Security Research Grant</li>
+          <li><b>Funding Amount: </b> $100,000</li>
+          <li><b>Funding Period: </b> July, 2019 - July, 2020</li>
+          </ul>
+</div>
+</div>
+</div>
