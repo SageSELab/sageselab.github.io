@@ -50,7 +50,7 @@ hide:
 
         * :material-account-supervisor-outline: Amit Seal Ami, Kaushal Kafle, Kevin Moran, Adwait Nadkarni, and Denys Poshyvanyk
 	     * :material-map-marker: *Proceedings of the 43rd International Conference on Software Engineering [(ICSE’21)](https://conf.researchr.org/home/icse-2021) - Formal Tool Demonstrations Track, Virtual (originally Madrid, Spain), May 25th - 28th, 2021, to appear, 4 pages (37% Acceptance Rate)*
-	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2102.06823) | [:material-tools: tool](https://muse-security-evaluation.github.io/)
+	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2102.06823) | [:material-tools: tool](https://secure-platforms-lab-w-m.github.io/muse/)
 
     === "Abstract"
 
@@ -63,7 +63,7 @@ hide:
 
         * :material-account-supervisor-outline: Amit Seal Ami, Kaushal Kafle, Kevin Moran, Adwait Nadkarni, and Denys Poshyvanyk
 	     * :material-map-marker: *ACM Transactions on Security & Privacy [(TOPS)](https://dl.acm.org/journal/tops), accepted*
-	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2102.06829) | [:material-tools: tool](https://muse-security-evaluation.github.io/)
+	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2102.06829) | [:material-tools: tool](https://secure-platforms-lab-w-m.github.io/muse/)
 
     === "Abstract"
 
