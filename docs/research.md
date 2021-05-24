@@ -122,7 +122,7 @@ Our research mission is to pursue a more complete understanding of how engineers
        </div>
 <div class="card-content">
        	<h5>Mobile Applications</h5>
-          <p>Given their ubiquity in today's society, creating effective developer tools and software engineering practices for mobile applications is essential. Our research looks to build forward thinking programming tools for mobile apps.</p>
+          <p>Given their ubiquity in today's society, creating effective developer tools and software engineering practices for mobile applications is essential. Our research looks to build forward-thinking programming tools for mobile apps.</p>
 </div>
 </div>
 <!-- Networking -->
