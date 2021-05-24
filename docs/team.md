@@ -185,7 +185,7 @@ hide:
        	<ul>
        		<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Automated UI Analysis, AI for Software Engineering</li>
-  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">mason.gmu.edu/~smansur4/</a></li>
+  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">gmu.edu/~smansur4/</a></li>
 			</ul>
 </div>
 </div>
@@ -198,7 +198,7 @@ hide:
        	<ul>
        		<li><b>2nd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Bug Reporting, NLP for Software Engineering, Automated Mobile Testing </li>
-  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~jmahmud/">mason.gmu.edu/~jmahmud/</a></li>
+  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~jmahmud/">gmu.edu/~jmahmud/</a></li>
   				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/JunayedMahmud10">JunayedMahmud10</a></li>
 			</ul>
 </div>
