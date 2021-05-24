@@ -200,7 +200,7 @@ Our research mission is to pursue a more complete understanding of how engineers
 
 The SAGE Lab graciously acknowledges support from our sponsors including the [National Science Foundation](https://www.nsf.gov), and [Cisco Systems](https://research.cisco.com).
 
-
+<br>
 <div class="responsive-grid">
 	<div class="card">
 		<div class="logo">
