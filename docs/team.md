@@ -17,7 +17,7 @@ hide:
 
   @media screen and (min-width: 64rem) {
     .responsive-grid {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
@@ -120,7 +120,7 @@ hide:
 			<img src="../images/kevin.png" alt="Headshot of Dr. Kevin Moran.">
        </div>
 <div class="card-content">
-       	<h4>Dr. Kevin Moran</h4>
+       	<h3>Dr. Kevin Moran</h3>
        	<ul>
   				<li><b>Bio:</b> Kevin Moran is an Assistant Professor in the Department of Computer Science at George Mason University.  He graduated with his B.A. in Physics with a Computer Science Minor from the College of the Holy Cross in 2013. He graduated with his M.S. in Computer Science from William & Mary in 2015, and his Ph.D. in Computer Science from William & Mary in 2018. Dr. Moran directs the SAGE Research Lab.</li>
   				<li><span class="iconify" data-icon="el:home-alt" data-inline="false"></span> - <a href="https://www.kpmoran.com">kpmoran.com</a></li>
@@ -162,7 +162,7 @@ hide:
 </div>
 	<div class="card">
 		<div class="logo">
-			<img src="../images/kevin.png" alt="Headshot of Dr. Kevin Moran.">
+			<img src="../images/junayed.png" alt="Headshot of Dr. Kevin Moran.">
        </div>
 <div class="card-content">
        	<h4>Junayed Mahmud</h4>
