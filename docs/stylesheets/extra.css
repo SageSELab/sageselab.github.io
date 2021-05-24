@@ -9,7 +9,7 @@
 [data-md-color-scheme="slate"] {
   --md-default-fg-color--light: hsla(134.3, 0%, 99.5%, 0.61);
   --md-default-fg-color--lightest: hsla(232, 0%, 100%, 0.92);
-  --md-primary-fg-color: #01693F;
+  --md-primary-fg-color: #4cae4f;
   --md-url: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(232, 15%, 21%, 1)' /></svg>");
 }
 
