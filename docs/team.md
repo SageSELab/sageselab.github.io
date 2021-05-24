@@ -162,6 +162,7 @@ hide:
 <div class="card-content">
        	<h3>Sabiha Salma</h3>
        	<ul>
+  				<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Automated UI Analysis, HCI Considerations for Developer Tools, AI for Software Engineering</li>
   				<li><span class="iconify" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">sabiha-salma.github.io/</a></li>
   				<li><span class="iconify" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/itsmesabiha">itsmesabiha</a></li>
@@ -175,6 +176,7 @@ hide:
 <div class="card-content">
        	<h3>SM Hasan Mansur</h3>
        	<ul>
+       		<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Automated UI Analysis, AI for Software Engineering</li>
   				<li><span class="iconify" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">mason.gmu.edu/~smansur4/</a></li>
 			</ul>
@@ -187,6 +189,7 @@ hide:
 <div class="card-content">
        	<h3>Junayed Mahmud</h3>
        	<ul>
+       		<li><b>2nd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Bug Reporting, NLP for Software Engineering, Automated Mobile Testing </li>
   				<li><span class="iconify" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~jmahmud/">mason.gmu.edu/~jmahmud/</a></li>
   				<li><span class="iconify" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/JunayedMahmud10">JunayedMahmud10</a></li>
