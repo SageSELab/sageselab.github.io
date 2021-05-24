@@ -64,6 +64,7 @@ hide:
   }
 
   .card .logo {
+  	 margin-top: 0.75rem;
     margin-right: 0.75rem;
     width: 80px;
     height: 80px;
