@@ -5,7 +5,7 @@ hide:
 
 ## 2021
 
-!!! tip "AndroR2: A Dataset of Manually-Reproduced Bug Reports for Android Apps"
+!!! abstract "AndroR2: A Dataset of Manually-Reproduced Bug Reports for Android Apps"
 
     === "Paper Info"
 
@@ -31,7 +31,7 @@ hide:
         When a bug manifests in a user-facing application, it is likely to be exposed through the graphical user interface (GUI). Given the importance of visual information to the process of identifying and understanding such bugs, users are increasingly making use of screenshots and screen-recordings as a means to report issues to developers. However, when such information is reported en masse, such as during crowd-sourced testing, managing these artifacts can be a time-consuming process. As the reporting of screen-recordings in particular becomes more popular, developers are likely to face challenges related to manually identifying videos that depict duplicate bugs. Due to their graphical nature, screen-recordings present challenges for automated analysis that preclude the use of current duplicate bug report detection techniques. To overcome these challenges and aid developers in this task, this paper presents Tango, a duplicate detection technique that operates purely on video-based bug reports by leveraging both visual and textual information. Tango combines tailored computer vision techniques, optical character recognition, and text retrieval. We evaluated multiple configurations of Tango in a comprehensive empirical evaluation on 4,860 duplicate detection tasks that involved a total of 180 screen-recordings from six Android apps. Additionally, we conducted a user study investigating the effort required for developers to manually detect duplicate video-based bug reports and compared this to the effort required to use Tango. The results reveal that Tango's optimal configuration is highly effective at detecting duplicate video-based bug reports, accurately ranking target duplicate videos in the top-2 returned results in 83% of the tasks. Additionally, our user study shows that, on average, Tango can reduce developer effort by over 60%, illustrating its practicality.
         
 
-!!! tip "V2S: A Tool for Translating Video Recordings of Mobile App Usages into Replayable Scenarios"
+!!! example "V2S: A Tool for Translating Video Recordings of Mobile App Usages into Replayable Scenarios"
 
     === "Paper Info"
 
@@ -44,7 +44,7 @@ hide:
         Screen recordings are becoming increasingly important as rich software artifacts that inform mobile application development processes. However, the amount of manual effort required to extract information from these graphical artifacts can hinder resource-constrained mobile developers. This paper presents Video2Scenario (V2S), an automated tool that processes video recordings of Android app usages, utilizes neural object detection and image classification techniques to classify the depicted user actions, and translates these actions into a replayable scenario. We conducted a comprehensive evaluation to demonstrate V2S's ability to reproduce recorded scenarios across a range of devices and a diverse set of usage cases and applications. The results indicate that, based on its performance with 175 videos depicting 3,534 GUI-based actions, V2S is accurate in reproducing ≈89% of actions from collected videos.
         
         
-!!! tip "Mutation-based Evaluation of Security-focused Static Analysis Tools for Android"
+!!! example "Mutation-based Evaluation of Security-focused Static Analysis Tools for Android"
 
     === "Paper Info"
 
@@ -57,7 +57,7 @@ hide:
         This demo paper presents the technical details and usage scenarios of μSE: a mutation-based tool for evaluating security-focused static analysis tools for Android. Mutation testing is generally used by software practitioners to assess the robustness of a given test-suite. However, we leverage this technique to systematically evaluate static analysis tools and uncover and document soundness issues. μSE's analysis has found 25 previously undocumented flaws in static data leak detection tools for Android. μSE offers four mutation schemes, namely Reachability, Complex-reachability, TaintSink, and ScopeSink, which determine the locations of seeded mutants. Furthermore, the user can extend μSE by customizing the API calls targeted by the mutation analysis. μSE is also practical, as it makes use of filtering techniques based on compilation and execution criteria that reduces the number of ineffective mutations.
  
 
-!!! tip "Systematic Mutation-based Evaluation of the Soundness of Security-focused Android Static Analysis Techniques"
+!!! note "Systematic Mutation-based Evaluation of the Soundness of Security-focused Android Static Analysis Techniques"
 
     === "Paper Info"
 
@@ -70,7 +70,7 @@ hide:
         Mobile application security has been a major area of focus for security research over the course of the last decade. Numerous application analysis tools have been proposed in response to malicious, curious, or vulnerable apps. However, existing tools, and specifically, static analysis tools, trade soundness of the analysis for precision and performance and are hence soundy. Unfortunately, the specific unsound choices or flaws in the design of these tools is often not known or well-documented, leading to misplaced confidence among researchers, developers, and users. This paper describes the Mutation-based Soundness Evaluation (μSE) framework, which systematically evaluates Android static analysis tools to discover, document, and fix flaws, by leveraging the well-founded practice of mutation analysis. We implemented μSE and applied it to a set of prominent Android static analysis tools that detect private data leaks in apps. In a study conducted previously, we used μSE to discover 13 previously undocumented flaws in FlowDroid, one of the most prominent data leak detectors for Android apps. Moreover, we discovered that flaws also propagated to other tools that build upon the design or implementation of FlowDroid or its components. This paper substantially extends our μSE framework and offers an new in-depth analysis of two more major tools in our 2020 study, we find 12 new, undocumented flaws and demonstrate that all 25 flaws are found in more than one tool, regardless of any inheritance-relation among the tools. Our results motivate the need for systematic discovery and documentation of unsound choices in soundy tools and demonstrate the opportunities in leveraging mutation testing in achieving this goal.
         
         
-!!! tip "Security in Centralized Data Store-based Home Automation Platforms: A Systematic Analysis of Nest and Hue"
+!!! note "Security in Centralized Data Store-based Home Automation Platforms: A Systematic Analysis of Nest and Hue"
 
     === "Paper Info"
 

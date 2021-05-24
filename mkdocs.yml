@@ -20,6 +20,10 @@ theme:
     admonition:
       success: fontawesome/solid/rss-square
       tip: fontawesome/solid/file-alt
+      example: fontawesome/solid/tools
+      note: fontawesome/solid/book
+      abstract: fontawesome/solid/database
+
 
   features:
     - navigation.tabs
