@@ -84,6 +84,10 @@ hide:
     margin-top: 0.25em;
     margin-bottom: 0;
   }
+  
+    .card .card-content li {
+	font-size: 13px;
+  }
 
   .card .card-content code {
     background: rgba(0, 0, 0, 0.05) none repeat scroll 0% 0%;
