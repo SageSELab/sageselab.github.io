@@ -23,8 +23,8 @@ hide:
     === "Paper Info"
 
         * :material-account-supervisor-outline: Nathan Cooper, Carlos Bernal-Cárdenas, Oscar Chaparro, Kevin Moran, and Denys Poshyvanyk
-	     * :material-map-marker: *Proceedings of the 43rd International Conference on Software Engineering (ICSE’21), Virtual (originally Madrid, Spain), May 25th - 28th, 2021, to appear, 13 pages*
-	     * :material-information-outline: pdf | data | tool
+	     * :material-map-marker: *Proceedings of the 43rd International Conference on Software Engineering [(ICSE’21)](https://conf.researchr.org/home/icse-2021), Virtual (originally Madrid, Spain), May 25th - 28th, 2021, to appear, 13 pages*
+	     *  [:material-pdf-box: pdf](https://arxiv.org/abs/2101.09194) | [:material-database: data](https://two-to-tango.github.io/tango/) | [:material-tools: tool](https://two-to-tango.github.io/tango/)
 
     === "Abstract"
 
@@ -36,8 +36,8 @@ hide:
     === "Paper Info"
 
         * :material-account-supervisor-outline: Madeleine Havranek, Carlos Bernal-Cárdenas, Nathan Cooper, Oscar Chaparro, Denys Poshyvanyk, and Kevin Moran
-	     * :material-map-marker: *Proceedings of the 43rd International Conference on Software Engineering (ICSE’21) - Formal Tool Demonstrations Track, Virtual (originally Madrid, Spain), May 25th - 28th, 2021, to appear, 4 pages (37% Acceptance Rate)*
-	     * :material-information-outline: pdf | tool
+	     * :material-map-marker: *Proceedings of the 43rd International Conference on Software Engineering [(ICSE’21)](https://conf.researchr.org/home/icse-2021) - Formal Tool Demonstrations Track, Virtual (originally Madrid, Spain), May 25th - 28th, 2021, to appear, 4 pages (37% Acceptance Rate)*
+	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2103.04531) | [:material-tools: tool](https://gitlab.com/SEMERU-Code-Public/Android/video2scenario/-/tree/master/python_v2s)
 
     === "Abstract"
 
@@ -49,8 +49,8 @@ hide:
     === "Paper Info"
 
         * :material-account-supervisor-outline: Amit Seal Ami, Kaushal Kafle, Kevin Moran, Adwait Nadkarni, and Denys Poshyvanyk
-	     * :material-map-marker: *Proceedings of the 43rd International Conference on Software Engineering (ICSE’21) - Formal Tool Demonstrations Track, Virtual (originally Madrid, Spain), May 25th - 28th, 2021, to appear, 4 pages (37% Acceptance Rate)*
-	     * :material-information-outline: pdf | tool
+	     * :material-map-marker: *Proceedings of the 43rd International Conference on Software Engineering [(ICSE’21)](https://conf.researchr.org/home/icse-2021) - Formal Tool Demonstrations Track, Virtual (originally Madrid, Spain), May 25th - 28th, 2021, to appear, 4 pages (37% Acceptance Rate)*
+	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2102.06823) | [:material-tools: tool](https://muse-security-evaluation.github.io/)
 
     === "Abstract"
 
@@ -62,8 +62,8 @@ hide:
     === "Paper Info"
 
         * :material-account-supervisor-outline: Amit Seal Ami, Kaushal Kafle, Kevin Moran, Adwait Nadkarni, and Denys Poshyvanyk
-	     * :material-map-marker: *ACM Transactions on Security & Privacy (TOPS), accepted*
-	     * :material-information-outline: pdf
+	     * :material-map-marker: *ACM Transactions on Security & Privacy [(TOPS)](https://dl.acm.org/journal/tops), accepted*
+	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2102.06829) | [:material-tools: tool](https://muse-security-evaluation.github.io/)
 
     === "Abstract"
 
@@ -75,8 +75,8 @@ hide:
     === "Paper Info"
 
         * :material-account-supervisor-outline: Kaushal Kafle, Kevin Moran, Sunil Manandhar, Adwait Nadkarni, and Denys Poshyvanyk
-	     * :material-map-marker: *ACM Transactions on Cyber Physical Systems (TCPS), accepted*
-	     * :material-information-outline: pdf
+	     * :material-map-marker: *ACM Transactions on Cyber Physical Systems [(TCPS)](https://dl.acm.org/journal/tcps), accepted*
+	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2102.06829)
 
     === "Abstract"
 
