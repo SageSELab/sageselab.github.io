@@ -80,6 +80,14 @@ hide:
   background-color: #ADAEB3;
   }
 
+  #container-background {
+        top: 0px;
+        left: 0px;
+        background-color: #ADAEB3; /* Use background-image or whatever suits you here */
+        width: 100%; /* Your width */
+        height: 70px; /* Your height */
+    }​ 
+
   .card .card-content h3 {
     margin: 0;
   }
@@ -145,54 +153,47 @@ hide:
 ## Ph.D. Students
 
 <div class="responsive-grid">
-
-<table width="600px">
-	<tr>
-		<th width="50%"> <h3>Sabiha Salma</h3> </th>
-	</tr>
-	<tr>
-		<td width="50%">
-			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/sabiha.png">
-			<ul>
-				<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
+	<div class="card">
+		<div class="logo">
+			<img src="../images/sabiha.png" alt="Headshot of Dr. Kevin Moran.">
+       </div>
+<div class="card-content">
+       	<h3>Sabiha Salma</h3>
+       	<ul>
+  				<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Automated UI Analysis, HCI Considerations for Developer Tools, AI for Software Engineering</li>
   				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">sabiha-salma.github.io/</a></li>
   				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/itsmesabiha">itsmesabiha</a></li>
-  			<ul>
-		</td>
-	</tr>
-</table>
-
-<table width="600px">
-	<tr>
-		<th width="50%"> <h3>SM Hasan Mansur</h3> </th>
-	</tr>
-	<tr>
-		<td width="50%">
-			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/hasan.png">
-			<ul>
-				<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
+			</ul>
+</div>
+</div>
+	<div class="card">
+		<div class="logo">
+			<img src="../images/hasan.png" alt="Headshot of Dr. Kevin Moran.">
+       </div>
+<div class="card-content">
+       	<h3>SM Hasan Mansur</h3>
+       	<ul>
+       		<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Automated UI Analysis, AI for Software Engineering</li>
-  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">mason.gmu.edu/~smansur4/</a></li>  			<ul>
-		</td>
-	</tr>
-</table>
-
-<table width="600px">
-	<tr>
-		<th width="50%"> <h3>Junayed Mahmud</h3> </th>
-	</tr>
-	<tr>
-		<td width="50%">
-			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/junayed.png">
-			<ul>
-				<li><b>2nd Year Ph.D. Student in Computer Science</b></li>
+  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">mason.gmu.edu/~smansur4/</a></li>
+			</ul>
+</div>
+</div>
+	<div class="card">
+		<div class="logo">
+			<img src="../images/junayed.png" alt="Headshot of Dr. Kevin Moran.">
+       </div>
+<div class="card-content">
+       	<h3>Junayed Mahmud</h3>
+       	<ul>
+       		<li><b>2nd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Bug Reporting, NLP for Software Engineering, Automated Mobile Testing </li>
   				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~jmahmud/">mason.gmu.edu/~jmahmud/</a></li>
-  				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/JunayedMahmud10">JunayedMahmud10</a></li>			<ul>
-		</td>
-	</tr>
-</table>
+  				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/JunayedMahmud10">JunayedMahmud10</a></li>
+			</ul>
+</div>
+</div>
 </div>
 
 
