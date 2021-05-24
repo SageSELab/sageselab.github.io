@@ -143,7 +143,7 @@ Our research mission is to pursue a more complete understanding of how engineers
           </div>
           <div class="card-content">
             <h5>Bug Reporting</h5>
-            <p>Software is becoming increasingly important in user's lives as it permeates our daily activities. Given the complexity of modern applications, bugs often contnue to persist after release, and users need effective mechanisms to report them. Our research has pioneered interactive bug reporting systems, and we continue to advance error reporting methods for software.</p>
+            <p>Given the complexity of modern applications, bugs often contnue to persist after release, and users need effective mechanisms to report them. Our research has pioneered interactive bug reporting systems, and we continue to advance error reporting methods for software.</p>
           </div>
         </div>
       </div>
