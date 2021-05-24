@@ -77,6 +77,10 @@ hide:
   .card .card-content h5 {
     margin: 0;
   }
+  
+    .card .card-content h4 {
+    margin: 0;
+  }
 
   .card .card-content p {
     margin-top: 0.25em;
@@ -198,7 +202,7 @@ The SAGE Lab graciously acknowledges support from our sponsors including the [Na
 			<img src="../images/nsf.png" alt="NSF Logo">
        </div>
 <div class="card-content">
-       	<h5>SHF: Small Towards a Holistic Causal Model for Continuous Software Traceability</h5>
+       	<h4>SHF: Small Towards a Holistic Causal Model for Continuous Software Traceability</h4>
           <ul>
           <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2007246&HistoricalAwards=false">CCF-2007246</a></li>
           <li><b>Funding Amount: </b> $500,000</li>
@@ -211,7 +215,7 @@ The SAGE Lab graciously acknowledges support from our sponsors including the [Na
 			<img src="../images/nsf.png" alt="NSF Logo">
        </div>
 <div class="card-content">
-       	<h5>Collaborative Research: SHF: Medium: Bug Report Management 2.0</h5>
+       	<h4>Collaborative Research: SHF: Medium: Bug Report Management 2.0</h4>
           <ul>
           <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955853&HistoricalAwards=false">CCF-2007246</a></li>
           <li><b>Funding Amount: </b> $1,200,000</li>
@@ -224,7 +228,7 @@ The SAGE Lab graciously acknowledges support from our sponsors including the [Na
 			<img src="../images/nsf.png" alt="NSF Logo">
        </div>
 <div class="card-content">
-       	<h5>EAGER: Mapping Future Synergies between Deep Learning and Software Engineering</h5>
+       	<h4>EAGER: Mapping Future Synergies between Deep Learning and Software Engineering</h4>
           <ul>
           <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1927679">CCF-2007246</a></li>
           <li><b>Funding Amount: </b> $82,828</li>
@@ -240,7 +244,7 @@ The SAGE Lab graciously acknowledges support from our sponsors including the [Na
 			<img src="../images/cisco.png" alt="NSF Logo">
        </div>
 <div class="card-content">
-       	<h5>Identifying and Tracing Security-Related Software Requirements</h5>
+       	<h4>Identifying and Tracing Security-Related Software Requirements</h4>
           <ul>
           <li><b>Award Info: </b> Cisco Advanced Security Research Grant</li>
           <li><b>Funding Amount: </b> $100,000</li>
