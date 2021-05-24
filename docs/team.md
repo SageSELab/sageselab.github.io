@@ -154,9 +154,10 @@ hide:
 		<td width="50%">
 			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/kevin.png">
 			<ul>
-				<li><b>Bio:</b> Kevin Moran is an Assistant Professor in the Department of Computer Science at George Mason University.  He graduated with his B.A. in Physics with a Computer Science Minor from the College of the Holy Cross in 2013. He graduated with his M.S. in Computer Science from William & Mary in 2015, and his Ph.D. in Computer Science from William & Mary in 2018. Dr. Moran directs the SAGE Research Lab.</li>
-  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.kpmoran.com">kpmoran.com</a></li>
-  				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/kevpmo">kevpmo</a></li>	
+				<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
+  				<li><b>Research Interests:</b> Automated UI Analysis, HCI Considerations for Developer Tools, AI for Software Engineering</li>
+  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">sabiha-salma.github.io/</a></li>
+  				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/itsmesabiha">itsmesabiha</a></li>
   			<ul>
 		</td>
 	</tr>
@@ -164,33 +165,34 @@ hide:
 
 <table width="600px">
 	<tr>
-		<th width="50%"> <h3>Dr. Kevin Moran</h3> </th>
+		<th width="50%"> <h3>SM Hasan Mansur</h3> </th>
 	</tr>
 	<tr>
 		<td width="50%">
 			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/kevin.png">
 			<ul>
-				<li><b>Bio:</b> Kevin Moran is an Assistant Professor in the Department of Computer Science at George Mason University.  He graduated with his B.A. in Physics with a Computer Science Minor from the College of the Holy Cross in 2013. He graduated with his M.S. in Computer Science from William & Mary in 2015, and his Ph.D. in Computer Science from William & Mary in 2018. Dr. Moran directs the SAGE Research Lab.</li>
-  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.kpmoran.com">kpmoran.com</a></li>
-  				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/kevpmo">kevpmo</a></li>	
-  			<ul>
+				<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
+  				<li><b>Research Interests:</b> Automated UI Analysis, AI for Software Engineering</li>
+  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">mason.gmu.edu/~smansur4/</a></li>  			<ul>
 		</td>
 	</tr>
 </table>
-	<div class="card">
-		<div class="logo">
-			<img src="../images/junayed.png" alt="Headshot of Dr. Kevin Moran.">
-       </div>
-<div class="card-content">
-       	<h3>Junayed Mahmud</h3>
-       	<ul>
-       		<li><b>2nd Year Ph.D. Student in Computer Science</b></li>
+
+<table width="600px">
+	<tr>
+		<th width="50%"> <h3>Junayed Mahmud</h3> </th>
+	</tr>
+	<tr>
+		<td width="50%">
+			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/kevin.png">
+			<ul>
+				<li><b>2nd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Bug Reporting, NLP for Software Engineering, Automated Mobile Testing </li>
   				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~jmahmud/">mason.gmu.edu/~jmahmud/</a></li>
-  				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/JunayedMahmud10">JunayedMahmud10</a></li>
-			</ul>
-</div>
-</div>
+  				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/JunayedMahmud10">JunayedMahmud10</a></li>			<ul>
+		</td>
+	</tr>
+</table>
 </div>
 
 
