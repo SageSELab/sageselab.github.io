@@ -120,7 +120,9 @@ hide:
 
 ## Research Mission
 
-Our research mission is to pursue a more complete understanding of how engineers develop software and to build the next generation of intelligent developer tools to help facilitate the software engineering process. In essence, we aim to make it as easy as possible for engineers to go from *ideas* to *working products*.
+Our research mission is to pursue a more complete understanding of how engineers develop software and to build the next generation of intelligent developer tools to help facilitate the software engineering process. In essence, we aim to make it as easy as possible for engineers to go from *ideas* to *working software*.
+
+---
 
 ## Research Focus Areas
 
@@ -189,7 +191,7 @@ Our research mission is to pursue a more complete understanding of how engineers
         <br>
   </div>
   
-  
+---
   
 ## Research Sponsors
 
