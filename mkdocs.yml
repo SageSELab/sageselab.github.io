@@ -20,6 +20,7 @@ theme:
   icon:
     admonition:
       success: fontawesome/solid/rss-square
+      tip: fontawesome/solid/file-alt
 
   features:
     - navigation.tabs
