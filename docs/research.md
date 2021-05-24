@@ -159,4 +159,22 @@ Our research mission is to pursue a more complete understanding of how engineers
             <p>Given that software is interwoven into user's personal lives, the stakes of software security and privacy have never been higher. Our research examines how we can apply software engineering principles and practices to help ensure the security of complex software systems.</p>
           </div>
         </div>
-      </div>
+ <div class="card">
+          <div class="logo">
+            <img src="../images/gui.png" alt="Depiction of a Lock denoting computer security.">
+          </div>
+          <div class="card-content">
+            <h5>Automated UI Analysis</h5>
+            <p>The Graphical User Interface represents a reich source of information that describes software in a visual manner. They allow users to intuitively understand software functionality. Our research aims to automatically analyze users interfaces to automate software tasks.</p>
+          </div>
+        </div>
+<div class="card">
+          <div class="logo">
+            <img src="../images/open.png" alt="Depiction of a Lock denoting computer security.">
+          </div>
+          <div class="card-content">
+            <h5>Open Science</h5>
+            <p>Our lab follows <i>open science</i> practices. We strive to make all our papers, software, and data freely available to the public to support replication, scientific progress, and the advancement of software engineering research.</p>
+          </div>
+        </div>
+  </div>
