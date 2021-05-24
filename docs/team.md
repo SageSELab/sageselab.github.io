@@ -35,7 +35,7 @@ hide:
     flex-direction: row;
     -moz-box-align: center;
     align-items: center;
-    height: 100%;
+    height: 80%;
     -moz-box-pack: start;
     justify-content: flex-start;
     box-shadow: rgba(0, 0, 0, 0.1) 0.4rem 0.4rem 0px -0.0625rem, rgba(0, 0, 0, 0.40) 0px 0.50rem 0.5rem 0px;
