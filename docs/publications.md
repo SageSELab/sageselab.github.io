@@ -5,19 +5,18 @@ hide:
 
 ## 2021
 
-!!! tip
+!!! tip "AndroR2: A Dataset of Manually-Reproduced Bug Reports for Android Apps"
 
-	=== "Paper Info"
+	 === "Paper Info"
 	
-	AndroR2: A Dataset of Manually-Reproduced Bug Reports for Android Apps
-	* Tyler Wendland, Jingyang Sun, Junayed Mahmud, S.M. Hasan Mansur, Steven Huang, Kevin Moran, Julia Rubin, Mattia Fazzini
-	* Proceedings of the 2021 International Conference on Mining Software Repositories (MSR’21), Data Showcase Track, Virtual (originally Madrid, Spain), May 17th - 19th, 2021, to appear, 5 pages
-	* [pdf | data]
+	 * Tyler Wendland, Jingyang Sun, Junayed Mahmud, S.M. Hasan Mansur, Steven Huang, Kevin Moran, Julia Rubin, Mattia Fazzini
+	 * Proceedings of the 2021 International Conference on Mining Software Repositories (MSR’21), Data Showcase Track, Virtual (originally Madrid, Spain), May 17th - 19th, 2021, to appear, 5 pages
+	 * [pdf | data]
 
 	
-	=== "Abstract"
+	 === "Abstract"
 
-	Software maintenance constitutes a large portion of the software development lifecycle. To carry out maintenance tasks, developers often need to understand and reproduce bug reports. As such, there has been increasing research activity coalescing around the notion of automating various activities related to bug reporting. A sizable portion of this research interest has focused on the domain of mobile apps. However, as research around mobile app bug reporting progresses, there is a clear need for a large, manually vetted, and reproducible set of real-world bug reports that can serve as a benchmark for future work. This paper presents AndroR2: a dataset of 90 manually reproduced bug reports for Android apps listed on Google Play and hosted on GitHub, systematically collected via an in-depth analysis of 459 reports extracted from the GitHub issue tracker. For each reproduced report, AndroR2 includes an apk file for the buggy version of the app, detailed reproduction steps, an executable reproduction script, and annotations on the quality of the reproduction steps associated with the original report. We believe that the AndroR2 dataset can be used to facilitate research in automatically analyzing, understanding, reproducing, localizing, and fixing bugs for mobile applications as well as other software maintenance activities more broadly in the future.
+	 Software maintenance constitutes a large portion of the software development lifecycle. To carry out maintenance tasks, developers often need to understand and reproduce bug reports. As such, there has been increasing research activity coalescing around the notion of automating various activities related to bug reporting. A sizable portion of this research interest has focused on the domain of mobile apps. However, as research around mobile app bug reporting progresses, there is a clear need for a large, manually vetted, and reproducible set of real-world bug reports that can serve as a benchmark for future work. This paper presents AndroR2: a dataset of 90 manually reproduced bug reports for Android apps listed on Google Play and hosted on GitHub, systematically collected via an in-depth analysis of 459 reports extracted from the GitHub issue tracker. For each reproduced report, AndroR2 includes an apk file for the buggy version of the app, detailed reproduction steps, an executable reproduction script, and annotations on the quality of the reproduction steps associated with the original report. We believe that the AndroR2 dataset can be used to facilitate research in automatically analyzing, understanding, reproducing, localizing, and fixing bugs for mobile applications as well as other software maintenance activities more broadly in the future.
 
 
 
