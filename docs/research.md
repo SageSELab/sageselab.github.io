@@ -109,6 +109,10 @@ hide:
   }
 </style>
 
+## Research Mission
+
+Our research mission is to pursue a more complete understanding of how engineers develop software and to build the next generation of intelligent developer tools to help facilitate the software engineering process. In essence, we aim to make it as easy as possible for engineers to go from *ideas* to *working products*.
+
 <h2>Research Focus Areas</h2>
 
 <div class="responsive-grid">
