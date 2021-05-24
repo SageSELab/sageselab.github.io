@@ -11,7 +11,7 @@ hide:
 
         * :material-account-supervisor-outline: Tyler Wendland, Jingyang Sun, <u>Junayed Mahmud</u>, <u>S.M. Hasan Mansur</u>, Steven Huang, Kevin Moran, Julia Rubin, Mattia Fazzini
 	     * :material-map-marker: *Proceedings of the 2021 International Conference on Mining Software Repositories (MSR’21), Data Showcase Track, Virtual (originally Madrid, Spain), May 17th - 19th, 2021, to appear, 5 pages*
-	     * :material-information-outline: [:material-pdf-box: pdf]() | [:material-database: data]()
+	     * [:material-pdf-box: pdf]() | [:material-database: data]()
 
     === "Abstract"
 
