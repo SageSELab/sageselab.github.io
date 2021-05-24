@@ -120,7 +120,9 @@ hide:
 
 ## Research Mission
 
-Our research mission is to pursue a more complete understanding of how engineers develop software and to build the next generation of intelligent developer tools to help facilitate the software engineering process. In essence, we aim to make it as easy as possible for engineers to go from *ideas* to *working software*.
+Our research mission is to pursue a more complete understanding of how engineers develop software, and to build the next generation of intelligent developer tools to help facilitate the software engineering process. To accomplish this, we study the methods and techniques by which developers design, create, test, and manage software. In particular, we examine developer needs related to various tasks in the software development lifecycle and design tailored automated approaches for those needs with the intention of facilitating software development and maintenance tasks. Given the developer-focused nature of our research, we aim to straddle the line between scientific discovery and industrial applicability. In other words, we work to identify and understand meaningful problems faced by real developers in the constantly shifting modern landscape of software engineering. We then formulate projects that work towards solving these problems by designing state-of-the-art, automated approaches applying novel adaptations of *machine learning (ML)*, *Deep Learning (DL)*, *program analysis*, *computer vision*, and *natural language processing (NLP)* techniques. We place a strong emphasis on rigorous empirical validations of our work, involving industrial practitioners whenever possible. We also have a firm commitment to *open science* practices and distribute open source versions of our projects and datasets in archivable formats whenever possible.
+
+**In essence, we aim to make it as easy as possible for engineers to go from *ideas* to *working software*.**
 
 ---
 
