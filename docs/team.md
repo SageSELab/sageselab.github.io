@@ -152,7 +152,7 @@ hide:
 	</tr>
 	<tr>
 		<td width="50%">
-			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/kevin.png">
+			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/sabiha.png">
 			<ul>
 				<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Automated UI Analysis, HCI Considerations for Developer Tools, AI for Software Engineering</li>
@@ -169,7 +169,7 @@ hide:
 	</tr>
 	<tr>
 		<td width="50%">
-			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/kevin.png">
+			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/hasan.png">
 			<ul>
 				<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Automated UI Analysis, AI for Software Engineering</li>
@@ -184,7 +184,7 @@ hide:
 	</tr>
 	<tr>
 		<td width="50%">
-			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/kevin.png">
+			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/junayed.png">
 			<ul>
 				<li><b>2nd Year Ph.D. Student in Computer Science</b></li>
   				<li><b>Research Interests:</b> Bug Reporting, NLP for Software Engineering, Automated Mobile Testing </li>
