@@ -101,6 +101,10 @@ hide:
     margin-bottom: 0;
     font-size: 14px;
   }
+  
+  .li{
+  font-size: 15px;
+  }
 
   .card .card-content p {
     margin-top: 0.25em;
