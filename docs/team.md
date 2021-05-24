@@ -134,7 +134,7 @@ hide:
 
 ## Lab Director
 
-<table width="100%">
+<table width="50%">
 	<tr>
 		<th width="50%"> <h3>Dr. Kevin Moran</h3> </th>
 	</tr>
