@@ -128,13 +128,13 @@ hide:
 
 <div class="responsive-grid">
 	<div class="card">
-		<div class="logo">
-			<img src="../images/kevin.png" alt="Headshot of Dr. Kevin Moran.">
-       </div>
-<div class="card-content">
+	<div class="card-content">
 	<div class="cardback">
        	<h3>Dr. Kevin Moran</h3>
        	</div>
+		<div class="logo">
+			<img src="../images/kevin.png" alt="Headshot of Dr. Kevin Moran.">
+       </div>
        	<ul>
   				<li><b>Bio:</b> Kevin Moran is an Assistant Professor in the Department of Computer Science at George Mason University.  He graduated with his B.A. in Physics with a Computer Science Minor from the College of the Holy Cross in 2013. He graduated with his M.S. in Computer Science from William & Mary in 2015, and his Ph.D. in Computer Science from William & Mary in 2018. Dr. Moran directs the SAGE Research Lab.</li>
   				<li><span class="iconify" data-icon="el:home-alt" data-inline="false"></span> - <a href="https://www.kpmoran.com">kpmoran.com</a></li>
@@ -154,7 +154,7 @@ hide:
 			<img src="../images/sabiha.png" alt="Headshot of Dr. Kevin Moran.">
        </div>
 <div class="card-content">
-       	<h4>Sabiha Salma</h4>
+       	<h3>Sabiha Salma</h3>
        	<ul>
   				<li><b>Research Interests:</b> Automated UI Analysis, HCI Considerations for Developer Tools, AI for Software Engineering</li>
   				<li><span class="iconify" data-icon="el:home-alt" data-inline="false"></span> - <a href="https://sabiha-salma.github.io/">sabiha-salma.github.io/</a></li>
@@ -167,7 +167,7 @@ hide:
 			<img src="../images/hasan.png" alt="Headshot of Dr. Kevin Moran.">
        </div>
 <div class="card-content">
-       	<h4>SM Hasan Mansur</h4>
+       	<h3>SM Hasan Mansur</h3>
        	<ul>
   				<li><b>Research Interests:</b> Automated UI Analysis, AI for Software Engineering</li>
   				<li><span class="iconify" data-icon="el:home-alt" data-inline="false"></span> - <a href="http://mason.gmu.edu/~smansur4/">mason.gmu.edu/~smansur4/</a></li>
@@ -179,7 +179,7 @@ hide:
 			<img src="../images/junayed.png" alt="Headshot of Dr. Kevin Moran.">
        </div>
 <div class="card-content">
-       	<h4>Junayed Mahmud</h4>
+       	<h3>Junayed Mahmud</h3>
        	<ul>
   				<li><b>Research Interests:</b> Bug Reporting, NLP for Software Engineering, Automated Mobile Testing </li>
   				<li><span class="iconify" data-icon="el:home-alt" data-inline="false"></span> - <a href="http://mason.gmu.edu/~jmahmud/">mason.gmu.edu/~jmahmud/</a></li>
