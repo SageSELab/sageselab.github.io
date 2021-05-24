@@ -64,7 +64,6 @@ hide:
   }
 
   .card .logo {
-  	 margin-top: 0.75rem;
     margin-right: 0.75rem;
     width: 80px;
     height: 80px;
@@ -77,7 +76,12 @@ hide:
     width: 100%;
   }
 
-  .card .card-content h5 {
+  .card .card-content h3 {
+    margin: 0;
+    background-color: #ADAEB3;
+  }
+  
+   .card .card-content h5 {
     margin: 0;
   }
 
