@@ -18,22 +18,16 @@ Once you have installed Android studio, either navigate to the launch screen vie
 
 ![Splash screen navigating to AVD Manager](../images/android-tutorial/splash.png)
 
-![Splash screen navigating to AVD Manager](../images/android-tutorial/select.png){ align=left }
-Click on AVD Manager to launch the configurator for the virtual Android Devices.
+![Splash screen navigating to AVD Manager](../images/android-tutorial/select.png){ align=left }Click on AVD Manager to launch the configurator for the virtual Android Devices.
 
-![Splash screen navigating to AVD Manager](../images/android-tutorial/start.png){ align=right }
-Click on AVD Manager to launch the configurator for the virtual Android Devices.
+![Splash screen navigating to AVD Manager](../images/android-tutorial/start.png){ align=right }Click on AVD Manager to launch the configurator for the virtual Android Devices.
 
-![Splash screen navigating to AVD Manager](../images/android-tutorial/device.png){ align=left }
-Click on AVD Manager to launch the configurator for the virtual Android Devices.
+![Splash screen navigating to AVD Manager](../images/android-tutorial/device.png){ align=left }Click on AVD Manager to launch the configurator for the virtual Android Devices.
 
-![Splash screen navigating to AVD Manager](../images/android-tutorial/system.png){ align=right }
-Click on AVD Manager to launch the configurator for the virtual Android Devices.
+![Splash screen navigating to AVD Manager](../images/android-tutorial/system.png){ align=right }Click on AVD Manager to launch the configurator for the virtual Android Devices.
 
-![Splash screen navigating to AVD Manager](../images/android-tutorial/config.png){ align=left }
-Click on AVD Manager to launch the configurator for the virtual Android Devices.
+![Splash screen navigating to AVD Manager](../images/android-tutorial/config.png){ align=left }Click on AVD Manager to launch the configurator for the virtual Android Devices.
 
-![Splash screen navigating to AVD Manager](../images/android-tutorial/launch.png){ align=right }
-Click on AVD Manager to launch the configurator for the virtual Android Devices.
+![Splash screen navigating to AVD Manager](../images/android-tutorial/launch.png){ align=right }Click on AVD Manager to launch the configurator for the virtual Android Devices.
 
 
