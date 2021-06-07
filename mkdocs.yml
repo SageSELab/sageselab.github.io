@@ -49,12 +49,6 @@ theme:
 
 plugins:
     - search
-    - encryptcontent:
-        title_prefix: '[Protected]'
-        summary: 'This Content is Password Protected'
-        placeholder: 'Click here to type the Password, then press Enter'
-        decryption_failure_message: 'Invalid Password'
-        encryption_info_message: 'This course content is password protected. Please enter the password.'
 
 
 extra_css:
