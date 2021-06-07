@@ -14,6 +14,6 @@ jobs:
           python-version: 3.x
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: pip install mkdocs-encryptcontent-plugin
-      - run: mkdocs gh-deploy --force -b gh-pages
+      - run: mkdocs gh-deploy 
 env:
   GH_TOKEN: ${{ secrets.MKDOCS_SECRET }}
