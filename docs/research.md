@@ -222,7 +222,7 @@ The SAGE Lab graciously acknowledges support from our sponsors including the [Na
 <div class="card-content">
        	<h4>Collaborative Research: SHF: Medium: Bug Report Management 2.0</h4>
           <ul>
-          <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955853&HistoricalAwards=false">CCF-2007246</a></li>
+          <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955853&HistoricalAwards=false">CCF-1955853</a></li>
           <li><b>Funding Amount: </b> $1,200,000</li>
           <li><b>Funding Period: </b> October 1st, 2020 - September 30th, 2024</li>
           </ul>
@@ -235,7 +235,7 @@ The SAGE Lab graciously acknowledges support from our sponsors including the [Na
 <div class="card-content">
        	<h4>EAGER: Mapping Future Synergies between Deep Learning and Software Engineering</h4>
           <ul>
-          <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1927679">CCF-2007246</a></li>
+          <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1927679">CCF-1927679</a></li>
           <li><b>Funding Amount: </b> $82,828</li>
           <li><b>Funding Period: </b> July 15th, 2019 - June 30th, 2020</li>
           </ul>
