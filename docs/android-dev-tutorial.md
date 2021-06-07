@@ -28,7 +28,7 @@ Once you have installed Android studio, either navigate to the launch screen vie
 
 ![Splash screen navigating to AVD Manager](../images/android-tutorial/config.png){ align=left }6. The Final screen of the configuration wizard provides some more advanced options and provides general information about the device you configured. For the purposes of this tutorial, we do not need to worry about advanced options, so you can simply click on the "Finish" button.
 
-![Splash screen navigating to AVD Manager](../images/android-tutorial/launch.png){ align=right }7. Now that your Android emulator has been configured, you can launch the emulator by clicking on the green "play button as indicated above. This should launch your emulator and allow you to test applications!
+![Splash screen navigating to AVD Manager](../images/android-tutorial/launch.png){ align=right }7. Now that your Android emulator has been configured, you can launch the emulator by clicking on the green "play button as indicated above. This should launch your emulator and allow you to test applications! 
 
 --- 
 
