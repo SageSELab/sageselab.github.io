@@ -52,7 +52,7 @@ Today, you will be developing a To-Do List application for Android using the Jav
 </div>
 
 !!! note
-    This tutorial is adapted and updated from Aldo Ziflaj's, which you can find [here](https://www.sitepoint.com/starting-android-development-creating-todo-app/) (but the code and structure is a bit outdated).
+    This tutorial is adapted and updated from Aldo Ziflaj's awesome tutorial, which you can find [here](https://www.sitepoint.com/starting-android-development-creating-todo-app/) (but the code and structure is a bit outdated).
 
 ### Step 1: Create a New Android Studio Project
 
