@@ -43,8 +43,75 @@ If you have trouble or need help, please reach out to Dr. Moran on the `android-
 
 ---
 
-## Development Tutorial
+## Tutorial: Developing a ToDo List App
 
-Check back on June 8th for the full tutorial!
+Today, you will be developing a To-Do List application for Android using the Java programming language. While, as discussed in the lecture, Android does support Kotlin, most of you are likely more familiar with Java and it is still supported :-)
 
+### Step 1: Create a New Android Studio Project
 
+![Splash screen navigating to AVD Manager](../images/android-tutorial/launch2.png)
+
+Open the AndroidStudio launch screen and select the "Create New Project" button.
+
+![Splash screen navigating to AVD Manager](../images/android-tutorial/sel-activity.png)
+
+Next select the "Empty Activity" and then click "Next".
+
+![Splash screen navigating to AVD Manager](../images/android-tutorial/proj-settings.png)
+
+On the next screen, you can configure the general project attributes. First, choose a suitable name for your TodoList project. You can use any name you like. Next, provide a package name. If you are not sure what to use, you can use `edu.gmu.<project-name>`. Next, select the location where you want the code to be stored on your computer hard-disk. After that, make sure that the selected Language is `Java` as we will be using Java for this tutorial. Next, set the minimum SDK to `API 24: Android 7.0 (Nougat)`. Make sure the "Use legacy android.support libraries is *unchecked*. Finally, click the "Finish" button to create your project!
+
+![Splash screen navigating to AVD Manager](../images/android-tutorial/start-emu.png)
+
+Next, let's make sure your app can run! Once Android Studio finishes automatically setting up the new project, you can click on the green arrow in the menu bar to run your app. This should launch your configured emulator and launch the app!
+
+![Splash screen navigating to AVD Manager](../images/android-tutorial/running-app.png)
+
+### Step 2: Setting up the UI
+
+In the `MainActivity.java` class, you should see something like the code below:
+
+``` java linenums="1"
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
+```
+
+On line 11, you set the view of this activity to `R.layout.activity_main`, which points to a file called `activity_main.xml` in the `/res/layout` directory of the project. A view controls layout of the Android interface and looks like this:
+
+``` xml linenums="1"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aziflaj.todolist.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+</RelativeLayout>
+```
+
+In the `main` view, you will add a `ListView`, which will contain a ToDo item in each row. To do this, replace the `TextView` element with the code below:
+
+``` xml linenums="1"
+<ListView
+        android:id="@+id/list_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+```
