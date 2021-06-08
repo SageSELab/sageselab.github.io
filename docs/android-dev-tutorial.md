@@ -53,6 +53,7 @@ Today, you will be developing a To-Do List application for Android using the Jav
 
 !!! note
     This tutorial is adapted and updated from Aldo Ziflaj's awesome tutorial, which you can find [here](https://www.sitepoint.com/starting-android-development-creating-todo-app/) (but the code and structure is a bit outdated).
+    
 
 ### Step 1: Create a New Android Studio Project
 
@@ -200,6 +201,9 @@ public boolean onOptionsItemSelected(MenuItem item) {
     }
 }
 ```
+
+!!! note
+    You might have some errors related to `imports` when you copy and paste code throughout this tutorial. To resolve these, simply hover your mouse over the red-underlined text, and then click on `import class`. This will add an `import` statement to the top of the class so that the code can properly utilize the referenced library class.
 
 You will likely have an error after this relating to a `TAG` constant. To resolve this error, add the following line to the beginning of the `MainActivity` class: 
 
