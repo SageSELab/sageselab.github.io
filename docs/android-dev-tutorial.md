@@ -264,7 +264,7 @@ Enter some text and when you click the add button, the Android Studio log (“lo
 
 ---
 
-### Step 2: Storing and Retrieving Data
+### Step 3: Storing and Retrieving Data
 
 Android ships with an embedded `SQLite` database. The database needs a table before it can store any tasks, which we will call the “TaskTable”. Create a new `db` package in the same location as MainActivity.java by click on the package path (e.g., `edu.gmu.<your-app.`, select "New Package" and then call it `db`. Then create a new class called `TaskContract` with the file name TaskContract.java by right click on the db folder and selecting "New Java Class".
 
@@ -509,7 +509,7 @@ public void onClick(DialogInterface dialog, int which) {
 
 ---
 
-### Step 3: Deleting Tasks
+### Step 4: Deleting Tasks
 
 After finishing a task, it should be deleted from the list.
 
