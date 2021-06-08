@@ -289,6 +289,8 @@ public class TaskContract {
 The `TaskContract` class defines constants which used to access the data in the database. You also need a helper class called `TaskDbHelper` to open the database. Create this class in the `db` package (following the same method as above) and add the following code:
 
 ``` java linenums="1"
+   public class TaskDbHelper extends SQLiteOpenHelper {
+   
    public TaskDbHelper(Context context) {
         super(context, TaskContract.DB_NAME, null, TaskContract.DB_VERSION);
     }
