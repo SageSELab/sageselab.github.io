@@ -165,7 +165,7 @@ You will add two elements to this file, a `TextView` to show the task, and a “
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-The app needs a menu item to allow user to add more tasks. Add a `main_menu.xml` file in the `/res/menu` directory, following the same procedure as above. The only difference is you will right click the `res/menu` directory to add the Layout resource. Once you have created the `main_menu.xml` layout, double click it to open it, switch to the Code view by clicking the button in the top right, and replace your code with the following:
+The app needs a menu item to allow user to add more tasks. Add a `main_menu.xml` file in the `/res/menu` directory, following the same procedure as above. The only difference is you will first create a `menu` directory under the `res` directory and right click the `res/menu` directory to add the Layout resource. Once you have created the `main_menu.xml` layout, double click it to open it, switch to the Code view by clicking the button in the top right, and replace your code with the following:
 
 ``` xml linenums="1"
 <?xml version="1.0" encoding="utf-8"?>
