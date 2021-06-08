@@ -534,6 +534,10 @@ When the button is clicked, it calls this method `deleteTask()` in the MainActiv
 
 Now, clicking the `Done` button will delete the task from the list and the SQLite database!
 
+Now run your app to test it out! You should see functionality similar to that indicated below:
+
+![Splash screen navigating to AVD Manager](../images/android-tutorial/app-final.png)
+
 ### Congratulations!
 
 Congrats on Building your first Android app. This app demonstrates some important features of Android, such as how to set up a UI View, how to connect different components together, and how to store data from an application.
