@@ -207,3 +207,29 @@ hide:
 
 ## Undergraduate Students
 
+<div class="responsive-grid">
+	<div class="card">
+		<div class="logo">
+			<img src="../images/kristen.png" alt="Headshot of Dr. Kevin Moran.">
+       </div>
+<div class="card-content">
+       	<h3>Kristen Goebel</h3>
+       	<ul>
+  				<li><b>Undergraduate Student at Clarkson University</b></li>
+  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://linkedin.com/in/kgoeb">LinkedIn/</a></li>
+			</ul>
+</div>
+</div>
+	<div class="card">
+		<div class="logo">
+			<img src="../images/jas.png" alt="Headshot of Dr. Kevin Moran.">
+       </div>
+<div class="card-content">
+       	<h3>Jasmine Obas</h3>
+       	<ul>
+       		<li><b>Undergraduate Student at George Mason University</b></li>
+  				  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/jasmine-obas-burdette/">LinkedIn</a></li>
+			</ul>
+</div>
+</div>
+</div>
