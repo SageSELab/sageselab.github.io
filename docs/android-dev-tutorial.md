@@ -1,5 +1,7 @@
 ---
 title: Android Development Tutorial
+hide:
+  - navigation   
 ---
 
 ## Tutorial Materials
