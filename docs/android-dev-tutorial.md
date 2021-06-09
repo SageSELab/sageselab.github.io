@@ -2,6 +2,12 @@
 title: Android Development Tutorial
 ---
 
+<style>
+@font-face {
+  font-family: "Roboto";
+}
+</style>
+
 ## Getting Started
 
 Please follow these instructions before the tutorial begins to install [Android Studio](https://developer.android.com/studio) (the integrated development environment, or IDE, for building Android Apps) and configure an Android emulator (a virtual device that will allow you to run and test your prototype application).
