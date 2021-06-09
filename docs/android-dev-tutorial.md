@@ -2,28 +2,17 @@
 title: Android Development Tutorial
 ---
 
-<head>
-<link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-
-<style>
-@font-face {
-  font-family: 'Roboto', sans-serif;
-}
-</style>
-
 ## Getting Started
 
 Please follow these instructions before the tutorial begins to install [Android Studio](https://developer.android.com/studio) (the integrated development environment, or IDE, for building Android Apps) and configure an Android emulator (a virtual device that will allow you to run and test your prototype application).
 
-### Installing Android Studio
+### <u>Installing Android Studio</u>
 
 Please visit [https://developer.android.com/studio](https://developer.android.com/studio) in order to download the version of Android studio for the operating system that you use. All major operating systems, including macOS, Windows, and most flavors of Linux are supported.
 
 Follow the instructions for your specific operating system to finish the installation. You can find a detailed guide for specific operating systems [here](https://developer.android.com/studio/install).
 
-### Configuring Your Android Emulator
+### <u>Configuring Your Android Emulator</u>
 
 Once you have installed Android studio, either navigate to the launch screen view or the code editor view in order to launch the **AVD Manager**. See the screenshots below to see the steps involved in doing this.
 
@@ -66,7 +55,7 @@ Today, you will be developing a To-Do List application for Android using the Jav
     This tutorial is adapted and updated from Aldo Ziflaj's awesome tutorial, which you can find [here](https://www.sitepoint.com/starting-android-development-creating-todo-app/) (but the code and structure is a bit outdated).
     
 
-### Step 1: Create a New Android Studio Project
+### <u>Step 1: Create a New Android Studio Project</u>
 
 ![Splash screen navigating to AVD Manager](../images/android-tutorial/launch2.png)
 
@@ -86,7 +75,7 @@ Next, let's make sure your app can run! Once Android Studio finishes automatical
 
 ![Splash screen navigating to AVD Manager](../images/android-tutorial/running-app.png)
 
-### Step 2: Setting up the UI
+### <u>Step 2: Setting up the UI</u>
 
 In the `MainActivity.java` class, you should see something like the code below:
 
@@ -275,7 +264,7 @@ Enter some text and when you click the add button, the Android Studio log (“lo
 
 ---
 
-### Step 3: Storing and Retrieving Data
+### <u>Step 3: Storing and Retrieving Data</u>
 
 Android ships with an embedded `SQLite` database. The database needs a table before it can store any tasks, which we will call the “TaskTable”. Create a new `db` package in the same location as MainActivity.java by click on the package path (e.g., `edu.gmu.<your-app.`, select "New Package" and then call it `db`. Then create a new class called `TaskContract` with the file name TaskContract.java by right click on the db folder and selecting "New Java Class".
 
@@ -520,7 +509,7 @@ public void onClick(DialogInterface dialog, int which) {
 
 ---
 
-### Step 4: Deleting Tasks
+### <u>Step 4: Deleting Tasks</u>
 
 After finishing a task, it should be deleted from the list.
 
@@ -561,7 +550,7 @@ Now run your app to test it out! You should see functionality similar to that in
 
 ---
 
-### Final Step: Congratulations!
+### <u>Final Step: Congratulations!</u>
 
 Congrats on Building your first Android app. This app demonstrates some important features of Android, such as how to set up a UI View, how to connect different components together, and how to store data from an application.
 
@@ -569,18 +558,18 @@ If you made this far and you want to explore more, check out the Bonus Tasks you
 
 ---
 
-### Bonus Task 1: Change the Look and Feel of the UI
+### <u>Bonus Task 1: Change the Look and Feel of the UI</u>
 
 For this bonus task, you should use the `LayoutInspector` to change the look and feel of the UI. For example, try to set the theme to GMU colors, and explore different fonts or layout configurations for the tasks!
 
 ---
 
-### Bonus Task 2: Add Due Dates
+### <u>Bonus Task 2: Add Due Dates</u>
 
 For this Bonus Task, we are challenging you to add due dates to the ToDo list app. This will require modifying the `AlertDialog` the `database` and the `item_todo` layout resource file. Check out the following [resource](https://www.tutlane.com/tutorial/android/android-datepicker-with-examples) on how to use the `DatePicker` component.  
 
 ---
 
-### Bonus Task 3: Allow Tasks with Images
+### <u>Bonus Task 3: Allow Tasks with Images</u>
 
 For this Bonus Task, you should modify the Tasks so that the user can add an image to them, in case they need to reference it later. For this task, check out this [SO post](https://stackoverflow.com/questions/38352148/get-image-from-the-gallery-and-show-in-imageview) that provides some direction on how to get started with this.
