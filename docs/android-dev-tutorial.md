@@ -2,6 +2,29 @@
 title: Android Development Tutorial
 ---
 
+## Tutorial Materials
+
+### <u>Tutorial Video</u>
+
+<div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+   <img src="../images/android-tutorial/android-dev-thumbnail.png" style="cursor:pointer" />
+</div>
+<div style="display:none">
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/sjIcw1LYwT8' frameborder='0' allowfullscreen></iframe></div>
+</div>
+
+
+
+### Tutorial Slides
+
+Click on the button below to download the tutorial slides.
+
+
+<div style="text-align: center;">
+<a href="../pdfs/Android-Development-Tutorial.pdf" title="Click here to Download Tutorial Slides" class="md-button md-button--primary">Click Here to Download Tutorial Slides</a>
+</div>
+
+
 ## Getting Started
 
 Please follow these instructions before the tutorial begins to install [Android Studio](https://developer.android.com/studio) (the integrated development environment, or IDE, for building Android Apps) and configure an Android emulator (a virtual device that will allow you to run and test your prototype application).
