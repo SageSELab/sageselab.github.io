@@ -233,3 +233,34 @@ hide:
 </div>
 </div>
 </div>
+
+## High School Students
+
+<div class="responsive-grid">
+	<div class="card">
+		<div class="logo">
+			<img src="../images/dami.png" alt="Headshot of Dami">
+       </div>
+<div class="card-content">
+       	<h3>Damilola Awofisayo</h3>
+       	<ul>
+  				<li><b>High School Student at Thomas Jefferson High School for Science and Technology</b></li>
+  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://damilolaawofisayo.me">Webpage</a></li>
+			</ul>
+</div>
+
+</div>
+	<div class="card">
+		<div class="logo">
+			<img src="../images/anish.png" alt="Headshot of Anish.">
+       </div>
+<div class="card-content">
+       	<h3>Anish Pothireddy</h3>
+       	<ul>
+       		<li><b>Osbourn Park High School, Incoming Student at the University of Pennsylvania - Wharton School</b></li>
+  				  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/anish-c-pothireddy/">LinkedIn</a></li>
+			</ul>
+</div>
+</div>
+</div>
+
