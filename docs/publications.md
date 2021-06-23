@@ -16,11 +16,6 @@ hide:
     === "Abstract"
 
         Automated source code summarization is a popular software engineering research topic wherein machine translation models are em- ployed to “translate” code snippets into relevant natural language descriptions. Most evaluations of such models are conducted us- ing automatic reference-based metrics. How- ever, given the relatively large semantic gap between programming languages and natural language, we argue that this line of research would benefit from a qualitative investigation into the various error modes of current state- of-the-art models. Therefore, in this work, we perform both a quantitative and qualitative comparison of three recently proposed source code summarization models. In our quantitative evaluation, we compare the models based on the smoothed BLEU-4, METEOR, and ROUGE-L machine translation metrics, and in our qualitative evaluation, we perform a manual open-coding of the most common errors committed by the models when com- pared to ground truth captions. Our investigation reveals new insights into the relationship between metric-based performance and model prediction errors grounded in an empirically derived error taxonomy that can be used to drive future research efforts.
- 
-    === "Video"
-
-        Video Presentation <iframe src='https://www.youtube.com/embed/sjIcw1LYwT8' frameborder='0' allowfullscreen></iframe>
-
 
 
 !!! abstract "AndroR2: A Dataset of Manually-Reproduced Bug Reports for Android Apps"
@@ -47,7 +42,12 @@ hide:
     === "Abstract"
 
         When a bug manifests in a user-facing application, it is likely to be exposed through the graphical user interface (GUI). Given the importance of visual information to the process of identifying and understanding such bugs, users are increasingly making use of screenshots and screen-recordings as a means to report issues to developers. However, when such information is reported en masse, such as during crowd-sourced testing, managing these artifacts can be a time-consuming process. As the reporting of screen-recordings in particular becomes more popular, developers are likely to face challenges related to manually identifying videos that depict duplicate bugs. Due to their graphical nature, screen-recordings present challenges for automated analysis that preclude the use of current duplicate bug report detection techniques. To overcome these challenges and aid developers in this task, this paper presents Tango, a duplicate detection technique that operates purely on video-based bug reports by leveraging both visual and textual information. Tango combines tailored computer vision techniques, optical character recognition, and text retrieval. We evaluated multiple configurations of Tango in a comprehensive empirical evaluation on 4,860 duplicate detection tasks that involved a total of 180 screen-recordings from six Android apps. Additionally, we conducted a user study investigating the effort required for developers to manually detect duplicate video-based bug reports and compared this to the effort required to use Tango. The results reveal that Tango's optimal configuration is highly effective at detecting duplicate video-based bug reports, accurately ranking target duplicate videos in the top-2 returned results in 83% of the tasks. Additionally, our user study shows that, on average, Tango can reduce developer effort by over 60%, illustrating its practicality.
-        
+
+    === "Video"
+
+        Video Presentation:
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mjf6P_D9Q1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 !!! example "V2S: A Tool for Translating Video Recordings of Mobile App Usages into Replayable Scenarios"
 
