@@ -257,7 +257,7 @@ hide:
 <div class="card-content">
        	<h3>Anish Pothireddy</h3>
        	<ul>
-       		<li><b>Osbourn Park High School, Incoming Student at the University of Pennsylvania - Wharton School</b></li>
+       		<li><b>Graduate of Osbourn Park High School, Incoming Student at the University of Pennsylvania - Wharton School</b></li>
   				  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/anish-c-pothireddy/">LinkedIn</a></li>
 			</ul>
 </div>
