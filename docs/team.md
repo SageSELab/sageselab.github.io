@@ -216,7 +216,7 @@ hide:
        	<h3>Kristen Goebel</h3>
        	<ul>
   				<li><b>Undergraduate Student at Clarkson University</b></li>
-  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://linkedin.com/in/kgoeb">LinkedIn/</a></li>
+  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://linkedin.com/in/kgoeb">LinkedIn</a></li>
 			</ul>
 </div>
 </div>
