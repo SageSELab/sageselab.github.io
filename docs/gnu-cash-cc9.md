@@ -1,3 +1,10 @@
+<style>
+  .md-tabs {
+  display: none;
+  visibility: hidden;
+  }
+</style>
+
 ## GNUCash CC9
 
 please use the emulator below to reproduce the bug.
