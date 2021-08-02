@@ -1,4 +1,5 @@
 ---
+password: android
 hide:
   - navigation 
   - toc        
