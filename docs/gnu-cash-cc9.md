@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation 
+  - toc        
+---
+
 <style>
   .md-tabs {
   display: none;

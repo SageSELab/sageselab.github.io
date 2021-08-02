@@ -1,3 +1,16 @@
+---
+hide:
+  - navigation 
+  - toc        
+---
+
+<style>
+  .md-tabs {
+  display: none;
+  visibility: hidden;
+  }
+</style>
+
 ## Time Tracker CC1
 
 please use the emulator below to reproduce the bug.
