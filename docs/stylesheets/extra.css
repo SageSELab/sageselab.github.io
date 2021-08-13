@@ -25,6 +25,15 @@
   background-color: #01693F;
 }
 
+.md-search-result__meta{
+   color:  hsla(134.3, 0%, 99.5%, 0.61) !important;
+   background-color: hsla(240.62, 0%, 100%, 0) !important;
+}
+
+.card{
+background-color:  var(--md-admonition-bg-color)!important;
+}
+
 .md-tabs{
   background-color: #01693F;
 }

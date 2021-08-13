@@ -3,6 +3,21 @@ hide:
   - navigation   
 ---
 
+## 2022
+
+!!! tip "Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Amit Seal Ami, Nathan Cooper, Kaushal Kafle, Kevin Moran, Denys Poshyvanyk, and Adwait Nadkarni
+	     * :material-map-marker: *Proceedings of the IEEE Symposium on Security and Privacy [(Oakland)](https://www.ieee-security.org/TC/SP2022/), May  22nd-26th, 2022, to appear, 18 pages*
+	     *  [:material-pdf-box: pdf](https://arxiv.org/abs/2107.07065) | [:material-database: data](https://github.com/Secure-Platforms-Lab-W-M/MASC-Artifact)
+
+    === "Abstract"
+
+        Automated source code summarization is a popular software engineering research topic wherein machine translation models are em- ployed to “translate” code snippets into relevant natural language descriptions. Most evaluations of such models are conducted us- ing automatic reference-based metrics. How- ever, given the relatively large semantic gap between programming languages and natural language, we argue that this line of research would benefit from a qualitative investigation into the various error modes of current state- of-the-art models. Therefore, in this work, we perform both a quantitative and qualitative comparison of three recently proposed source code summarization models. In our quantitative evaluation, we compare the models based on the smoothed BLEU-4, METEOR, and ROUGE-L machine translation metrics, and in our qualitative evaluation, we perform a manual open-coding of the most common errors committed by the models when com- pared to ground truth captions. Our investigation reveals new insights into the relationship between metric-based performance and model prediction errors grounded in an empirically derived error taxonomy that can be used to drive future research efforts.
+
+
 ## 2021
 
 !!! tip "Code to Comment Translation: A Comparative Study on Model Effectiveness & Errors"
@@ -16,6 +31,11 @@ hide:
     === "Abstract"
 
         Automated source code summarization is a popular software engineering research topic wherein machine translation models are em- ployed to “translate” code snippets into relevant natural language descriptions. Most evaluations of such models are conducted us- ing automatic reference-based metrics. How- ever, given the relatively large semantic gap between programming languages and natural language, we argue that this line of research would benefit from a qualitative investigation into the various error modes of current state- of-the-art models. Therefore, in this work, we perform both a quantitative and qualitative comparison of three recently proposed source code summarization models. In our quantitative evaluation, we compare the models based on the smoothed BLEU-4, METEOR, and ROUGE-L machine translation metrics, and in our qualitative evaluation, we perform a manual open-coding of the most common errors committed by the models when com- pared to ground truth captions. Our investigation reveals new insights into the relationship between metric-based performance and model prediction errors grounded in an empirically derived error taxonomy that can be used to drive future research efforts.
+
+    === "Video"
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mjf6P_D9Q1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 !!! abstract "AndroR2: A Dataset of Manually-Reproduced Bug Reports for Android Apps"

@@ -205,6 +205,24 @@ hide:
 </div>
 </div>
 
+<div class="responsive-grid">
+	<div class="card">
+		<div class="logo">
+			<img src="../images/safwat.png" alt="Headshot of Safwat.">
+       </div>
+<div class="card-content">
+       	<h3>Safwat Ali Kahn</h3>
+       	<ul>
+  				<li><b>2nd Year Ph.D. Student in Computer Science</b></li>
+  				<li><b>Research Interests:</b> Automated UI Analysis, Automated UI testing, Mobile Applications, Smart Home Testing</li>
+  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/safwat-ali-khan">LinkedIn</a></li>
+  				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/safwatknopfler">safwatknopfler</a></li>
+			</ul>
+</div>
+</div>
+</div>
+
+
 ## Undergraduate Students
 
 <div class="responsive-grid">
