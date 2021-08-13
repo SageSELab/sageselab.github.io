@@ -26,7 +26,7 @@
 }
 
 .md-search-result__meta{
-   color:  hsla(134.3, 0%, 99.5%, 0.61) !important;
+   color:  hsla(134.3, 0%, 51%, 0.61) !important;
    background-color: hsla(240.62, 0%, 100%, 0) !important;
 }
 
@@ -36,6 +36,10 @@ background-color:  var(--md-admonition-bg-color)!important;
 
 .md-tabs{
   background-color: #01693F;
+}
+
+th {
+  background-color: var(--md-default-fg-color--light)!important;
 }
 
 p {
