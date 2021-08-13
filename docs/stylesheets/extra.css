@@ -39,6 +39,7 @@ background-color:  var(--md-admonition-bg-color)!important;
 }
 
 th {
+  color:  var(--md-default-bg-color)!important;
   background-color: var(--md-default-fg-color--light)!important;
 }
 
