@@ -38,6 +38,11 @@ background-color:  var(--md-admonition-bg-color)!important;
   background-color: #01693F;
 }
 
+.twitter-timeline{
+  color:  var(--md-default-bg-color)!important;
+  background-color: var(--md-admonition-fg-color)!important;
+}
+
 .timelineWidget{
   color:  var(--md-default-bg-color)!important;
   background-color: var(--md-admonition-fg-color)!important;
