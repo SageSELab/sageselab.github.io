@@ -17,7 +17,9 @@ hide:
 </style>
 
 
-## Mileage 3.1.1
+## Mileage-35
+##### App Name: Mileage
+##### App Version: 3.1.1
 
 
 
