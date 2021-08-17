@@ -11,9 +11,10 @@ hide:
   }
 </style>
 
-## Android Token 
-### Version: 2.10 
-### Bug ID: TOK-CC7
+## Bug ID: TOK-CC7
+### App Name: Android Token 
+### App Version: 2.10 
+
 
 Please use the emulator below to reproduce the bug.
 
