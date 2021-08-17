@@ -9,9 +9,17 @@ hide:
   display: none;
   visibility: hidden;
   }
+  
+  h1 {
+    display: none;
+    visibility: hidden;
+  }
 </style>
 
-## Time Tracker 0.20 CC1
+## Bug ID: TIME-CC1
+##### App Name: Time-Tracker 
+##### App Version: 0.20
+
 
 please use the emulator below to reproduce the bug.
 

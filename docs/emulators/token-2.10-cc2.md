@@ -9,9 +9,17 @@ hide:
   display: none;
   visibility: hidden;
   }
+  
+  h1 {
+    display: none;
+    visibility: hidden;
+  }
 </style>
 
-## Android Token 2.10 CC2
+## Bug ID: TOK-CC2
+##### App Name: Android Token 
+##### App Version: 2.10 
+
 
 Please use the emulator below to reproduce the bug.
 

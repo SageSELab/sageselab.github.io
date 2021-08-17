@@ -9,9 +9,17 @@ hide:
   display: none;
   visibility: hidden;
   }
+  
+  h1 {
+    display: none;
+    visibility: hidden;
+  }
 </style>
 
+
 ## Mileage 3.1.1
+
+
 
 Please use the emulator below to reproduce the bug.
 

@@ -9,9 +9,16 @@ hide:
   display: none;
   visibility: hidden;
   }
+  
+  h1 {
+    display: none;
+    visibility: hidden;
+  }
 </style>
 
-## Droidweight 1.5.4 CC6
+## Bug ID: Droid-CC6
+##### App Name: Droidweight 
+##### App Version: 1.5.4
 
 Please use the emulator below to reproduce the bug.
 

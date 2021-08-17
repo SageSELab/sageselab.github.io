@@ -9,9 +9,17 @@ hide:
   display: none;
   visibility: hidden;
   }
+  
+  h1 {
+    display: none;
+    visibility: hidden;
+  }
 </style>
 
-## GNUCash 2.1.3 CC9
+## Bug ID: GNU-CC9
+##### App Name: GNU Cash 
+##### App Version: 2.1.3
+
 
 Please use the emulator below to reproduce the bug.
 

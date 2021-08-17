@@ -9,9 +9,16 @@ hide:
   display: none;
   visibility: hidden;
   }
+  
+  h1 {
+    display: none;
+    visibility: hidden;
+  }
 </style>
 
-## AntennaPod 1.6.2.3 CC3
+## Bug ID: APOD-CC3
+##### App Name: AntennaPod
+##### App Version: 1.6.2.3
 
 please use the emulator below to reproduce the bug.
 

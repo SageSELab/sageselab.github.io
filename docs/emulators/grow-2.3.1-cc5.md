@@ -9,9 +9,17 @@ hide:
   display: none;
   visibility: hidden;
   }
+  
+  h1 {
+    display: none;
+    visibility: hidden;
+  }
 </style>
 
-## Grow 2.1.3 CC5
+
+## Bug ID: Grow-CC5
+##### App Name: Grow
+##### App Version: 2.3.1
 
 Please use the emulator below to reproduce the bug.
 
