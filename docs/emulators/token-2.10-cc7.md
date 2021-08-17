@@ -11,7 +11,9 @@ hide:
   }
 </style>
 
-## Android Token 2.10 CC7
+## Android Token 
+### Version: 2.10 
+### Bug ID: TOK-CC7
 
 Please use the emulator below to reproduce the bug.
 
