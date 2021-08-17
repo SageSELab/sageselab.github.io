@@ -9,6 +9,11 @@ hide:
   display: none;
   visibility: hidden;
   }
+  
+  h1 {
+    display: none;
+    visibility: hidden;
+  }
 </style>
 
 ## Bug ID: TOK-CC7
