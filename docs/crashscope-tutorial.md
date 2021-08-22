@@ -26,7 +26,7 @@ For additional technical information, you can download the CrashScope Tool Demo 
 <a href="https://arxiv.org/abs/1706.01130" title="Click here to Download CrashScope Research Paper" class="md-button md-button--primary">Click Here to Download CrashScope Research Paper</a>
 </div>
 
-<hr>
+<br>
 
 <div style="text-align: center;">
 <a href="http://arxiv.org/abs/1801.06428" title="Click here to Download CrashScope Tool Demo Paper" class="md-button md-button--primary">Click Here to Download CrashScope Tool Demo Paper</a>
