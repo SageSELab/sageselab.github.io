@@ -127,7 +127,7 @@ Next, you will need to import the project into Eclipse. To do this, click on the
 
 This should import CrashScope into Eclipse where you can start to use/run it. 
 
-### <u>Step 2: Configuring CrashScope</u>
+### <u>Step 3: Configuring CrashScope</u>
 
 In the `CrashScope.java` class (located in the `edu.semeru.android.testing` package), you should see something like the code below in the `main` method:
 
@@ -178,7 +178,7 @@ Additionally, in the same class, in the `runCrashScopeLocal` method you will see
 
 You will also need to do is replace these paths with the corresponding paths on your own personal computer according to the provided documentation.
 
-### <u>Step 2: Running CrashScope</u>
+### <u>Step 4: Running CrashScope</u>
 
 Now that you have configured all the relevant paths, it is time to run CrashScope on the Mileage app!
 
