@@ -17,7 +17,7 @@ I will make the tutorial slides available after the presentation. Check back lat
 
 
 <div style="text-align: center;">
-<a href="" title="Click here to Download Tutorial Slides" class="md-button md-button--primary">Click Here to Download Tutorial Slides</a>
+<a href="../pdfs/A-Test'21-Hands-On-Session.pdf" title="Click here to Download Tutorial Slides" class="md-button md-button--primary">Click Here to Download Tutorial Slides</a>
 </div>
 
 For additional technical information, you can download the CrashScope Tool Demo and Research Papers below:
