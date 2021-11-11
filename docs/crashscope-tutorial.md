@@ -13,8 +13,6 @@ Coming Soon!!
 
 ### <u>Tutorial Slides</u>
 
-I will make the tutorial slides available after the presentation. Check back later to download.
-
 
 <div style="text-align: center;">
 <a href="../pdfs/A-Test'21-Hands-On-Session.pdf" title="Click here to Download Tutorial Slides" class="md-button md-button--primary">Click Here to Download Tutorial Slides</a>
