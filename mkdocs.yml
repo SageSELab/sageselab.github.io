@@ -73,6 +73,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
   - toc:
       toc_depth: 3
   - attr_list
