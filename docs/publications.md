@@ -12,7 +12,7 @@ abstract = dataset
 
 ## 2022
 
-??? tip "An Empirical Investigation into the Use of Image Captioning for Automated Software Documentation"
+???+ tip "An Empirical Investigation into the Use of Image Captioning for Automated Software Documentation"
 
     === "Paper Info"
 
@@ -25,7 +25,7 @@ abstract = dataset
         Existing automated techniques for software documentation typically attempt to reason between two main sources of information: code and natural language. However, this reason- ing process is often complicated by the lexical gap between more abstract natural language and more structured programming languages. One potential bridge for this gap is the Graphical User Interface (GUI), as GUIs inherently encode salient information about underlying program functionality into rich, pixel-based data representations. This paper offers one of the first comprehensive empirical investigations into the connection between GUIs and functional, natural language descriptions of software. First, we collect, analyze, and open source a large dataset of functional GUI descriptions consisting of 45,998 descriptions for 10,204 screenshots from popular Android applications. The descriptions were obtained from human labelers and underwent several quality control mechanisms. To gain insight into the representational potential of GUIs, we investigate the ability of four Neural Image Captioning models to predict natural language descriptions of varying granularity when provided a screenshot as input. We evaluate these models quantitatively, using common machine translation metrics, and qualitatively through a large- scale user study. Finally, we offer learned lessons and a discussion of the potential shown by multimodal models to enhance future techniques for automated software documentation.
 
 
-??? tip "An Empirical Investigation into the Reproduction of Bug Reports for Android Apps"
+???+ tip "An Empirical Investigation into the Reproduction of Bug Reports for Android Apps"
 
     === "Paper Info"
 
@@ -38,7 +38,7 @@ abstract = dataset
         One of the key tasks related to ensuring mobile app quality is the reporting, management, and resolution of bug reports. As such, researchers have committed considerable resources toward automating various tasks of the bug management process for mobile apps, such as reproduction and triaging. However, the success of these automated approaches is largely dictated by the characteristics and properties of the bug reports they operate upon. As such, understanding mobile app bug reports is imperative to drive the continued advancement of report management techniques. While prior studies have examined high-level statistics of large sets of reports, we currently lack an in-depth investigation of how the information typically reported in mobile app issue trackers relates to the specific details generally required to reproduce the underlying bugs. In this paper, we perform an in-depth analysis of 180 reproducible bug reports systematically mined from Android apps on GitHub and investigate how the information contained in the reports relates to the task of reproducing the described bugs. In our analysis, we focus on three pieces of information: the environment needed to reproduce the bug report, the steps to reproduce (S2Rs), and the observed behavior. Focusing on this information, we characterize failure types, identify the modality used to report the information, and characterize the information quality within the reports. We find that bugs are reported in a multi-modal fashion, the environment is not always provided, and S2Rs often contain missing or non-specific information. These findings carry with them important implications on automated bug reproduction techniques as well as automated bug report management approaches more generally.
 
 
-??? note "A Systematic Literature Review on the Use of Deep Learning in Software Engineering Research"
+???+ note "A Systematic Literature Review on the Use of Deep Learning in Software Engineering Research"
 
     === "Paper Info"
 
@@ -52,7 +52,7 @@ abstract = dataset
         
 
 
-??? tip "Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques"
+???+ tip "Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques"
 
     === "Paper Info"
 
@@ -67,7 +67,7 @@ abstract = dataset
 
 ## 2021
 
-??? tip "Code to Comment Translation: A Comparative Study on Model Effectiveness & Errors"
+???+ tip "Code to Comment Translation: A Comparative Study on Model Effectiveness & Errors"
 
     === "Paper Info"
 
@@ -84,7 +84,7 @@ abstract = dataset
         <iframe width="560" height="315" src="https://www.youtube.com/embed/62fTyk2xokc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-??? abstract "AndroR2: A Dataset of Manually-Reproduced Bug Reports for Android Apps"
+???+ abstract "AndroR2: A Dataset of Manually-Reproduced Bug Reports for Android Apps"
 
     === "Paper Info"
 
@@ -97,7 +97,7 @@ abstract = dataset
         Software maintenance constitutes a large portion of the software development lifecycle. To carry out maintenance tasks, developers often need to understand and reproduce bug reports. As such, there has been increasing research activity coalescing around the notion of automating various activities related to bug reporting. A sizable portion of this research interest has focused on the domain of mobile apps. However, as research around mobile app bug reporting progresses, there is a clear need for a large, manually vetted, and reproducible set of real-world bug reports that can serve as a benchmark for future work. This paper presents AndroR2: a dataset of 90 manually reproduced bug reports for Android apps listed on Google Play and hosted on GitHub, systematically collected via an in-depth analysis of 459 reports extracted from the GitHub issue tracker. For each reproduced report, AndroR2 includes an apk file for the buggy version of the app, detailed reproduction steps, an executable reproduction script, and annotations on the quality of the reproduction steps associated with the original report. We believe that the AndroR2 dataset can be used to facilitate research in automatically analyzing, understanding, reproducing, localizing, and fixing bugs for mobile applications as well as other software maintenance activities more broadly in the future.
 
 
-??? tip "It Takes Two to Tango: Combining Visual and Textual Information for Detecting Duplicate Video-Based Bug Reports"
+???+ tip "It Takes Two to Tango: Combining Visual and Textual Information for Detecting Duplicate Video-Based Bug Reports"
 
     === "Paper Info"
 
@@ -114,7 +114,7 @@ abstract = dataset
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Mjf6P_D9Q1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-??? example "V2S: A Tool for Translating Video Recordings of Mobile App Usages into Replayable Scenarios"
+???+ example "V2S: A Tool for Translating Video Recordings of Mobile App Usages into Replayable Scenarios"
 
     === "Paper Info"
 
@@ -127,7 +127,7 @@ abstract = dataset
         Screen recordings are becoming increasingly important as rich software artifacts that inform mobile application development processes. However, the amount of manual effort required to extract information from these graphical artifacts can hinder resource-constrained mobile developers. This paper presents Video2Scenario (V2S), an automated tool that processes video recordings of Android app usages, utilizes neural object detection and image classification techniques to classify the depicted user actions, and translates these actions into a replayable scenario. We conducted a comprehensive evaluation to demonstrate V2S's ability to reproduce recorded scenarios across a range of devices and a diverse set of usage cases and applications. The results indicate that, based on its performance with 175 videos depicting 3,534 GUI-based actions, V2S is accurate in reproducing ≈89% of actions from collected videos.
         
         
-??? example "Mutation-based Evaluation of Security-focused Static Analysis Tools for Android"
+???+ example "Mutation-based Evaluation of Security-focused Static Analysis Tools for Android"
 
     === "Paper Info"
 
@@ -140,7 +140,7 @@ abstract = dataset
         This demo paper presents the technical details and usage scenarios of μSE: a mutation-based tool for evaluating security-focused static analysis tools for Android. Mutation testing is generally used by software practitioners to assess the robustness of a given test-suite. However, we leverage this technique to systematically evaluate static analysis tools and uncover and document soundness issues. μSE's analysis has found 25 previously undocumented flaws in static data leak detection tools for Android. μSE offers four mutation schemes, namely Reachability, Complex-reachability, TaintSink, and ScopeSink, which determine the locations of seeded mutants. Furthermore, the user can extend μSE by customizing the API calls targeted by the mutation analysis. μSE is also practical, as it makes use of filtering techniques based on compilation and execution criteria that reduces the number of ineffective mutations.
  
 
-??? note "Systematic Mutation-based Evaluation of the Soundness of Security-focused Android Static Analysis Techniques"
+???+ note "Systematic Mutation-based Evaluation of the Soundness of Security-focused Android Static Analysis Techniques"
 
     === "Paper Info"
 
@@ -153,7 +153,7 @@ abstract = dataset
         Mobile application security has been a major area of focus for security research over the course of the last decade. Numerous application analysis tools have been proposed in response to malicious, curious, or vulnerable apps. However, existing tools, and specifically, static analysis tools, trade soundness of the analysis for precision and performance and are hence soundy. Unfortunately, the specific unsound choices or flaws in the design of these tools is often not known or well-documented, leading to misplaced confidence among researchers, developers, and users. This paper describes the Mutation-based Soundness Evaluation (μSE) framework, which systematically evaluates Android static analysis tools to discover, document, and fix flaws, by leveraging the well-founded practice of mutation analysis. We implemented μSE and applied it to a set of prominent Android static analysis tools that detect private data leaks in apps. In a study conducted previously, we used μSE to discover 13 previously undocumented flaws in FlowDroid, one of the most prominent data leak detectors for Android apps. Moreover, we discovered that flaws also propagated to other tools that build upon the design or implementation of FlowDroid or its components. This paper substantially extends our μSE framework and offers an new in-depth analysis of two more major tools in our 2020 study, we find 12 new, undocumented flaws and demonstrate that all 25 flaws are found in more than one tool, regardless of any inheritance-relation among the tools. Our results motivate the need for systematic discovery and documentation of unsound choices in soundy tools and demonstrate the opportunities in leveraging mutation testing in achieving this goal.
         
         
-??? note "Security in Centralized Data Store-based Home Automation Platforms: A Systematic Analysis of Nest and Hue"
+???+ note "Security in Centralized Data Store-based Home Automation Platforms: A Systematic Analysis of Nest and Hue"
 
     === "Paper Info"
 
