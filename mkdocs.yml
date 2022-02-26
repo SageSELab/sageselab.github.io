@@ -19,9 +19,9 @@ theme:
 
   icon:
     admonition:
-      success: fontawesome/solid/rss-square
-      tip: fontawesome/solid/file-alt
-      example: fontawesome/solid/tools
+      success: fontawesome/solid/square-rss
+      tip: fontawesome/solid/file-lines
+      example: fontawesome/solid/screwdriver-wrench
       note: fontawesome/solid/book
       abstract: fontawesome/solid/database
 
@@ -31,13 +31,6 @@ theme:
 
   palette:
 
-    # Toggle Light Mode
-  - media: "(prefers-color-scheme: light)"
-    scheme: gmu
-    toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode
-
     #Toggle Dark Mode
   - media: "(prefers-color-scheme: dark)"
     scheme: slate
@@ -46,6 +39,13 @@ theme:
     toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
+
+    # Toggle Light Mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: gmu
+    toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
 
 plugins:
     - search

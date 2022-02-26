@@ -3,7 +3,54 @@ hide:
   - navigation   
 ---
 
+<!---
+note = journal paper
+tip = conference paper
+example = tool demo paper 
+abstract = dataset
+-->
+
 ## 2022
+
+!!! tip "An Empirical Investigation into the Use of Image Captioning for Automated Software Documentation"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Kevin Moran, Ali Yachnes, George Purnell, <u>Junayed Mahmud</u>, Michele Tufano, Carlos Bernal-Cárdenas, Denys Poshyvanyk, and Zach H-Doubler
+	     * :material-map-marker: ***Oral Presentation*** *at the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering ([SANER’22](https://saner2022.uom.gr)), Honolulu, Hawaii, March 15-18, 2022 (24% Acceptance Rate)*
+	     *  [:material-file-pdf-box: pdf]() | [:material-database: data](http://sagelab.io/Clarity/)
+
+    === "Abstract"
+
+        Existing automated techniques for software documentation typically attempt to reason between two main sources of information: code and natural language. However, this reason- ing process is often complicated by the lexical gap between more abstract natural language and more structured programming languages. One potential bridge for this gap is the Graphical User Interface (GUI), as GUIs inherently encode salient information about underlying program functionality into rich, pixel-based data representations. This paper offers one of the first comprehensive empirical investigations into the connection between GUIs and functional, natural language descriptions of software. First, we collect, analyze, and open source a large dataset of functional GUI descriptions consisting of 45,998 descriptions for 10,204 screenshots from popular Android applications. The descriptions were obtained from human labelers and underwent several quality control mechanisms. To gain insight into the representational potential of GUIs, we investigate the ability of four Neural Image Captioning models to predict natural language descriptions of varying granularity when provided a screenshot as input. We evaluate these models quantitatively, using common machine translation metrics, and qualitatively through a large- scale user study. Finally, we offer learned lessons and a discussion of the potential shown by multimodal models to enhance future techniques for automated software documentation.
+
+
+!!! tip "An Empirical Investigation into the Reproduction of Bug Reports for Android Apps"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Jack Johnson, <u>Junayed Mahmud</u>, Tyler Wendland, Kevin Moran, Julia Rubin and Mattia Fazzini
+	     * :material-map-marker: ***Oral Presentation*** *at the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering ([SANER’22](https://saner2022.uom.gr)), Honolulu, Hawaii, March 15-18, 2022 (24% Acceptance Rate)*
+	     *  [:material-file-pdf-box: pdf]() | [:material-database: data](https://github.com/se-umn/2022_saner_bug_report_reproduction_study)
+
+    === "Abstract"
+
+        One of the key tasks related to ensuring mobile app quality is the reporting, management, and resolution of bug reports. As such, researchers have committed considerable resources toward automating various tasks of the bug management process for mobile apps, such as reproduction and triaging. However, the success of these automated approaches is largely dictated by the characteristics and properties of the bug reports they operate upon. As such, understanding mobile app bug reports is imperative to drive the continued advancement of report management techniques. While prior studies have examined high-level statistics of large sets of reports, we currently lack an in-depth investigation of how the information typically reported in mobile app issue trackers relates to the specific details generally required to reproduce the underlying bugs. In this paper, we perform an in-depth analysis of 180 reproducible bug reports systematically mined from Android apps on GitHub and investigate how the information contained in the reports relates to the task of reproducing the described bugs. In our analysis, we focus on three pieces of information: the environment needed to reproduce the bug report, the steps to reproduce (S2Rs), and the observed behavior. Focusing on this information, we characterize failure types, identify the modality used to report the information, and characterize the information quality within the reports. We find that bugs are reported in a multi-modal fashion, the environment is not always provided, and S2Rs often contain missing or non-specific information. These findings carry with them important implications on automated bug reproduction techniques as well as automated bug report management approaches more generally.
+
+
+!!! note "A Systematic Literature Review on the Use of Deep Learning in Software Engineering Research"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Cody Watson, Nathan Cooper, David N. Palacio, Kevin Moran, and Denys Poshyvanyk
+	     * :material-map-marker: *ACM Transactions on Software Engineering & Methodology [(TOSEM)](https://dl.acm.org/journal/tosem), accepted*
+	     * [:material-file-pdf-box: pdf](https://arxiv.org/abs/2009.06520) | [:material-tools: tool](https://wm-semeru.github.io/dl4se/)
+
+    === "Abstract"
+
+        An increasingly popular set of techniques adopted by software engineering (SE) researchers to automate development tasks are those rooted in the concept of Deep Learning (DL). The popularity of such techniques largely stems from their automated feature engineering capabilities, which aid in modeling software artifacts. However, due to the rapid pace at which DL techniques have been adopted, it is difficult to distill the current successes, failures, and opportunities of the current research landscape. In an effort to bring clarity to this cross- cutting area of work, from its modern inception to the present, this paper presents a systematic literature review of research at the intersection of SE & DL. The review canvases work appearing in the most prominent SE and DL conferences and journals and spans 128 papers across 23 unique SE tasks. We center our analysis around the components of learning, a set of principles that govern the application of machine learning techniques (ML) to a given problem domain, discussing several aspects of the surveyed work at a granular level. The end result of our analysis is a research roadmap that both delineates the foundations of DL techniques applied to SE research, and highlights likely areas of fertile exploration for the future.
+        
+
 
 !!! tip "Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques"
 
@@ -11,7 +58,7 @@ hide:
 
         * :material-account-supervisor-outline: Amit Seal Ami, Nathan Cooper, Kaushal Kafle, Kevin Moran, Denys Poshyvanyk, and Adwait Nadkarni
 	     * :material-map-marker: *Proceedings of the IEEE Symposium on Security and Privacy [(Oakland)](https://www.ieee-security.org/TC/SP2022/), May  22nd-26th, 2022, to appear, 18 pages*
-	     *  [:material-pdf-box: pdf](https://arxiv.org/abs/2107.07065) | [:material-database: data](https://github.com/Secure-Platforms-Lab-W-M/MASC-Artifact)
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2107.07065) | [:material-database: data](https://github.com/Secure-Platforms-Lab-W-M/MASC-Artifact)
 
     === "Abstract"
 
@@ -26,7 +73,7 @@ hide:
 
         * :material-account-supervisor-outline: <u>Junayed Mahmud</u>, Fahim Faisal, Raihan Islam Arnob, Antonios Anastasopoulos, and Kevin Moran
 	     * :material-map-marker: *Proceedings of the First Workshop on Natural Language Processing for Programming [(NLP4Prog’21)](https://nlp4prog.github.io/2021/) Co-Located with [ACL-IJCNLP’21](https://2021.aclweb.org/), Virtual (originally Bangkok, Thailand), August  6th, 2021, to appear, 9 pages*
-	     *  [:material-pdf-box: pdf](https://arxiv.org/abs/2106.08415) | [:material-database: data](https://github.com/SageSELab/CodeSumStudy)
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2106.08415) | [:material-database: data](https://github.com/SageSELab/CodeSumStudy)
 
     === "Abstract"
 
@@ -43,7 +90,7 @@ hide:
 
         * :material-account-supervisor-outline: Tyler Wendland, Jingyang Sun, <u>Junayed Mahmud</u>, <u>S.M. Hasan Mansur</u>, Steven Huang, Kevin Moran, Julia Rubin, Mattia Fazzini
 	     * :material-map-marker: *Proceedings of the 2021 International Conference on Mining Software Repositories [(MSR’21)](https://2021.msrconf.org), Data Showcase Track, Virtual (originally Madrid, Spain), May 17th - 19th, 2021, to appear, 5 pages*
-	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2106.08403) | [:material-database: data](https://github.com/SageSELab/AndroR2)
+	     * [:material-file-pdf-box: pdf](https://arxiv.org/abs/2106.08403) | [:material-database: data](https://github.com/SageSELab/AndroR2)
 
     === "Abstract"
 
@@ -56,7 +103,7 @@ hide:
 
         * :material-account-supervisor-outline: Nathan Cooper, Carlos Bernal-Cárdenas, Oscar Chaparro, Kevin Moran, and Denys Poshyvanyk
 	     * :material-map-marker: *Proceedings of the 43rd International Conference on Software Engineering [(ICSE’21)](https://conf.researchr.org/home/icse-2021), Virtual (originally Madrid, Spain), May 25th - 28th, 2021, to appear, 13 pages*
-	     *  [:material-pdf-box: pdf](https://arxiv.org/abs/2101.09194) | [:material-database: data](https://two-to-tango.github.io/tango/) | [:material-tools: tool](https://two-to-tango.github.io/tango/)
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2101.09194) | [:material-database: data](https://two-to-tango.github.io/tango/) | [:material-tools: tool](https://two-to-tango.github.io/tango/)
 
     === "Abstract"
 
@@ -73,7 +120,7 @@ hide:
 
         * :material-account-supervisor-outline: Madeleine Havranek, Carlos Bernal-Cárdenas, Nathan Cooper, Oscar Chaparro, Denys Poshyvanyk, and Kevin Moran
 	     * :material-map-marker: *Proceedings of the 43rd International Conference on Software Engineering [(ICSE’21)](https://conf.researchr.org/home/icse-2021) - Formal Tool Demonstrations Track, Virtual (originally Madrid, Spain), May 25th - 28th, 2021, to appear, 4 pages (37% Acceptance Rate)*
-	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2103.04531) | [:material-tools: tool](https://gitlab.com/SEMERU-Code-Public/Android/video2scenario/-/tree/master/python_v2s)
+	     * [:material-file-pdf-box: pdf](https://arxiv.org/abs/2103.04531) | [:material-tools: tool](https://gitlab.com/SEMERU-Code-Public/Android/video2scenario/-/tree/master/python_v2s)
 
     === "Abstract"
 
@@ -86,7 +133,7 @@ hide:
 
         * :material-account-supervisor-outline: Amit Seal Ami, Kaushal Kafle, Kevin Moran, Adwait Nadkarni, and Denys Poshyvanyk
 	     * :material-map-marker: *Proceedings of the 43rd International Conference on Software Engineering [(ICSE’21)](https://conf.researchr.org/home/icse-2021) - Formal Tool Demonstrations Track, Virtual (originally Madrid, Spain), May 25th - 28th, 2021, to appear, 4 pages (37% Acceptance Rate)*
-	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2102.06823) | [:material-tools: tool](https://secure-platforms-lab-w-m.github.io/muse/)
+	     * [:material-file-pdf-box: pdf](https://arxiv.org/abs/2102.06823) | [:material-tools: tool](https://secure-platforms-lab-w-m.github.io/muse/)
 
     === "Abstract"
 
@@ -99,7 +146,7 @@ hide:
 
         * :material-account-supervisor-outline: Amit Seal Ami, Kaushal Kafle, Kevin Moran, Adwait Nadkarni, and Denys Poshyvanyk
 	     * :material-map-marker: *ACM Transactions on Security & Privacy [(TOPS)](https://dl.acm.org/journal/tops), accepted*
-	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2102.06829) | [:material-tools: tool](https://secure-platforms-lab-w-m.github.io/muse/)
+	     * [:material-file-pdf-box: pdf](https://arxiv.org/abs/2102.06829) | [:material-tools: tool](https://secure-platforms-lab-w-m.github.io/muse/)
 
     === "Abstract"
 
@@ -112,7 +159,7 @@ hide:
 
         * :material-account-supervisor-outline: Kaushal Kafle, Kevin Moran, Sunil Manandhar, Adwait Nadkarni, and Denys Poshyvanyk
 	     * :material-map-marker: *ACM Transactions on Cyber Physical Systems [(TCPS)](https://dl.acm.org/journal/tcps), accepted*
-	     * [:material-pdf-box: pdf](https://arxiv.org/abs/2102.06829)
+	     * [:material-file-pdf-box: pdf](https://arxiv.org/abs/2102.06829)
 
     === "Abstract"
 

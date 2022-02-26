@@ -159,6 +159,8 @@ hide:
 	</tr>
 </table>
 
+-------------------
+
 ## Ph.D. Students
 
 <div class="responsive-grid">
@@ -203,8 +205,6 @@ hide:
 			</ul>
 </div>
 </div>
-</div>
-
 <div class="responsive-grid">
 	<div class="card">
 		<div class="logo">
@@ -220,24 +220,28 @@ hide:
 			</ul>
 </div>
 </div>
-</div>
-
-
-## Undergraduate Students
-
-<div class="responsive-grid">
-	<div class="card">
+<div class="card">
 		<div class="logo">
-			<img src="../images/kristen.png" alt="Headshot of Dr. Kevin Moran.">
+			<img src="../images/arun.png" alt="Headshot of Arun.">
        </div>
 <div class="card-content">
-       	<h3>Kristen Goebel</h3>
+       	<h3>Arun Krishnavajjala</h3>
        	<ul>
-  				<li><b>Undergraduate Student at Clarkson University</b></li>
-  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://linkedin.com/in/kgoeb">LinkedIn</a></li>
+  				<li><b>2nd Year Ph.D. Student in Computer Science</b></li>
+  				<li><b>Research Interests:</b> Software Engineering for Accessibility, Automated UI Analysis</li>
+  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="">Webpage</a></li>
+  				<li><span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="</a></li>
 			</ul>
 </div>
 </div>
+</div>
+
+-------------------
+
+## Undergraduate Students
+
+
+<div class="responsive-grid">
 	<div class="card">
 		<div class="logo">
 			<img src="../images/jas.png" alt="Headshot of Dr. Kevin Moran.">
@@ -252,9 +256,27 @@ hide:
 </div>
 </div>
 
-## High School Students
+<!---## High School Students--->
+
+-------------------
+## Alumni
+
+### High School Students
 
 <div class="responsive-grid">
+	<div class="card">
+		<div class="logo">
+			<img src="../images/anish.png" alt="Headshot of Anish.">
+       </div>
+<div class="card-content">
+       	<h3>Anish Pothireddy</h3>
+       	<ul>
+       		<li><b>Osbourn Park High School</b></li>
+       		<li><b>Position after SAGE Lab:</b>Undergraduate at the University of Pennsylvania - Wharton School of Buisness</li>
+  				  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/anish-c-pothireddy/">LinkedIn</a></li>
+			</ul>
+</div>
+</div>
 	<div class="card">
 		<div class="logo">
 			<img src="../images/dami.png" alt="Headshot of Dami">
@@ -263,20 +285,26 @@ hide:
        	<h3>Damilola Awofisayo</h3>
        	<ul>
   				<li><b>High School Student at Thomas Jefferson High School for Science and Technology</b></li>
+  				<li><b>Position after SAGE Lab:</b>Undergraduate Student</li>
   				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://damilolaawofisayo.me">Webpage</a></li>
 			</ul>
 </div>
-
 </div>
+</div>
+
+### Undergraduate Students
+
+<div class="responsive-grid">
 	<div class="card">
 		<div class="logo">
-			<img src="../images/anish.png" alt="Headshot of Anish.">
+			<img src="../images/kristen.png" alt="Headshot of Dr. Kevin Moran.">
        </div>
 <div class="card-content">
-       	<h3>Anish Pothireddy</h3>
+       	<h3>Kristen Goebel</h3>
        	<ul>
-       		<li><b>Graduate of Osbourn Park High School, Incoming Student at the University of Pennsylvania - Wharton School</b></li>
-  				  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/anish-c-pothireddy/">LinkedIn</a></li>
+  				<li><b>Undergraduate Student at Clarkson University</b></li>
+  				<li><b>Position after SAGE Lab:</b> Graduate Student in Computer Science at Oregon State University</li>
+  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://linkedin.com/in/kgoeb">LinkedIn</a></li>
 			</ul>
 </div>
 </div>
