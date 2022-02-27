@@ -38,14 +38,13 @@ theme:
     accent: 'light green'
     toggle:
         icon: material/toggle-switch
-        name: Switch to dark mode
-
+        name: Switch to light mode
     # Toggle Light Mode
   - media: "(prefers-color-scheme: light)"
     scheme: gmu
     toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to light mode
+        name: Switch to dark mode
 
 plugins:
     - search
