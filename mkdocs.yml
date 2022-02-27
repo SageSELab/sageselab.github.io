@@ -1,7 +1,7 @@
 site_name: SAGE Research Lab
 site_url: https://sagelab.io
 site_author: SAGE Lab Members
-copyright: '©2021 SAGE Research Lab'
+copyright: '©2022 SAGE Research Lab'
 
 nav:
   - Home: index.md
