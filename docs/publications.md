@@ -44,7 +44,7 @@ abstract = dataset
 
         * :material-account-supervisor-outline: Cody Watson, Nathan Cooper, David N. Palacio, Kevin Moran, and Denys Poshyvanyk
 	     * :material-map-marker: *ACM Transactions on Software Engineering & Methodology [(TOSEM)](https://dl.acm.org/journal/tosem), accepted*
-	     * [:material-file-pdf-box: pdf](https://arxiv.org/abs/2009.06520) | [:material-tools: tool](https://wm-semeru.github.io/dl4se/)
+	     * [:material-file-pdf-box: pdf](https://arxiv.org/abs/2009.06520) | [:material-database: tool](https://wm-semeru.github.io/dl4se/)
 
     === "Abstract"
 
@@ -64,7 +64,7 @@ abstract = dataset
 
         The correct use of cryptography is central to ensuring data security in modern software systems. Hence, several academic and commercial static analysis tools have been developed for detecting and mitigating crypto-API misuse. While developers are optimistically adopting these crypto-API misuse detectors (or crypto-detectors) in their software development cycles, this momentum must be accompanied by a rigorous understanding of their effectiveness at finding crypto-API misuse in practice. This paper presents the MASC framework, which enables a systematic and data-driven evaluation of crypto-detectors using mutation testing. We ground MASC in a comprehensive view of the problem space by developing a data-driven taxonomy of existing crypto-API misuse, containing 105 misuse cases organized among nine semantic clusters. We develop 12 generalizable usage-based mutation operators and three mutation scopes that can expressively instantiate thousands of compilable variants of the misuse cases for thoroughly evaluating crypto-detectors. Using MASC, we evaluate nine major crypto-detectors and discover 19 unique, undocumented flaws that severely impact the ability of crypto-detectors to discover misuses in practice. We conclude with a discussion on the diverse perspectives that influence the design of crypto-detectors and future directions towards building security-focused crypto-detectors by design.
 
-
+-------------------
 ## 2021
 
 ???+ tip "Code to Comment Translation: A Comparative Study on Model Effectiveness & Errors"
