@@ -34,44 +34,49 @@ hide:
 
 <div class="grid cards" markdown>
 
--   { .lg .middle } __Sabiha Salma__
+-   :fontawesome-solid-user:{ .lg .middle } __Sabiha Salma__
 
     ---
+    
 	[Sabiha Headshot](../images/sabiha.png)
     *  4th Year Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, HCI Considerations for Developer Tools, AI for Software Engineering
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">sabiha-salma.github.io/</a>
     *  <span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/itsmesabiha">itsmesabiha</a>
 
--   { .lg .middle } __SM Hasan Mansur__
+-   :fontawesome-solid-user:{ .lg .middle } __SM Hasan Mansur__
 
     ---
+    
 	[Hasan Headshot](../images/hasan.png)
     *  4th Year Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, AI for Software Engineering
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">gmu.edu/~smansur4/</a>
 
--   { .lg .middle } __Junayed Mahmud__
+-   :fontawesome-solid-user:{ .lg .middle } __Junayed Mahmud__
 
     ---
+    
 	[Junayed Headshot](../images/junayed.png)
     *  Ph.D. Student in Computer Science
     *  **Research Interests:** Bug Reporting, NLP for Software Engineering, Automated Mobile Testing
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">sabiha-salma.github.io/</a>
     *  <span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/itsmesabiha">itsmesabiha</a>
 
--   { .lg .middle } __Safwat Ali Khan__
+-   :fontawesome-solid-user:{ .lg .middle } __Safwat Ali Khan__
 
     ---
+    
 	[Safwat Headshot](../images/safwat.png)
     *  Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, Automated UI testing, Mobile Applications, Smart Home Testing
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/safwat-ali-khan">LinkedIn</a>
     *  <span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/safwatknopfler">safwatknopfler</a>
 
--   { .lg .middle } __Arun Krishnavajjala__
+-   :fontawesome-solid-user:{ .lg .middle } __Arun Krishnavajjala__
 
     ---
+    
 	[Arun Headshot](../images/arun.png)
     *  Ph.D. Student in Computer Science
     *  **Research Interests:** Software Engineering for Accessibility, Automated UI Analysis
