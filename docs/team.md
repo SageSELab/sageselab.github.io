@@ -38,7 +38,7 @@ hide:
 
     ---
     
-	[Sabiha Headshot](../images/sabiha.png)
+	![Sabiha Headshot](../images/sabiha.png)
     *  4th Year Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, HCI Considerations for Developer Tools, AI for Software Engineering
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">sabiha-salma.github.io/</a>
@@ -48,7 +48,7 @@ hide:
 
     ---
     
-	[Hasan Headshot](../images/hasan.png)
+	![Hasan Headshot](../images/hasan.png)
     *  4th Year Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, AI for Software Engineering
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">gmu.edu/~smansur4/</a>
@@ -57,7 +57,7 @@ hide:
 
     ---
     
-	[Junayed Headshot](../images/junayed.png)
+	![Junayed Headshot](../images/junayed.png)
     *  Ph.D. Student in Computer Science
     *  **Research Interests:** Bug Reporting, NLP for Software Engineering, Automated Mobile Testing
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">sabiha-salma.github.io/</a>
@@ -67,7 +67,7 @@ hide:
 
     ---
     
-	[Safwat Headshot](../images/safwat.png)
+	![Safwat Headshot](../images/safwat.png)
     *  Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, Automated UI testing, Mobile Applications, Smart Home Testing
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/safwat-ali-khan">LinkedIn</a>
@@ -77,7 +77,7 @@ hide:
 
     ---
     
-	[Arun Headshot](../images/arun.png)
+	![Arun Headshot](../images/arun.png)
     *  Ph.D. Student in Computer Science
     *  **Research Interests:** Software Engineering for Accessibility, Automated UI Analysis
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://arunkv.com/">Webpage</a>
