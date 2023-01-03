@@ -1,7 +1,7 @@
 site_name: SAGE Research Lab
 site_url: https://sagelab.io
 site_author: SAGE Lab Members
-copyright: '©2022 SAGE Research Lab'
+copyright: '©2023 SAGE Research Lab'
 
 nav:
   - Home: index.md
@@ -31,20 +31,25 @@ theme:
 
   palette:
 
-    #Toggle Dark Mode
-  - media: "(prefers-color-scheme: dark)"
-    scheme: slate
-    primary: 'green'
-    accent: 'light green'
-    toggle:
-        icon: material/toggle-switch
+ # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
         name: Switch to light mode
-    # Toggle Light Mode
-  - media: "(prefers-color-scheme: light)"
-    scheme: gmu
-    toggle:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: gmu 
+      toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to system preference
 
 plugins:
     - search
@@ -60,6 +65,7 @@ extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
+  - meta
   - admonition
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
