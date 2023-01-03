@@ -75,6 +75,8 @@ markdown_extensions:
       toc_depth: 3
   - attr_list
   - meta
+  - attr_list
+  - md_in_html
 
 plugins:
     - search
@@ -86,7 +88,7 @@ plugins:
         encryption_info_message: 'This course content is password protected. Please enter the password.'
     - meta:
        meta_file: '**/.meta.yml'
-       
+
 extra:
   generator: false
   social:
