@@ -4,6 +4,7 @@
   --md-primary-fg-color--dark:  #01693F;
   --md-accent-fg-color: #007F4D;
   --md-typeset-a-color:  #01693F;
+  --md-url: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(0, 0%, 100%, 1)' /></svg>");
 }
 
 [data-md-color-scheme="slate"] {
@@ -12,6 +13,7 @@
   --md-primary-fg-color: #4cae4f; 
   --md-accent-fg-color:  #007F4D;
   --md-typeset-a-color:  #4cae4f !important;
+  --md-url: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(232, 15%, 21%, 1)' /></svg>");
 }
 
 .md-nav__title[for=__drawer] {
@@ -28,6 +30,11 @@
 
 .md-header{
   background-color: #01693F;
+}
+
+.timeline-Widget{
+  color:  var(--md-default-bg-color)!important;
+  background-color: var(--md-admonition-fg-color)!important;
 }
 
 .md-search-result__meta{
