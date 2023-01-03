@@ -141,7 +141,7 @@ hide:
     *  **Position after SAGE Lab:** Undergraduate at the University of Pennsylvania - Wharton School of Buisness
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/anish-c-pothireddy/">LinkedIn</a>
 
--   :fontawesome-solid-user:{ .lg .middle } __Jasmine Obas__
+-   :fontawesome-solid-user:{ .lg .middle } __Damilola Awofisayo__
 
     ---
     
