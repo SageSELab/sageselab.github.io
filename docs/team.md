@@ -89,20 +89,16 @@ hide:
 
 ## Undergraduate Students
 
+<div class="grid cards" markdown>
 
-<div class="responsive-grid">
-	<div class="card">
-		<div class="logo">
-			<img src="../images/jas.png" alt="Headshot of Dr. Kevin Moran.">
-       </div>
-<div class="card-content">
-       	<h3>Jasmine Obas</h3>
-       	<ul>
-       		<li><b>Undergraduate Student at George Mason University</b></li>
-  				  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/jasmine-obas-burdette/">LinkedIn</a></li>
-			</ul>
-</div>
-</div>
+-   :fontawesome-solid-user:{ .lg .middle } __Jasmine Obas__
+
+    ---
+    
+	![Jas Headshot](../images/jas.png)
+    *  Undergraduate Student at George Mason University
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/jasmine-obas-burdette/">LinkedIn</a>
+
 </div>
 
 <!---## High School Students--->
@@ -112,50 +108,54 @@ hide:
 
 ### High School Students
 
-<div class="responsive-grid">
-	<div class="card">
-		<div class="logo">
-			<img src="../images/anish.png" alt="Headshot of Anish.">
-       </div>
-<div class="card-content">
-       	<h3>Anish Pothireddy</h3>
-       	<ul>
-       		<li><b>Osbourn Park High School</b></li>
-       		<li><b>Position after SAGE Lab:</b>Undergraduate at the University of Pennsylvania - Wharton School of Buisness</li>
-  				  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/anish-c-pothireddy/">LinkedIn</a></li>
-			</ul>
-</div>
-</div>
-	<div class="card">
-		<div class="logo">
-			<img src="../images/dami.png" alt="Headshot of Dami">
-       </div>
-<div class="card-content">
-       	<h3>Damilola Awofisayo</h3>
-       	<ul>
-  				<li><b>High School Student at Thomas Jefferson High School for Science and Technology</b></li>
-  				<li><b>Position after SAGE Lab:</b>Undergraduate Student</li>
-  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://damilolaawofisayo.me">Webpage</a></li>
-			</ul>
-</div>
-</div>
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-user:{ .lg .middle } __Justin Jose__
+
+    ---
+    
+    *  South Lakes High School
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/jasmine-obas-burdette/">LinkedIn</a>
+
+
+-   :fontawesome-solid-user:{ .lg .middle } __Alyssa McGowan__
+
+    ---
+    
+    *  Thomas Jefferson High School for Science and Technology
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/jasmine-obas-burdette/">LinkedIn</a>
+
+-   :fontawesome-solid-user:{ .lg .middle } __Anish Pothireddy__
+
+    ---
+    
+	![Anish Headshot](./images/anish.png)
+    *  Osbourn Park High School
+    *  **Position after SAGE Lab:** Undergraduate at the University of Pennsylvania - Wharton School of Buisness
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/anish-c-pothireddy/">LinkedIn</a>
+
+-   :fontawesome-solid-user:{ .lg .middle } __Jasmine Obas__
+
+    ---
+    
+	![Dami Headshot](../images/dami.png)
+    *  Thomas Jefferson High School for Science and Technology
+    *  **Position after SAGE Lab:** Undergraduate Student in Computer Science at Duke University
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://damilolaawofisayo.me">Webpage</a>
+   
 </div>
 
 ### Undergraduate Students
 
-<div class="responsive-grid">
-	<div class="card">
-		<div class="logo">
-			<img src="../images/kristen.png" alt="Headshot of Dr. Kevin Moran.">
-       </div>
-<div class="card-content">
-       	<h3>Kristen Goebel</h3>
-       	<ul>
-  				<li><b>Undergraduate Student at Clarkson University</b></li>
-  				<li><b>Position after SAGE Lab:</b> Graduate Student in Computer Science at Oregon State University</li>
-  				<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://linkedin.com/in/kgoeb">LinkedIn</a></li>
-			</ul>
-</div>
-</div>
-</div>
+<div class="grid cards" markdown>
 
+-   :fontawesome-solid-user:{ .lg .middle } __Kristen Goebel__
+
+    ---
+    
+	![Kristen Headshot](../images/kristen.png)
+    *  Undergraduate Student at Clarkson University
+    *  **Position after SAGE Lab:** Graduate Student in Computer Science at Oregon State University
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://linkedin.com/in/kgoeb">LinkedIn</a>
+
+</div>
