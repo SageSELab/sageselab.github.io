@@ -39,6 +39,7 @@ hide:
     ---
     
 	![Sabiha Headshot](../images/sabiha.png)
+	
     *  4th Year Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, HCI Considerations for Developer Tools, AI for Software Engineering
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">sabiha-salma.github.io/</a>
@@ -49,6 +50,7 @@ hide:
     ---
     
 	![Hasan Headshot](../images/hasan.png)
+	
     *  4th Year Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, AI for Software Engineering
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">gmu.edu/~smansur4/</a>
@@ -58,6 +60,7 @@ hide:
     ---
     
 	![Junayed Headshot](../images/junayed.png)
+	
     *  Ph.D. Student in Computer Science
     *  **Research Interests:** Bug Reporting, NLP for Software Engineering, Automated Mobile Testing
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">sabiha-salma.github.io/</a>
@@ -68,6 +71,7 @@ hide:
     ---
     
 	![Safwat Headshot](../images/safwat.png)
+	
     *  Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, Automated UI testing, Mobile Applications, Smart Home Testing
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/safwat-ali-khan">LinkedIn</a>
@@ -78,6 +82,7 @@ hide:
     ---
     
 	![Arun Headshot](../images/arun.png)
+	
     *  Ph.D. Student in Computer Science
     *  **Research Interests:** Software Engineering for Accessibility, Automated UI Analysis
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://arunkv.com/">Webpage</a>
@@ -96,6 +101,7 @@ hide:
     ---
     
 	![Jas Headshot](../images/jas.png)
+	
     *  Undergraduate Student at George Mason University
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/jasmine-obas-burdette/">LinkedIn</a>
 
@@ -130,6 +136,7 @@ hide:
     ---
     
 	![Anish Headshot](./images/anish.png)
+	
     *  Osbourn Park High School
     *  **Position after SAGE Lab:** Undergraduate at the University of Pennsylvania - Wharton School of Buisness
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/anish-c-pothireddy/">LinkedIn</a>
@@ -139,6 +146,7 @@ hide:
     ---
     
 	![Dami Headshot](../images/dami.png)
+	
     *  Thomas Jefferson High School for Science and Technology
     *  **Position after SAGE Lab:** Undergraduate Student in Computer Science at Duke University
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://damilolaawofisayo.me">Webpage</a>
@@ -154,6 +162,7 @@ hide:
     ---
     
 	![Kristen Headshot](../images/kristen.png)
+	
     *  Undergraduate Student at Clarkson University
     *  **Position after SAGE Lab:** Graduate Student in Computer Science at Oregon State University
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://linkedin.com/in/kgoeb">LinkedIn</a>
