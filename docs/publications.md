@@ -10,7 +10,136 @@ example = tool demo paper
 abstract = dataset
 -->
 
+## 2023
+
+???+ tip "AidUI: Toward Automated Recognition of Dark Patterns in User Interfaces"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Sajed Jalil, Suzzana Rafi, Thomas D. LaToza, Kevin Moran, & Wing Lam
+	     * :material-map-marker: *Proceedings of the 2nd Software Testing Education Workshop (TestEd’23), co-located with ICST’23, Dublin, Ireland, April 16th, 2023*
+	     *  [:material-file-pdf-box: pdf]() | [:material-database: data](https://doi.org/10.5281/zenodo.7578246) | [:material-github: github](https://github.com/SageSELab/AidUI)
+
+    === "Abstract"
+
+        Past studies have illustrated the prevalence of UI dark patterns, or user interfaces that can lead end-users toward (unknowingly) taking actions that they may not have intended. Such deceptive UI designs can be either intentional (to benefit an online service) or unintentional (through complicit design practices) and can result in adverse effects on end users, such as oversharing personal information or financial loss. While significant research progress has been made toward the development of dark pattern taxonomies across different software domains, developers and users currently lack guidance to help recognize, avoid, and navigate these often subtle design motifs. However, automated recognition of dark patterns is a challenging task, as the instantiation of a single type of pattern can take many forms, leading to significant variability. In this paper, we take the first step toward understanding the extent to which common UI dark patterns can be automatically recognized in modern software applications. To do this, we introduce AIDUI, a novel automated approach that uses computer vision and natural language processing techniques to recognize a set of visual and textual cues in application screenshots that signify the presence of ten unique UI dark patterns, allowing for their detection, classification, and localization. To evaluate our approach, we have constructed CONTEXTDP, the current largest dataset of fully-localized UI dark patterns that spans 175 mobile and 83 web UI screenshots containing 301 dark pattern instances. The results of our evaluation illustrate that AIDUI achieves an overall precision of 0.66, recall of 0.67, F1-score of 0.65 in detecting dark pattern instances, reports few false positives, and is able to localize detected patterns with an IoU score of 0.84. Furthermore, a significant subset of our studied dark patterns can be detected quite reliably (F1 score of over 0.82), and future research directions may allow for improved detection of additional patterns. This work demonstrates the plausibility of developing tools to aid developers in recognizing and appropriately rectifying deceptive UI patterns.
+
+???+ tip "ChatGPT and Software Testing Education: Promises & Perils"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Sajed Jalil, Suzzana Rafi, Thomas D. LaToza, Kevin Moran, & Wing Lam
+	     * :material-map-marker: *Proceedings of the 2nd Software Testing Education Workshop (TestEd’23), co-located with ICST’23, Dublin, Ireland, April 16th, 2023*
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2302.03287) | [:material-database: data](https://doi.org/10.5281/zenodo.7700501) | [:material-github: github](https://github.com/sajedjalil/ChatGPT-Software-Testing-Study)
+
+    === "Abstract"
+
+        Over the past decade, predictive language modeling for code has proven to be a valuable tool for enabling new forms of automation for developers. More recently, we have seen the advent of general purpose "large language models", based on neural transformer architectures, that have been trained on massive datasets of human written text spanning code and natural language. However, despite the demonstrated representational power of such models, interacting with them has historically been constrained to specific task settings, limiting their general applicability. Many of these limitations were recently overcome with the introduction of ChatGPT, a language model created by OpenAI and trained to operate as a conversational agent, enabling it to answer questions and respond to a wide variety of commands from end-users. The introduction of models, such as ChatGPT, has already spurred fervent discussion from educators, ranging from fear that students could use these AI tools to circumvent learning, to excitement about the new types of learning opportunities that they might unlock. However, given the nascent nature of these tools, we currently lack fundamental knowledge related to how well they perform in different educational settings, and the potential promise (or danger) that they might pose to traditional forms of instruction. As such, in this paper, we examine how well ChatGPT performs when tasked with solving common questions in a popular software testing curriculum. Our findings indicate that ChatGPT can provide correct or partially correct answers in 44% of cases, provide correct or partially correct explanations of answers in 57% of cases, and that prompting the tool in a shared question context leads to a marginally higher rate of correct answers. Based on these findings, we discuss the potential promise, and dangers related to the use of ChatGPT by students and instructors.
+
+???+ example "BURT: A Chatbot for Interactive Bug Reporting"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Yang Song, <u>Junayed Mahmud</u>, Nadasheen De Silva, Ying Zhou, Oscar Chaparro, Kevin Moran, Andrian Marcus, & Denys Poshyvanyk
+	     * :material-map-marker: *Proceedings of the 45th IEEE/ACM International Conference on Software Engineering ([ICSE 2023](https://conf.researchr.org/home/icse-2023)), Formal Tool Demonstrations Track, Melbourne, Australia, May 14th-20th, 2023*
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2302.06050) | [:material-database: data](https://doi.org/10.5281/zenodo.6977413) | [:material-github: github](https://github.com/sea-lab-wm/burt/tree/tool-demo)
+
+    === "Abstract"
+
+        This paper introduces BURT, a web-based chatbot for interactive reporting of Android app bugs. BURT is designed to assist Android app end-users in reporting high-quality defect information using an interactive interface. BURT guides the users in reporting essential bug report elements, i.e., the observed behavior, expected behavior, and the steps to reproduce the bug. It verifies the quality of the text written by the user and provides instant feedback. In addition, BURT provides graphical suggestions that the users can choose as alternatives to textual descriptions. We empirically evaluated BURT, asking end-users to report bugs from six Android apps. The reporters found that BURT's guidance and automated suggestions and clarifications are useful and BURT is easy to use.
+        
+    === "Video"
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SyfOXpHYGRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+???+ example "AVGUST: A Tool for Generating Usage-Based Tests from Videos of App Executions"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Saghar Talebipour, Hyojae Park,  <u>Kesina Baral</u>, Leon Yee, <u>Safwat Ali Khan</u>, Kevin Moran, Yuriy Brun, Nenad Medvidovic, & Yixue Zhao
+	     * :material-map-marker: *Proceedings of the 45th IEEE/ACM International Conference on Software Engineering ([ICSE 2023](https://conf.researchr.org/home/icse-2023)), Formal Tool Demonstrations Track, Melbourne, Australia, May 14th-20th, 2023*
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2209.02577) | [:material-database: data](https://zenodo.org/record/7036218#.Y7RWzy-B3Ek) | [:material-github: github](https://github.com/felicitia/UsageTesting-Repo/tree/demo)
+
+    === "Abstract"
+
+        Many software bugs are reported manually, particularly bugs that manifest themselves visually in the user interface. End-users typically report these bugs via app reviewing websites, issue trackers, or in-app built-in bug reporting tools, if available. While these systems have various features that facilitate bug reporting (e.g., textual templates or forms), they often provide limited guidance, concrete feedback, or quality verification to end-users, who are often inexperienced at reporting bugs and submit low-quality bug reports that lead to excessive developer effort in bug report management tasks. We propose an interactive bug reporting system for end-users (Burt), implemented as a task-oriented chatbot. Unlike existing bug reporting systems, Burt provides guided reporting of essential bug report elements (i.e., the observed behavior, expected behavior, and steps to reproduce the bug), instant quality verification, and graphical suggestions for these elements. We implemented a version of Burt for Android and conducted an empirical evaluation study with end-users, who reported 12 bugs from six Android apps studied in prior work. The reporters found that Burt's guidance and automated suggestions/clarifications are useful and Burt is easy to use. We found that Burt reports contain higher-quality information than reports collected via a template-based bug reporting system. Improvements to Burt, informed by the reporters, include support for various wordings to describe bug report elements and improved quality verification. Our work marks an important paradigm shift from static to interactive bug reporting for end-users.
+        
+    === "Video"
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LPICxVd0YAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 2022
+
+???+ tip "AVGUST: Automating Usage-based Test Generation from Videos of App Executions"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Yixue Zhao, Saghar Talebipour, Kesina Baral, Hyojae Park, Leon Yee, <u>Safwat Ali Khan</u>, Yuriy Brun, Nenad Medvidovic, & Kevin Moran
+	     * :material-map-marker: *Proceedings of the 2022 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering ([ESEC/FSE 2022](https://2022.esec-fse.org/)), Singapore, November 14th-18th, 2022 (22% Acceptance Rate)*
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2209.02577) | [:material-database: data](https://zenodo.org/record/7036218#.Y7RWzy-B3Ek) | [:material-github: github](https://github.com/felicitia/UsageTesting-Repo/tree/demo)
+
+    === "Abstract"
+
+        Many software bugs are reported manually, particularly bugs that manifest themselves visually in the user interface. End-users typically report these bugs via app reviewing websites, issue trackers, or in-app built-in bug reporting tools, if available. While these systems have various features that facilitate bug reporting (e.g., textual templates or forms), they often provide limited guidance, concrete feedback, or quality verification to end-users, who are often inexperienced at reporting bugs and submit low-quality bug reports that lead to excessive developer effort in bug report management tasks. We propose an interactive bug reporting system for end-users (Burt), implemented as a task-oriented chatbot. Unlike existing bug reporting systems, Burt provides guided reporting of essential bug report elements (i.e., the observed behavior, expected behavior, and steps to reproduce the bug), instant quality verification, and graphical suggestions for these elements. We implemented a version of Burt for Android and conducted an empirical evaluation study with end-users, who reported 12 bugs from six Android apps studied in prior work. The reporters found that Burt's guidance and automated suggestions/clarifications are useful and Burt is easy to use. We found that Burt reports contain higher-quality information than reports collected via a template-based bug reporting system. Improvements to Burt, informed by the reporters, include support for various wordings to describe bug report elements and improved quality verification. Our work marks an important paradigm shift from static to interactive bug reporting for end-users.
+        
+    === "Video"
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LPICxVd0YAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+???+ tip "Toward Interactive Bug Reporting for (Android App) End Users"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Yang Song, <u>Junayed Mahmud</u>, Ying Zhou, Oscar Chaparro, Kevin Moran, Andrian Marcus, and Denys Poshyvanyk
+	     * :material-map-marker: *Proceedings of the 2022 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering ([ESEC/FSE 2022](https://2022.esec-fse.org/)), Singapore, November 14th-18th, 2022 (22% Acceptance Rate)*
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2209.10062) | [:material-database: data](https://doi.org/10.5281/zenodo.6977413) | [:material-github: github](https://github.com/sea-lab-wm/burt/tree/tool-demo)
+
+    === "Abstract"
+
+        Many software bugs are reported manually, particularly bugs that manifest themselves visually in the user interface. End-users typically report these bugs via app reviewing websites, issue trackers, or in-app built-in bug reporting tools, if available. While these systems have various features that facilitate bug reporting (e.g., textual templates or forms), they often provide limited guidance, concrete feedback, or quality verification to end-users, who are often inexperienced at reporting bugs and submit low-quality bug reports that lead to excessive developer effort in bug report management tasks. We propose an interactive bug reporting system for end-users (Burt), implemented as a task-oriented chatbot. Unlike existing bug reporting systems, Burt provides guided reporting of essential bug report elements (i.e., the observed behavior, expected behavior, and steps to reproduce the bug), instant quality verification, and graphical suggestions for these elements. We implemented a version of Burt for Android and conducted an empirical evaluation study with end-users, who reported 12 bugs from six Android apps studied in prior work. The reporters found that Burt's guidance and automated suggestions/clarifications are useful and Burt is easy to use. We found that Burt reports contain higher-quality information than reports collected via a template-based bug reporting system. Improvements to Burt, informed by the reporters, include support for various wordings to describe bug report elements and improved quality verification. Our work marks an important paradigm shift from static to interactive bug reporting for end-users.
+        
+    === "Video"
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SyfOXpHYGRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+???+ note "Enhancing Mobile App Bug Reporting via Real-time Understanding of Reproduction Steps"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Mattia Fazzini, Kevin Moran, Carlos Bernal Cárdenas, Tyler Wendland, Alessandro Orso, and Denys Poshyvanyk 
+	     * :material-map-marker: *IEEE Transactions on Software Engineering ([TSE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32))*
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2203.12093) | [:material-database: data](https://www-users.cse.umn.edu/~mfazzini/ebug.html)
+
+    === "Abstract"
+
+        Screen recordings of mobile applications are easy to obtain and capture a wealth of information pertinent to software developers (e.g., bugs or feature requests), making them a popular mechanism for crowdsourced app feedback. Thus, these videos are becoming a common artifact that developers must manage. In light of unique mobile development constraints, including swift release cycles and rapidly evolving platforms, automated techniques for analyzing all types of rich software artifacts provide benefit to mobile developers. Unfortunately, automatically analyzing screen recordings presents serious challenges, due to their graphical nature, compared to other types of (textual) artifacts. To address these challenges, this paper introduces V2S+, an automated approach for translating video recordings of Android app usages into replayable scenarios. V2S+ is based primarily on computer vision techniques and adapts recent solutions for object detection and image classification to detect and classify user gestures captured in a video, and convert these into a replayable test scenario. Given that V2S+ takes a computer vision-based approach, it is applicable to both hybrid and native Android applications. We performed an extensive evaluation of V2S+ involving 243 videos depicting 4,028 GUI-based actions collected from users exercising features and reproducing bugs from a collection of over 90 popular native and hybrid Android apps. Our results illustrate that V2S+ can accurately replay scenarios from screen recordings, and is capable of reproducing ≈ 90.2% of sequential actions recorded in native application scenarios on physical devices, and ≈ 83% of sequential actions recorded in hybrid application scenarios on emulators, both with low overhead. A case study with three industrial partners illustrates the potential usefulness of V2S+ from the viewpoint of developers.
+
+???+ note "Translating Video Recordings of Complex Mobile App UI Gestures into Replayable Scenarios for Native & Hybrid Apps"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Carlos Bernal Cárdenas, Nathan Cooper, Madeleine Havranek, Kevin Moran, Oscar Chaparro, Denys Poshyvanyk, and Andrian Marcus
+	     * :material-map-marker: *IEEE Transactions on Software Engineering ([TSE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32))*
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2301.01191) | [:material-database: data](https://sites.google.com/email.wm.edu/video2scenario/home)
+
+    === "Abstract"
+
+        Screen recordings of mobile applications are easy to obtain and capture a wealth of information pertinent to software developers (e.g., bugs or feature requests), making them a popular mechanism for crowdsourced app feedback. Thus, these videos are becoming a common artifact that developers must manage. In light of unique mobile development constraints, including swift release cycles and rapidly evolving platforms, automated techniques for analyzing all types of rich software artifacts provide benefit to mobile developers. Unfortunately, automatically analyzing screen recordings presents serious challenges, due to their graphical nature, compared to other types of (textual) artifacts. To address these challenges, this paper introduces V2S+, an automated approach for translating video recordings of Android app usages into replayable scenarios. V2S+ is based primarily on computer vision techniques and adapts recent solutions for object detection and image classification to detect and classify user gestures captured in a video, and convert these into a replayable test scenario. Given that V2S+ takes a computer vision-based approach, it is applicable to both hybrid and native Android applications. We performed an extensive evaluation of V2S+ involving 243 videos depicting 4,028 GUI-based actions collected from users exercising features and reproducing bugs from a collection of over 90 popular native and hybrid Android apps. Our results illustrate that V2S+ can accurately replay scenarios from screen recordings, and is capable of reproducing ≈ 90.2% of sequential actions recorded in native application scenarios on physical devices, and ≈ 83% of sequential actions recorded in hybrid application scenarios on emulators, both with low overhead. A case study with three industrial partners illustrates the potential usefulness of V2S+ from the viewpoint of developers.
+
+
+???+ tip "Learning Patterns from User Interfaces to Support Software Engineering Tasks"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Kevin Moran
+	     * :material-map-marker: *Proceedings of CHI 2022 Workshop on Computational Approaches for Understanding, Generating, and Adapting User Interfaces ([Computational UI@CHI’22](https://sites.google.com/nd.edu/computational-uichi22))*
+	     *  [:material-file-pdf-box: pdf]() | [:material-database: data](http://sagelab.io/Clarity/)
+
+    === "Abstract"
+
+        In the field of software engineering (SE) research, there has long been a focus on automating various development tasks in an attempt to facilitate or augment the abilities of developers. Research aligned with this objective typically aims to learn models from information mined from software repositories and then apply these models to automate a given SE task. The large majority of this work has focused on artifacts consisting of two main modalities of information -- *code* and *natural language*. However, one information source which has been comparatively underutilized is the *visual* modality of software expressed via User Interfaces (UIs). UIs serve as an important medium of interaction between the logic of an application and users, and as such, they encode salient information about underlying program functionality into rich, pixel-based data representations. Given the latent information contained within UIs, and the rapid advancement of Deep Learning (DL) techniques for computer vision and natural language processing in recent years, there is a tremendous opportunity to leverage UI-related software artifacts to offer novel forms of software development automation. This position paper reflects on past work conducted at the intersection of software engineering and automated reasoning of user interfaces, discusses promising future directions, and potential challenges in enabling new forms of UI-centric automation for developers.
 
 ???+ tip "An Empirical Investigation into the Use of Image Captioning for Automated Software Documentation"
 
@@ -18,7 +147,7 @@ abstract = dataset
 
         * :material-account-supervisor-outline:  Kevin Moran, Ali Yachnes, George Purnell, <u>Junayed Mahmud</u>, Michele Tufano, Carlos Bernal-Cárdenas, Denys Poshyvanyk, and Zach H-Doubler
 	     * :material-map-marker: ***Oral Presentation*** *at the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering ([SANER’22](https://saner2022.uom.gr)), Honolulu, Hawaii, March 15-18, 2022 (24% Acceptance Rate)*
-	     *  [:material-file-pdf-box: pdf]() | [:material-database: data](http://sagelab.io/Clarity/)
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2301.01224) | [:material-database: data](http://sagelab.io/Clarity/)
 
     === "Abstract"
 
@@ -31,7 +160,7 @@ abstract = dataset
 
         * :material-account-supervisor-outline: Jack Johnson, <u>Junayed Mahmud</u>, Tyler Wendland, Kevin Moran, Julia Rubin and Mattia Fazzini
 	     * :material-map-marker: ***Oral Presentation*** *at the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering ([SANER’22](https://saner2022.uom.gr)), Honolulu, Hawaii, March 15-18, 2022 (24% Acceptance Rate)*
-	     *  [:material-file-pdf-box: pdf]() | [:material-database: data](https://github.com/se-umn/2022_saner_bug_report_reproduction_study)
+	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2301.01235) | [:material-database: data](https://github.com/se-umn/2022_saner_bug_report_reproduction_study)
 
     === "Abstract"
 

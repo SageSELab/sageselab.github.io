@@ -36,12 +36,12 @@ hide:
     height: 100%;
     -moz-box-pack: start;
     justify-content: flex-start;
-    box-shadow: rgba(0, 0, 0, 0.1) 0.4rem 0.4rem 0px -0.0625rem, rgba(0, 0, 0, 0.40) 0px 0.50rem 0.5rem 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0.4rem 0.4rem 5px -0.0625rem, rgba(0, 0, 0, 0.40) 0px 0.50rem 0.5rem 0px;
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
   }
 
   .card:hover {
-    box-shadow: rgba(0, 0, 0, 0.4) 0.40rem 0.40rem 0px -0.0625rem, rgba(0, 0, 0, 0.60) 0px 0.50rem 0.5rem 0px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0.40rem 0.40rem 5px -0.0625rem, rgba(0, 0, 0, 0.60) 0px 0.50rem 0.5rem 0px;
   }
 
   @media screen and (min-width: 75rem) {
