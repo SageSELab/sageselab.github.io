@@ -16,7 +16,7 @@ abstract = dataset
 
     === "Paper Info"
 
-        * :material-account-supervisor-outline:  Sajed Jalil, Suzzana Rafi, Thomas D. LaToza, Kevin Moran, & Wing Lam
+        * :material-account-supervisor-outline:  <u>SM Hasan Mansur</u>, <u>Sabiha Salma</u>, <u>Damilola Awofisayo</u>, & Kevin Moran
 	     * :material-map-marker: *Proceedings of The 45th IEEE/ACM International Conference on Software Engineering ([ICSE 2023](https://conf.researchr.org/home/icse-2023)), Melbourne, Australia, May 14th-20th, 2023*
 	     *  [:material-file-pdf-box: pdf]() | [:material-database: data](https://doi.org/10.5281/zenodo.7578246) | [:material-github: github](https://github.com/SageSELab/AidUI)
 
