@@ -5,9 +5,9 @@
   --md-default-fg-color--lightest: #00000080;
   --md-accent-fg-color: #007F4D;
   --md-typeset-a-color:  #01693F;
-  --md-shadow-z1:#00000080;
-  --md-shadow-z2:#00000080;
-  --md-shadow-z3:#00000080;
+  --md-shadow-z1: 0 0.2rem 0.5rem #0000000d,0 0 0.05rem #00000080;
+  --md-shadow-z2: 0 0.2rem 0.5rem #0000001a,0 0 0.05rem #00000080;
+  --md-shadow-z3: 0 0.2rem 0.5rem #0003,0 0 0.05rem #00000080;
   --md-url: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(0, 0%, 100%, 1)' /></svg>");
 }
 
