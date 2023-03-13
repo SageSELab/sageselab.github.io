@@ -167,4 +167,24 @@ hide:
     *  **Position after SAGE Lab:** Graduate Student in Computer Science at Oregon State University
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://linkedin.com/in/kgoeb">LinkedIn</a>
 
+-   :fontawesome-solid-user:{ .lg .middle } __Jasmine Obas__
+
+    ---
+    
+	![Jas Headshot](../images/jas.png)
+	
+    *  Undergraduate Student at George Mason University
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/jasmine-obas-burdette/">LinkedIn</a>
+
+-   :fontawesome-solid-user:{ .lg .middle } __Jasmine Obas__
+
+    ---
+    
+	![Yule Headshot](../images/yule.png)
+	
+    *  Undergraduate Student at George Mason University
+    *  **Position after SAGE Lab:** Software Engineer at UPS
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/yule-zhang-2870631b3/?original_referer=">LinkedIn</a>
+
+
 </div>
