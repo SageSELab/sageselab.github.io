@@ -26,7 +26,7 @@ To investigate the potential of automated GUI-centric software documentation, we
 ## Background
 
 <figure markdown>
-  <img style="vertical-align:middle" src="images/DL-architecture-example.pdf" class="center-image">
+  <img style="vertical-align:middle" src="../images/DL-architecture-example.pdf" class="center-image">
   <figcaption>Fig 1: Generalized overview of multimodal DL architectures for image captioning (with RCNN Region proposals).</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ The task of image captioning is much more difficult than that of classification,
 **Show, attend and Tell:** The show, attend and tell model describes the content of an image using attention. This model generates captions using the attention that combines "hard" and "soft" attention mechanisms. The first one uses standard back-propagation methods, and the second uses a maximum approximate variational lower bound for training. The model uses a CNN as an encoder to extract a set of feature vectors and use it as input for the attention mechanism. The model uses an LSTM as a decoder to generate caption. LSTM is also one kind of RNN capable of learning long-term dependencies, whereas standard RNN has a short-term memory, which does not work well when a caption contains long texts. Therefore, we might miss essential facts for screenshots. LSTM is a good choice in that situation. We get the final predicted captions based on the hidden state of the LSTM, context vector, and the words that we get from the encoding phase.
 
 <figure markdown>
-  <img style="vertical-align:middle" src="images/GUI-representation.pdf" class="center-image">
+  <img style="vertical-align:middle" src="../images/GUI-representation.pdf" class="center-image">
   <figcaption>Fig 2: Example a Mobile GUI Screenshot and corresponding metadata</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ GUIs of Android apps are composed of both <i>GUI-components</i> and <i>GUI-conta
 ## The CLARITY Dataset
 
 <figure markdown>
-  <img style="vertical-align:middle" src="images/Caption-Example.pdf" class="center-image">
+  <img style="vertical-align:middle" src="../images/Caption-Example.pdf" class="center-image">
   <figcaption>Fig 3: Example of Collected Captions from the Clarity dataset</figcaption>
 </figure>
 
@@ -135,7 +135,7 @@ We present selected results of some of the most representative topics in Tables 
 ### Results of n-gram Language Modeling on the CLARITY Dataset (RQ2)
 
 <figure markdown>
-  <img style="vertical-align:middle" src="images/Cross-Entropy.pdf">
+  <img style="vertical-align:middle" src="../images/Cross-Entropy.pdf">
   <figcaption>Fig 4: N-gram Cross Entropy for High- and Low-Level Clarity datasets compared with other English and software-related corpora</figcaption>
 </figure>
 
@@ -875,17 +875,17 @@ Table 9: Questions asked to participants in the qualitative user study
 
 
 <figure markdown>
-  <img style="vertical-align:middle" src="images/eq1.png" class="center-image">
+  <img style="vertical-align:middle" src="../images/eq1.png" class="center-image">
   <figcaption>Fig. 5: Results of EQ1 from Qualitative Evaluation</figcaption>
 </figure>
 
 <figure markdown>
-  <img style="vertical-align:middle" src="images/eq2.png" class="center-image">
+  <img style="vertical-align:middle" src="../images/eq2.png" class="center-image">
   <figcaption>Fig. 6: Results of EQ2 from Qualitative Study</figcaption>
 </figure>
 
 <figure markdown>
-  <img style="vertical-align:middle" src="images/eq3.png" class="center-image">
+  <img style="vertical-align:middle" src="../images/eq3.png" class="center-image">
   <figcaption>Fig. 7 Results of EQ3 from Qualitative Study</figcaption>
 </figure>
 
