@@ -168,7 +168,7 @@ hide:
     *  Undergraduate Student at George Mason University
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/jasmine-obas-burdette/">LinkedIn</a>
 
--   :fontawesome-solid-user:{ .lg .middle } __Jasmine Obas__
+-   :fontawesome-solid-user:{ .lg .middle } __Yule Zhang__
 
     ---
     
