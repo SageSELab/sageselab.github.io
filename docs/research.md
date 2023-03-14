@@ -202,60 +202,112 @@ The SAGE Lab graciously acknowledges support from our sponsors including the [Na
 
 <br>
 <div class="responsive-grid">
+
+<div class="card">
+		<div class="logo">
+			<img src="../images/cisco.png" alt="NSF Logo">
+       </div>
+    <div class="card-content">
+       	<h4>Neural-based Code Search & Refactoring</h4>
+          <ul>
+          <li><b>Award Info: </b> Cisco Advanced Security Research Grant</li>
+          <li><b>Funding Amount: </b> $50,000</li>
+          <li><b>Funding Period: </b> August, 2022 - August, 2023</li>
+          </ul>
+    </div>
+</div>
+
+<div class="card">
+		<div class="logo">
+			<img src="../images/nsf.png" alt="NSF Logo">
+       </div>
+    <div class="card-content">
+       	<h4>Collaborative Research: CPS: Medium: Enabling Data-Driven Security and Safety Analyses for Cyber-Physical Systems</h4>
+          <ul>
+          <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2132285&HistoricalAwards=false">CNS-2132285</a></li>
+          <li><b>Funding Amount: </b> $998,979</li>
+          <li><b>Funding Period: </b> October 1st, 2022 - September 30th, 2025</li>
+          </ul>
+    </div>
+</div>
+
+<div class="card">
+		<div class="logo">
+			<img src="../images/cisco.png" alt="NSF Logo">
+       </div>
+    <div class="card-content">
+       	<h4>Automated Code Review for Measuring and Improving Software Maintainability</h4>
+          <ul>
+          <li><b>Award Info: </b> Cisco Advanced Security Research Grant</li>
+          <li><b>Funding Amount: </b> $50,000</li>
+          <li><b>Funding Period: </b> August, 2021 - August, 2022</li>
+          </ul>
+    </div>
+</div>
+</div>
+
+
+<br>
+
+
+<div class="responsive-grid">
 	<div class="card">
 		<div class="logo">
 			<img src="../images/nsf.png" alt="NSF Logo">
        </div>
-<div class="card-content">
+    <div class="card-content">
        	<h4>SHF: Small Towards a Holistic Causal Model for Continuous Software Traceability</h4>
           <ul>
           <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2007246&HistoricalAwards=false">CCF-2007246</a></li>
           <li><b>Funding Amount: </b> $500,000</li>
           <li><b>Funding Period: </b> October 1st, 2020 - September 30th, 2023</li>
           </ul>
+    </div>
 </div>
-</div>
+
 <div class="card">
 		<div class="logo">
 			<img src="../images/nsf.png" alt="NSF Logo">
        </div>
-<div class="card-content">
+    <div class="card-content">
        	<h4>Collaborative Research: SHF: Medium: Bug Report Management 2.0</h4>
           <ul>
           <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955853&HistoricalAwards=false">CCF-1955853</a></li>
           <li><b>Funding Amount: </b> $1,200,000</li>
           <li><b>Funding Period: </b> October 1st, 2020 - September 30th, 2024</li>
           </ul>
+    </div>
 </div>
-</div>
+
 <div class="card">
 		<div class="logo">
 			<img src="../images/nsf.png" alt="NSF Logo">
        </div>
-<div class="card-content">
+    <div class="card-content">
        	<h4>EAGER: Mapping Future Synergies between Deep Learning and Software Engineering</h4>
           <ul>
           <li><b>Award Info: </b> National Science Foundation Award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1927679">CCF-1927679</a></li>
           <li><b>Funding Amount: </b> $82,828</li>
           <li><b>Funding Period: </b> July 15th, 2019 - June 30th, 2020</li>
           </ul>
+    </div>
 </div>
 </div>
+
 <br>
-</div>
-      
+
 <div class="responsive-grid">
 <div class="card">
 		<div class="logo">
 			<img src="../images/cisco.png" alt="NSF Logo">
        </div>
-<div class="card-content">
+    <div class="card-content">
        	<h4>Identifying and Tracing Security-Related Software Requirements</h4>
           <ul>
           <li><b>Award Info: </b> Cisco Advanced Security Research Grant</li>
           <li><b>Funding Amount: </b> $100,000</li>
           <li><b>Funding Period: </b> July, 2019 - July, 2020</li>
           </ul>
-</div>
+    </div>
 </div>
 </div>
