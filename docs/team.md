@@ -92,20 +92,8 @@ hide:
 
 -------------------
 
-## Undergraduate Students
+<!---## Undergraduate Students-->
 
-<div class="grid cards" markdown>
-
--   :fontawesome-solid-user:{ .lg .middle } __Jasmine Obas__
-
-    ---
-    
-	![Jas Headshot](../images/jas.png)
-	
-    *  Undergraduate Student at George Mason University
-    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/jasmine-obas-burdette/">LinkedIn</a>
-
-</div>
 
 <!---## High School Students--->
 
