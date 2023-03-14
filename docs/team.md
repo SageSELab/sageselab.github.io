@@ -108,6 +108,8 @@ hide:
 
     ---
     
+    ![Justin Headshot](./images/man.png)
+    
     *  South Lakes High School
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/jasmine-obas-burdette/">LinkedIn</a>
 
@@ -115,6 +117,8 @@ hide:
 -   :fontawesome-solid-user:{ .lg .middle } __Alyssa McGowan__
 
     ---
+    
+    ![Alyssa Headshot](./images/woman.png)
     
     *  Thomas Jefferson High School for Science and Technology
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/jasmine-obas-burdette/">LinkedIn</a>
