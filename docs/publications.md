@@ -10,6 +10,12 @@ example = tool demo paper
 abstract = dataset
 -->
 
+!!! info
+
+    Underlined authors are SAGE Lab members. :fontawesome-solid-book: = Journal Publication; :fontawesome-solid-file-lines: = Conference Publication; :fontawesome-solid-screwdriver-wrench: = Tool Demo Paper; abstract: :fontawesome-solid-database: = Dataset Paper
+
+
+
 ## 2023
 
 ???+ tip "AidUI: Toward Automated Recognition of Dark Patterns in User Interfaces"
