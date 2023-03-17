@@ -53,7 +53,7 @@ hide:
 	
     *  4th Year Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, AI for Software Engineering
-    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">Webpage</a>
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://smhasanmansur.netlify.app">Webpage</a>
 
 -   :fontawesome-solid-user:{ .lg .middle } __Junayed Mahmud__
 
