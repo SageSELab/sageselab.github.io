@@ -42,7 +42,7 @@ hide:
 	
     *  4th Year Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, HCI Considerations for Developer Tools, AI for Software Engineering
-    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">sabiha-salma.github.io/</a>
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">Webpage</a>
     *  <span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/itsmesabiha">itsmesabiha</a>
 
 -   :fontawesome-solid-user:{ .lg .middle } __SM Hasan Mansur__
@@ -53,7 +53,7 @@ hide:
 	
     *  4th Year Ph.D. Student in Computer Science
     *  **Research Interests:** Automated UI Analysis, AI for Software Engineering
-    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">gmu.edu/~smansur4/</a>
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://mason.gmu.edu/~smansur4/">Webpage</a>
 
 -   :fontawesome-solid-user:{ .lg .middle } __Junayed Mahmud__
 
@@ -63,7 +63,7 @@ hide:
 	
     *  Ph.D. Student in Computer Science
     *  **Research Interests:** Bug Reporting, NLP for Software Engineering, Automated Mobile Testing
-    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://mason.gmu.edu/~jmahmud/">https://mason.gmu.edu/~jmahmud/</a>
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://mason.gmu.edu/~jmahmud/">Webpage</a>
     *  <span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/JunayedMahmud10">JunayedMahmud10</a>
 
 -   :fontawesome-solid-user:{ .lg .middle } __Safwat Ali Khan__
