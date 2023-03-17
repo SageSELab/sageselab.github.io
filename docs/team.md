@@ -63,7 +63,7 @@ hide:
 	
     *  Ph.D. Student in Computer Science
     *  **Research Interests:** Bug Reporting, NLP for Software Engineering, Automated Mobile Testing
-    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://mason.gmu.edu/~jmahmud/">sabiha-salma.github.io/</a>
+    *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://mason.gmu.edu/~jmahmud/">https://mason.gmu.edu/~jmahmud/</a>
     *  <span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/JunayedMahmud10">JunayedMahmud10</a>
 
 -   :fontawesome-solid-user:{ .lg .middle } __Safwat Ali Khan__
