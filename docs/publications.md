@@ -10,9 +10,7 @@ example = tool demo paper
 abstract = dataset
 -->
 
-!!! info
-
-    *Underlined authors are SAGE Lab members.* :fontawesome-solid-book: = Journal Publication; :fontawesome-solid-file-lines: = Conference Publication; :fontawesome-solid-screwdriver-wrench: = Tool Demo Paper; :fontawesome-solid-database: = Dataset Paper
+*Underlined authors are SAGE Lab members.* :fontawesome-solid-book: = Journal Publication; :fontawesome-solid-file-lines: = Conference Publication; :fontawesome-solid-screwdriver-wrench: = Tool Demo Paper; :fontawesome-solid-database: = Dataset Paper
 
 
 
