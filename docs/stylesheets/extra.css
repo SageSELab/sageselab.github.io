@@ -87,6 +87,12 @@ input {
   width: 50%;
 }
 
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
+
 .conference {
   color: #56BCA6;
 }
