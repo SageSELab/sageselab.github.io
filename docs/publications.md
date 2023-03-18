@@ -10,7 +10,7 @@ example = tool demo paper
 abstract = dataset
 -->
 
-:material-star-four-points: *Underlined authors are SAGE Lab members.* Click on a paper title to expand the details.
+:material-star-four-points: *Underlined authors are SAGE Lab members.* :material-arrow-down: Click on a paper title to expand the details.
 
 :fontawesome-solid-book:{ .journal } = Journal Publication 
 
