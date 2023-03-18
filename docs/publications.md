@@ -29,7 +29,7 @@ abstract = dataset
     === "Paper Info"
 
         * :material-account-supervisor-outline:  <u>SM Hasan Mansur</u>, <u>Sabiha Salma</u>, <u>Damilola Awofisayo</u>, & Kevin Moran
-	     * :material-map-marker: *Proceedings of The 45th IEEE/ACM International Conference on Software Engineering ([ICSE 2023](https://conf.researchr.org/home/icse-2023)), Melbourne, Australia, May 14th-20th, 2023*
+	     * :material-map-marker: *Proceedings of The 45th IEEE/ACM International Conference on Software Engineering ([ICSE'23](https://conf.researchr.org/home/icse-2023)), Melbourne, Australia, May 14th-20th, 2023*
 	     *  [:material-file-pdf-box: pdf]() | [:material-database: data](https://doi.org/10.5281/zenodo.7578246) | [:material-github: github](https://github.com/SageSELab/AidUI)
 
     === "Abstract"
@@ -41,7 +41,7 @@ abstract = dataset
     === "Paper Info"
 
         * :material-account-supervisor-outline:  Sajed Jalil, Suzzana Rafi, Thomas D. LaToza, Kevin Moran, & Wing Lam
-	     * :material-map-marker: *Proceedings of the 2nd Software Testing Education Workshop (TestEd’23), co-located with ICST’23, Dublin, Ireland, April 16th, 2023*
+	     * :material-map-marker: *Proceedings of the 2nd Software Testing Education Workshop ([TestEd’23](https://testedworkshop.github.io/2023/)), co-located with ICST’23, Dublin, Ireland, April 16th, 2023*
 	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2302.03287) | [:material-database: data](https://doi.org/10.5281/zenodo.7700501) | [:material-github: github](https://github.com/sajedjalil/ChatGPT-Software-Testing-Study)
 
     === "Abstract"
@@ -53,7 +53,7 @@ abstract = dataset
     === "Paper Info"
 
         * :material-account-supervisor-outline:  Yang Song, <u>Junayed Mahmud</u>, Nadasheen De Silva, Ying Zhou, Oscar Chaparro, Kevin Moran, Andrian Marcus, & Denys Poshyvanyk
-	     * :material-map-marker: *Proceedings of the 45th IEEE/ACM International Conference on Software Engineering ([ICSE 2023](https://conf.researchr.org/home/icse-2023)), Formal Tool Demonstrations Track, Melbourne, Australia, May 14th-20th, 2023*
+	     * :material-map-marker: *Proceedings of the 45th IEEE/ACM International Conference on Software Engineering ([ICSE'23](https://conf.researchr.org/home/icse-2023)), Formal Tool Demonstrations Track, Melbourne, Australia, May 14th-20th, 2023*
 	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2302.06050) | [:material-database: data](https://doi.org/10.5281/zenodo.6977413) | [:material-github: github](https://github.com/sea-lab-wm/burt/tree/tool-demo)
 
     === "Abstract"
@@ -70,7 +70,7 @@ abstract = dataset
     === "Paper Info"
 
         * :material-account-supervisor-outline:  Saghar Talebipour, Hyojae Park,  <u>Kesina Baral</u>, Leon Yee, <u>Safwat Ali Khan</u>, Kevin Moran, Yuriy Brun, Nenad Medvidovic, & Yixue Zhao
-	     * :material-map-marker: *Proceedings of the 45th IEEE/ACM International Conference on Software Engineering ([ICSE 2023](https://conf.researchr.org/home/icse-2023)), Formal Tool Demonstrations Track, Melbourne, Australia, May 14th-20th, 2023*
+	     * :material-map-marker: *Proceedings of the 45th IEEE/ACM International Conference on Software Engineering ([ICSE'23](https://conf.researchr.org/home/icse-2023)), Formal Tool Demonstrations Track, Melbourne, Australia, May 14th-20th, 2023*
 	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2209.02577) | [:material-database: data](https://zenodo.org/record/7036218#.Y7RWzy-B3Ek) | [:material-github: github](https://github.com/felicitia/UsageTesting-Repo/tree/demo)
 
     === "Abstract"
@@ -88,7 +88,7 @@ abstract = dataset
     === "Paper Info"
 
         * :material-account-supervisor-outline:  Yixue Zhao, Saghar Talebipour, Kesina Baral, Hyojae Park, Leon Yee, <u>Safwat Ali Khan</u>, Yuriy Brun, Nenad Medvidovic, & Kevin Moran
-	     * :material-map-marker: *Proceedings of the 2022 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering ([ESEC/FSE 2022](https://2022.esec-fse.org/)), Singapore, November 14th-18th, 2022 (22% Acceptance Rate)*
+	     * :material-map-marker: *Proceedings of the 2022 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering ([ESEC/FSE'22](https://2022.esec-fse.org/)), Singapore, November 14th-18th, 2022 (22% Acceptance Rate)*
 	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2209.02577) | [:material-database: data](https://zenodo.org/record/7036218#.Y7RWzy-B3Ek) | [:material-github: github](https://github.com/felicitia/UsageTesting-Repo/tree/demo)
 
     === "Abstract"
@@ -105,7 +105,7 @@ abstract = dataset
     === "Paper Info"
 
         * :material-account-supervisor-outline:  Yang Song, <u>Junayed Mahmud</u>, Ying Zhou, Oscar Chaparro, Kevin Moran, Andrian Marcus, and Denys Poshyvanyk
-	     * :material-map-marker: *Proceedings of the 2022 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering ([ESEC/FSE 2022](https://2022.esec-fse.org/)), Singapore, November 14th-18th, 2022 (22% Acceptance Rate)*
+	     * :material-map-marker: *Proceedings of the 2022 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering ([ESEC/FSE'22](https://2022.esec-fse.org/)), Singapore, November 14th-18th, 2022 (22% Acceptance Rate)*
 	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2209.10062) | [:material-database: data](https://doi.org/10.5281/zenodo.6977413) | [:material-github: github](https://github.com/sea-lab-wm/burt/tree/tool-demo)
 
     === "Abstract"
@@ -198,7 +198,7 @@ abstract = dataset
     === "Paper Info"
 
         * :material-account-supervisor-outline: Amit Seal Ami, Nathan Cooper, Kaushal Kafle, Kevin Moran, Denys Poshyvanyk, and Adwait Nadkarni
-	     * :material-map-marker: *Proceedings of the IEEE Symposium on Security and Privacy [(Oakland)](https://www.ieee-security.org/TC/SP2022/), May  22nd-26th, 2022, to appear, 18 pages*
+	     * :material-map-marker: *Proceedings of the IEEE Symposium on Security and Privacy [(Oakland'22)](https://www.ieee-security.org/TC/SP2022/), May  22nd-26th, 2022, to appear, 18 pages*
 	     *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2107.07065) | [:material-database: data](https://github.com/Secure-Platforms-Lab-W-M/MASC-Artifact)
 
     === "Abstract"
