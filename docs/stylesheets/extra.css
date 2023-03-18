@@ -87,6 +87,22 @@ input {
   width: 50%;
 }
 
+.conference {
+  color: #56BCA6;
+}
+
+.journal {
+  color: #5689F7;
+}
+
+.dataset {
+  color: #4FAEF8;
+}
+
+.demo {
+  color: #754FF6;
+}
+
 input {
   font-family: inherit;
   width: 70%;
