@@ -17,7 +17,7 @@ hide:
 		<td width="600px">
 			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/kevin.png">
 			<ul>
-				<li><b>Bio:</b> Kevin Moran is an Assistant Professor in the Department of Computer Science at George Mason University.  He graduated with his B.A. in Physics with a Computer Science Minor from the College of the Holy Cross in 2013. He graduated with his M.S. in Computer Science from William & Mary in 2015, and his Ph.D. in Computer Science from William & Mary in 2018. Dr. Moran directs the SAGE Research Lab.</li>
+				<li><b>Bio:</b> Kevin Moran is an Assistant Professor in the Department of Computer Science at the University of Central Florida.  He graduated with his B.A. in Physics with a Computer Science Minor from the College of the Holy Cross in 2013. He graduated with his M.S. in Computer Science from William & Mary in 2015, and his Ph.D. in Computer Science from William & Mary in 2018. Dr. Moran directs the SAGE Research Lab.</li>
   				<li><a href="https://www.kpmoran.com"><span class="iconify" data-align="bottom" data-width="26" data-height="26" data-icon="bx:bxs-home" data-inline="false"></span></a>&nbsp;&nbsp;
   				<a href="https://twitter.com/kevpmo"><span class="iconify" data-align="bottom" data-width="26" data-height="26" data-icon="akar-icons:twitter-fill" data-inline="false"></span></a>&nbsp;&nbsp;
   				<a href="https://scholar.google.com/citations?user=CllWHUcAAAAJ&hl=en&gmla=AJsN-F78UepV0Z898WH2A0mfcnlI9zEgUSCK0ayjTjMDF7dgPL3vThX8UaBv6rYew576mmMsSow7N_8ZCVXG_vRZ3HHAoiU3Nt8MMFjR7yt78D4zLQK8GjKyO93tYocfbX54VSTN9Kac"><span class="iconify" data-align="bottom" data-width="26" data-height="26" data-icon="simple-icons:googlescholar" data-inline="false"></span></a>&nbsp;&nbsp;
@@ -40,7 +40,7 @@ hide:
     
 	![Sabiha Headshot](../images/sabiha.png)
 	
-    *  4th Year Ph.D. Student in Computer Science
+    *  4th Year Ph.D. Student in Computer Science at GMU
     *  **Research Interests:** Automated UI Analysis, HCI Considerations for Developer Tools, AI for Software Engineering
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://sabiha-salma.github.io/">Webpage</a>
     *  <span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/itsmesabiha">itsmesabiha</a>
@@ -51,7 +51,7 @@ hide:
     
 	![Hasan Headshot](../images/hasan.png)
 	
-    *  4th Year Ph.D. Student in Computer Science
+    *  4th Year Ph.D. Student in Computer Science at GMU
     *  **Research Interests:** Automated UI Analysis, AI for Software Engineering
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://smhasanmansur.netlify.app">Webpage</a>
 
@@ -61,7 +61,7 @@ hide:
     
 	![Junayed Headshot](../images/junayed.png)
 	
-    *  Ph.D. Student in Computer Science
+    *  Ph.D. Student in Computer Science at UCF
     *  **Research Interests:** Bug Reporting, NLP for Software Engineering, Automated Mobile Testing
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://mason.gmu.edu/~jmahmud/">Webpage</a>
     *  <span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/JunayedMahmud10">JunayedMahmud10</a>
@@ -72,7 +72,7 @@ hide:
     
 	![Safwat Headshot](../images/safwat.png)
 	
-    *  Ph.D. Student in Computer Science
+    *  Ph.D. Student in Computer Science at GMU
     *  **Research Interests:** Automated UI Analysis, Automated UI testing, Mobile Applications, Smart Home Testing
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="https://www.linkedin.com/in/safwat-ali-khan">LinkedIn</a>
     *  <span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/safwatknopfler">safwatknopfler</a>
@@ -83,7 +83,7 @@ hide:
     
 	![Arun Headshot](../images/arun.png)
 	
-    *  Ph.D. Student in Computer Science
+    *  Ph.D. Student in Computer Science at GMU
     *  **Research Interests:** Software Engineering for Accessibility, Automated UI Analysis
     *  <span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a href="http://arunkv.com/">Webpage</a>
     *  <span class="iconify" data-align="bottom" data-width="12" data-height="12" data-icon="logos:twitter" data-inline="false"></span> <a href="https://twitter.com/ItsArunKV">ItsArunKV</a>

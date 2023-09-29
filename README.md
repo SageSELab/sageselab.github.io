@@ -1,5 +1,5 @@
-## Welcome to the Code Repository for the SAGE Software Engienering Research Group at GMU
+## Welcome to the Code Repository for the GMU CS Virtual Open House 2021
 
 ### Overview
 
-This is the repository that hosts the web code for the SAGE Lab at GMU.
+This is the repository that hosts the web code for the GMU CS Virtual Open House for accepted students.
