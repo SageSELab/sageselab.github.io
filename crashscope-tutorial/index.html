@@ -1,0 +1,894 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="SAGE Lab Members">
+      
+      
+        <link rel="canonical" href="https://sagelab.io/crashscope-tutorial/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/sage-logo.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.25+insiders-4.53.11">
+    
+    
+      
+        <title>CrashScope Tutorial - SAGE Research Lab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.c0d16a3a.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm32 104c0-13.3 10.7-24 24-24 137 0 248 111 248 248 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-110.5-89.5-200-200-200-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24 83.9 0 152 68.1 152 152 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-57.4-46.6-104-104-104-13.3 0-24-10.7-24-24zm0 120a32 32 0 1 1 64 0 32 32 0 1 1-64 0z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 0C28.7 0 0 28.7 0 64v384c0 35.3 28.7 64 64 64h256c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zm192 0v128h128L256 0zM112 256h160c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h160c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h160c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M78.6 5c-9.5-7.4-23-6.5-31.6 2L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4H158l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3L192 158v-54c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1 0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9l117.8-117.8c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16v-57.5c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0c-79.5 0-144 64.5-144 144v.8l85.3 85.3c36-9.1 75.8.5 104 28.7l15.7 15.7c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1-48 0z"/></svg>');--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0s224 35.8 224 80zm-54.8 134.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432v-85.9z"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="SAGE Research Lab - CrashScope Tutorial">
+<meta property="og:description" content="None">
+<meta property="og:url" content="https://sagelab.io/crashscope-tutorial/">
+<meta property="og:image" content="https://sagelab.io/static/card.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@wtfutil">
+<meta name="twitter:creator" content="@wtfutil">
+<meta name="twitter:title" content="SAGE Research Lab - CrashScope Tutorial">
+<meta name="twitter:description" content="None">
+<meta name="twitter:image" content="https://sagelab.io/static/card.png">
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tutorial-materials" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="SAGE Research Lab" class="md-header__button md-logo" aria-label="SAGE Research Lab" data-md-component="logo">
+      
+  <img src="../images/sage-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SAGE Research Lab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CrashScope Tutorial
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9h-1.9M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69m-9.15 3.96h2.3L12 9l-1.15 3.65Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="gmu" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../research/" class="md-tabs__link">
+        
+  
+    
+  
+  Research
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../publications/" class="md-tabs__link">
+        
+  
+    
+  
+  Publications
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../team/" class="md-tabs__link">
+        
+  
+    
+  
+  Team
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="SAGE Research Lab" class="md-nav__button md-logo" aria-label="SAGE Research Lab" data-md-component="logo">
+      
+  <img src="../images/sage-logo.png" alt="logo">
+
+    </a>
+    SAGE Research Lab
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../research/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../publications/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Publications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tutorial-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorial Materials
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tutorial Materials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tutorial-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorial Video
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tutorial-slides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorial Slides
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-android-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing Android Studio
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-your-android-emulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuring Your Android Emulator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#downloading-the-android-build-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Downloading the Android Build Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tutorial-executing-a-test-application-with-crashscope" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorial: Executing a Test Application with CrashScope
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tutorial: Executing a Test Application with CrashScope">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-clone-the-crashscope-project-libraries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Clone the CrashScope Project &amp; Libraries
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-importing-crashscope-into-eclipse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Importing CrashScope into Eclipse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-configuring-crashscope" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Configuring CrashScope
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-running-crashscope" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Running CrashScope
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#final-step-congratulations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Step: Congratulations!
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+  <h1>CrashScope Tutorial</h1>
+
+<h2 id="tutorial-materials">Tutorial Materials</h2>
+<h3 id="tutorial-video"><u>Tutorial Video</u></h3>
+<p>Coming Soon!!</p>
+<h3 id="tutorial-slides"><u>Tutorial Slides</u></h3>
+<div style="text-align: center;">
+<a href="../pdfs/A-Test'21-Hands-On-Session.pdf" title="Click here to Download Tutorial Slides" class="md-button md-button--primary">Click Here to Download Tutorial Slides</a>
+</div>
+
+<p>For additional technical information, you can download the CrashScope Tool Demo and Research Papers below:</p>
+<div style="text-align: center;">
+<a href="https://arxiv.org/abs/1706.01130" title="Click here to Download CrashScope Research Paper" class="md-button md-button--primary">Click Here to Download CrashScope Research Paper</a>
+</div>
+
+<p><br></p>
+<div style="text-align: center;">
+<a href="http://arxiv.org/abs/1801.06428" title="Click here to Download CrashScope Tool Demo Paper" class="md-button md-button--primary">Click Here to Download CrashScope Tool Demo Paper</a>
+</div>
+
+<h2 id="getting-started">Getting Started</h2>
+<p>Please follow these instructions before the tutorial begins to install <a href="https://developer.android.com/studio">Android Studio</a> (the integrated development environment, or IDE, for building Android Apps) and configure an Android emulator (a virtual device that will allow you to run and test your prototype application).</p>
+<h3 id="installing-android-studio"><u>Installing Android Studio</u></h3>
+<p>Please visit <a href="https://developer.android.com/studio">https://developer.android.com/studio</a> in order to download the version of Android studio for the operating system that you use. All major operating systems, including macOS, Windows, and most flavors of Linux are supported.</p>
+<p>Follow the instructions for your specific operating system to finish the installation. You can find a detailed guide for specific operating systems <a href="https://developer.android.com/studio/install">here</a>.</p>
+<h3 id="configuring-your-android-emulator"><u>Configuring Your Android Emulator</u></h3>
+<p>Once you have installed Android studio, either navigate to the launch screen view or the code editor view in order to launch the <strong>AVD Manager</strong>. See the screenshots below to see the steps involved in doing this.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/splash.png" /> 1. First click on the "Configure" button at the bottom of the splash screen.</p>
+<p><img align="left" alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/select.png" />2. Click on the "AVD Manager" option to launch the configurator for the virtual Android Devices. </p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/start.png" /> 3. Click on the "+ Create Virtual Device" button to launch the configurator wizard.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/device.png" /> 4. The first screen of the configurator wizard allows you to pick the hardware settings of your virtual Android device. This includes attributes such as the device screen size and pixel density. For the purposes of this tutorial, we will be using the Nexus 5 emulator, which you can select by scrolling to and clicking on the hardware configuration as shown in the above screenshot. After you have selected the Nexus 5 profile, you can click the "Next" button.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/system.png" /> 5. Next we need to configure the software that our Android emulator will run on. The wizard allows you to select from many different Android versions, some of which contain proprietary Google Play APIs. For the purposes of this tutorial, we will be using Android 7.0 (also called Nougat) as it has good compatibility across a range of Android devices. To use this version, you first click on the Download button, to download the software image. After the download is complete, you can then select the software version in the configuration wizard and click the "Next" button.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/config.png" /> 6. The Final screen of the configuration wizard provides some more advanced options and provides general information about the device you configured. For the purposes of this tutorial, we do not need to worry about advanced options, so you can simply click on the "Finish" button.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/launch.png" /> 7. Now that your Android emulator has been configured, you can launch the emulator by clicking on the green "play button as indicated above. This should launch your emulator and allow you to test applications! </p>
+<h3 id="downloading-the-android-build-tools"><u>Downloading the Android Build Tools</u></h3>
+<p>In order to properly run CrashScope, you will need to download a set of the Android build tools that allow for automated extraction of app information from apks.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/splash.png" /> 1. First, while at the splash Screen of Android Studio click on the "configure" button.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/avd-manager.png" /> 2. Next Click on the <strong>SDK Manager</strong> menu option.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/sdk-tools.png" /> 3. Next, in the new screen that pops up, click on the <strong>SDK Tools</strong> Tab and then click on the <strong>Show Package Details</strong> button in the bottom left.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/build-tools.png" /> 4. Next, you will need to scroll until you come across the Build Tools version <code>25.0.1</code>. Click the check next to this option and then click the <strong>Apply</strong> button.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/confirmation.png" /> 5. Finally, click the <strong>OK</strong> button on the confirmation popup that appears. You have now installed the build tools required by CrashScope.</p>
+<hr />
+<h2 id="tutorial-executing-a-test-application-with-crashscope">Tutorial: Executing a Test Application with CrashScope</h2>
+<p>Today, you will be executing a test application using the CrashScope tool. To do this, you will first need to clone the CrashScope Repo, which you can find by clicking the button below. Once you have cloned the project, you can import it into the Eclipse IDE (see note below). </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This tutorial is centered around using Eclipse, however, if you are experienced in setting up Java projects in other IDEs feel free to use your IDE of choice.</p>
+</div>
+<h3 id="step-1-clone-the-crashscope-project-libraries"><u>Step 1: Clone the CrashScope Project &amp; Libraries</u></h3>
+<p>First you will need to clone the CrashScope GitHub repo. You can access the repo by using the link below.</p>
+<div style="text-align: center;">
+<a href="https://github.com/SageSELab/CrashScope" title="Click here to Access the GitHub project" class="md-button md-button--primary">Click Here to Access the GitHub project</a>
+</div>
+
+<p>Next, you will need to download the libraries required to run CrashScope (offered as a separated download due to licensing constraints). You can download the required libraries below. Simply download this and unpack them at the root of the CrashScope repo. The folder should named <code>lib</code>.</p>
+<div style="text-align: center;">
+<a href="../files/lib.zip" title="Click here to Download the CrashScope Libraries" class="md-button md-button--primary">Click here to Download the CrashScope Libraries</a>
+</div>
+
+<p>Finally, you will need to download a test application to run with CrashScope. We will be using the <em>Mileage</em> application in this tutorial. You can download the Mileage <code>.apk</code> file by clicking the button below.</p>
+<div style="text-align: center;">
+<a href="../files/mileage.apk" title="Click here to Download the Test App" class="md-button md-button--primary">Click here to Download the Test App</a>
+</div>
+
+<p>Once, you have downloaded the Mileage application, put it in the root of the cloned CrashScope repository.</p>
+<h3 id="step-2-importing-crashscope-into-eclipse"><u>Step 2: Importing CrashScope into Eclipse</u></h3>
+<p>First, if you have not done so already, download Eclipse from the <a href="https://www.eclipse.org/downloads/">Eclipse Project Page</a>, and follow the instructions for installing the IDE on your respective personal computer.</p>
+<p>Next, you will need to import the project into Eclipse. To do this, click on the Eclipse's <strong>File</strong> menu, and then click on the <strong>Import Project</strong> option.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/eclipse-import.png" /> You should then see the screen above. Select the <strong>Existing Projects into Workspace</strong> option and then click <strong>Next</strong>. </p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/crashscope-import.png" /> On the next screen you should click the <strong>Browse</strong> button to locate the folder where the CrashScope repo was cloned. Then once you have selected that folder, be sure the <strong>CrashScope-Execution-Engine</strong> project is selected, and click on the <strong>Finish</strong> button. </p>
+<p>This should import CrashScope into Eclipse where you can start to use/run it. </p>
+<h3 id="step-3-configuring-crashscope"><u>Step 3: Configuring CrashScope</u></h3>
+<p>In the <code>CrashScope.java</code> class (located in the <code>edu.semeru.android.testing</code> package), you should see something like the code below in the <code>main</code> method:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="w">        </span><span class="c1">// TO BE CONFIGURED</span>
+<span class="w">        </span><span class="c1">// This should be a path to a text file that contains a list of apk paths to be run. </span>
+<span class="w">        </span><span class="c1">// Each line should consist of a path to a given apk file.</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">apkFile</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;apps.txt&quot;</span><span class="p">;</span>
+
+
+<span class="w">        </span><span class="c1">// TO BE CONFIGURED</span>
+<span class="w">        </span><span class="c1">// This path should point to the aapt tool that is included with the Android SDK.</span>
+<span class="w">        </span><span class="c1">// The current version of CrashScope was tested with version 25.0.1</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">aaptPath</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;AndroidSDK/sdk/build-tools/25.0.1&quot;</span><span class="p">;</span>
+
+
+<span class="w">        </span><span class="c1">// TO BE CONFIGURED</span>
+<span class="w">        </span><span class="c1">// This path should point to an empty folder where CrashScope will store some</span>
+<span class="w">        </span><span class="c1">// both temporary data generated during execution, and the final output </span>
+<span class="w">        </span><span class="c1">// execution json files.</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">dataFolder</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;CrashScope-Data/&quot;</span><span class="p">;</span>
+</code></pre></div></td></tr></table></div>
+<p>The first thing you will need to do is replace these paths with the corresponding paths on your own personal computer according to the provided documentation. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Be sure that you add the <strong>full path</strong> of the Mileage application to the first line of the <code>apps.txt</code> file, so that CrashScope knows where to find the app.</p>
+</div>
+<p>Additionally, in the same class, in the <code>runCrashScopeLocal</code> method you will see the following:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="w">        </span><span class="c1">// TO BE CONFIGURED</span>
+<span class="w">        </span><span class="c1">// This is the path the scripts folder in the crashscope execution engine project.</span>
+<span class="w">        </span><span class="c1">// Should be updated to the appropriate path once you clone the project.</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">scriptsPath</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;crashscope-execution-engine/scripts&quot;</span><span class="p">;</span>
+
+<span class="w">        </span><span class="c1">// TO BE CONFIGURED</span>
+<span class="w">        </span><span class="c1">// This is the path to the root of your Android SDK folder.</span>
+<span class="w">        </span><span class="c1">// CrashScope uses various tools included with the Android SDK to ineract with devices and emualtors.</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">androidSDKPath</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;/Applications/AndroidSDK/sdk&quot;</span><span class="p">;</span>
+
+
+<span class="w">        </span><span class="c1">// These are the default emulator paths for most systems.</span>
+<span class="w">        </span><span class="c1">// These should only be updated if you are using a non-default emulator path.</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">avdPort</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;5554&quot;</span><span class="p">;</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">adbPort</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;5037&quot;</span><span class="p">;</span>
+</code></pre></div></td></tr></table></div>
+<p>You will also need to do is replace these paths with the corresponding paths on your own personal computer according to the provided documentation.</p>
+<h3 id="step-4-running-crashscope"><u>Step 4: Running CrashScope</u></h3>
+<p>Now that you have configured all the relevant paths, it is time to run CrashScope on the Mileage app!</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/launch.png" /> Launch your configured emulator by clicking on the green start button in the Android Studio AVD manager. (Refer to the setup instructions for additional details).</p>
+<p>Next, you will need to run the <code>main</code> method in the <code>CrashScope.java</code> file. To do this, Right click the <code>CrashScope.java</code> file in the Eclipse File explorer, and then select <strong>Run as</strong> -&gt; <strong>Java Application</strong>. </p>
+<p>This will start the Execution of CrashScope on the Mileage application!</p>
+<hr />
+<h3 id="final-step-congratulations"><u>Final Step: Congratulations!</u></h3>
+<p>Congrats on running your first app with CrashScope. You will find the output of the technique in your <code>CrashScope-Data</code> folder, which will include screenshots of each step, as well as a .json file that contains all of the information for a given execution.</p>
+<p>We hope that future researchers will build upon CrashScope for AR/VR/XR applicaitons by replacing the <code>uiautomator</code> interface, which fetches information regarding native Android app GUIs, with Computer Vision techniques that can reliably detect various interface components for AR/VR/XR applications.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      ©2023 SAGE Research Lab
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/sageselab" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/sageselab" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "search": "../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e3055991.min.js"></script>
+      
+    
+  </body>
+</html>

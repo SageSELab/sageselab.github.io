@@ -1,0 +1,1478 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="SAGE Lab Members">
+      
+      
+        <link rel="canonical" href="https://sagelab.io/android-dev-tutorial/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/sage-logo.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.25+insiders-4.53.11">
+    
+    
+      
+        <title>Android Development Tutorial - SAGE Research Lab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.c0d16a3a.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm32 104c0-13.3 10.7-24 24-24 137 0 248 111 248 248 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-110.5-89.5-200-200-200-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24 83.9 0 152 68.1 152 152 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-57.4-46.6-104-104-104-13.3 0-24-10.7-24-24zm0 120a32 32 0 1 1 64 0 32 32 0 1 1-64 0z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 0C28.7 0 0 28.7 0 64v384c0 35.3 28.7 64 64 64h256c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zm192 0v128h128L256 0zM112 256h160c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h160c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h160c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M78.6 5c-9.5-7.4-23-6.5-31.6 2L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4H158l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3L192 158v-54c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1 0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9l117.8-117.8c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16v-57.5c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0c-79.5 0-144 64.5-144 144v.8l85.3 85.3c36-9.1 75.8.5 104 28.7l15.7 15.7c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1-48 0z"/></svg>');--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0s224 35.8 224 80zm-54.8 134.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432v-85.9z"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="SAGE Research Lab - Android Development Tutorial">
+<meta property="og:description" content="None">
+<meta property="og:url" content="https://sagelab.io/android-dev-tutorial/">
+<meta property="og:image" content="https://sagelab.io/static/card.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@wtfutil">
+<meta name="twitter:creator" content="@wtfutil">
+<meta name="twitter:title" content="SAGE Research Lab - Android Development Tutorial">
+<meta name="twitter:description" content="None">
+<meta name="twitter:image" content="https://sagelab.io/static/card.png">
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tutorial-materials" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="SAGE Research Lab" class="md-header__button md-logo" aria-label="SAGE Research Lab" data-md-component="logo">
+      
+  <img src="../images/sage-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SAGE Research Lab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Android Development Tutorial
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9h-1.9M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69m-9.15 3.96h2.3L12 9l-1.15 3.65Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="gmu" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../research/" class="md-tabs__link">
+        
+  
+    
+  
+  Research
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../publications/" class="md-tabs__link">
+        
+  
+    
+  
+  Publications
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../team/" class="md-tabs__link">
+        
+  
+    
+  
+  Team
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="SAGE Research Lab" class="md-nav__button md-logo" aria-label="SAGE Research Lab" data-md-component="logo">
+      
+  <img src="../images/sage-logo.png" alt="logo">
+
+    </a>
+    SAGE Research Lab
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../research/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../publications/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Publications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tutorial-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorial Materials
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tutorial Materials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tutorial-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorial Video
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tutorial-slides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorial Slides
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-android-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing Android Studio
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-your-android-emulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuring Your Android Emulator
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Help
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tutorial-developing-a-todo-list-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorial: Developing a ToDo List App
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tutorial: Developing a ToDo List App">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-create-a-new-android-studio-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Create a New Android Studio Project
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-setting-up-the-ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Setting up the UI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-storing-and-retrieving-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Storing and Retrieving Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-deleting-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Deleting Tasks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#final-step-congratulations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Step: Congratulations!
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-task-1-change-the-look-and-feel-of-the-ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Task 1: Change the Look and Feel of the UI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-task-2-add-due-dates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Task 2: Add Due Dates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-task-3-allow-tasks-with-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bonus Task 3: Allow Tasks with Images
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+  <h1>Android Development Tutorial</h1>
+
+<h2 id="tutorial-materials">Tutorial Materials</h2>
+<h3 id="tutorial-video"><u>Tutorial Video</u></h3>
+<div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+   <img src="../images/android-tutorial/video-thumbnail.png" style="cursor:pointer" />
+</div>
+<div style="display:none">
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/sjIcw1LYwT8' frameborder='0' allowfullscreen></iframe></div>
+</div>
+
+<h3 id="tutorial-slides"><u>Tutorial Slides</u></h3>
+<p>Click on the button below to download the tutorial slides.</p>
+<div style="text-align: center;">
+<a href="../pdfs/Android-Development-Tutorial.pdf" title="Click here to Download Tutorial Slides" class="md-button md-button--primary">Click Here to Download Tutorial Slides</a>
+</div>
+
+<h2 id="getting-started">Getting Started</h2>
+<p>Please follow these instructions before the tutorial begins to install <a href="https://developer.android.com/studio">Android Studio</a> (the integrated development environment, or IDE, for building Android Apps) and configure an Android emulator (a virtual device that will allow you to run and test your prototype application).</p>
+<h3 id="installing-android-studio"><u>Installing Android Studio</u></h3>
+<p>Please visit <a href="https://developer.android.com/studio">https://developer.android.com/studio</a> in order to download the version of Android studio for the operating system that you use. All major operating systems, including macOS, Windows, and most flavors of Linux are supported.</p>
+<p>Follow the instructions for your specific operating system to finish the installation. You can find a detailed guide for specific operating systems <a href="https://developer.android.com/studio/install">here</a>.</p>
+<h3 id="configuring-your-android-emulator"><u>Configuring Your Android Emulator</u></h3>
+<p>Once you have installed Android studio, either navigate to the launch screen view or the code editor view in order to launch the <strong>AVD Manager</strong>. See the screenshots below to see the steps involved in doing this.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/splash.png" /> 1. First click on the "Configure" button at the bottom of the splash screen.</p>
+<p><img align="left" alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/select.png" />2. Click on the "AVD Manager" option to launch the configurator for the virtual Android Devices. </p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/start.png" /> 3. Click on the "+ Create Virtual Device" button to launch the configurator wizard.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/device.png" /> 4. The first screen of the configurator wizard allows you to pick the hardware settings of your virtual Android device. This includes attributes such as the device screen size and pixel density. For the purposes of this tutorial, we will be using the Nexus 5 emulator, which you can select by scrolling to and clicking on the hardware configuration as shown in the above screenshot. After you have selected the Nexus 5 profile, you can click the "Next" button.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/system.png" /> 5. Next we need to configure the software that our Android emulator will run on. The wizard allows you to select from many different Android versions, some of which contain proprietary Google Play APIs. For the purposes of this tutorial, we will be using Android 7.0 (also called Nougat) as it has good compatibility across a range of Android devices. To use this version, you first click on the Download button, to download the software image. After the download is complete, you can then select the software version in the configuration wizard and click the "Next" button.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/config.png" /> 6. The Final screen of the configuration wizard provides some more advanced options and provides general information about the device you configured. For the purposes of this tutorial, we do not need to worry about advanced options, so you can simply click on the "Finish" button.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/launch.png" /> 7. Now that your Android emulator has been configured, you can launch the emulator by clicking on the green "play button as indicated above. This should launch your emulator and allow you to test applications! </p>
+<hr />
+<h2 id="getting-help">Getting Help</h2>
+<p>If you have trouble or need help, please reach out to Dr. Moran on the <code>android-tutorial</code> channel in the <a href="https://edm-reu-mason-2021.slack.com">REU Slack</a>, or the <a href="https://casbbinrt2021.slack.com">NRT Slack Channel</a>. He will be happy to assist you!</p>
+<hr />
+<h2 id="tutorial-developing-a-todo-list-app">Tutorial: Developing a ToDo List App</h2>
+<p>Today, you will be developing a To-Do List application for Android using the Java programming language. While, as discussed in the lecture, Android does support Kotlin, most of you are likely more familiar with Java and it is still supported :-) I have already coded this project and placed it on GitHub, which you can access via the button below. However, you should use this only if you get stuck, otherwise, follow the tutorial below, as it will teach you about the purpose of the code.</p>
+<div style="text-align: center;">
+<a href="https://github.com/SageSELab/Android-Todo-Tutorial" title="Click here to Access the GitHub project" class="md-button md-button--primary">Click Here to Access the GitHub project</a>
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This tutorial is adapted and updated from Aldo Ziflaj's awesome tutorial, which you can find <a href="https://www.sitepoint.com/starting-android-development-creating-todo-app/">here</a> (but the code and structure is a bit outdated).</p>
+</div>
+<h3 id="step-1-create-a-new-android-studio-project"><u>Step 1: Create a New Android Studio Project</u></h3>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/launch2.png" /></p>
+<p>Open the AndroidStudio launch screen and select the "Create New Project" button.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/sel-activity.png" /></p>
+<p>Next select the "Empty Activity" and then click "Next".</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/proj-settings.png" /></p>
+<p>On the next screen, you can configure the general project attributes. First, choose a suitable name for your TodoList project. You can use any name you like. Next, provide a package name. If you are not sure what to use, you can use <code>edu.gmu.&lt;project-name&gt;</code>. Next, select the location where you want the code to be stored on your computer hard-disk. After that, make sure that the selected Language is <code>Java</code> as we will be using Java for this tutorial. Next, set the minimum SDK to <code>API 24: Android 7.0 (Nougat)</code>. Make sure the "Use legacy android.support libraries is <em>unchecked</em>. Finally, click the "Finish" button to create your project!</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/start-emu.png" /></p>
+<p>Next, let's make sure your app can run! Once Android Studio finishes automatically setting up the new project, you can click on the green arrow in the menu bar to run your app. This should launch your configured emulator and launch the app!</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/running-app.png" /></p>
+<h3 id="step-2-setting-up-the-ui"><u>Step 2: Setting up the UI</u></h3>
+<p>In the <code>MainActivity.java</code> class, you should see something like the code below:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MainActivity</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">AppCompatActivity</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">    </span><span class="nd">@Override</span>
+<span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onCreate</span><span class="p">(</span><span class="n">Bundle</span><span class="w"> </span><span class="n">savedInstanceState</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kd">super</span><span class="p">.</span><span class="na">onCreate</span><span class="p">(</span><span class="n">savedInstanceState</span><span class="p">);</span>
+<span class="w">        </span><span class="n">setContentView</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">layout</span><span class="p">.</span><span class="na">activity_main</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<p>On line 11, you set the view of this activity to <code>R.layout.activity_main</code>, which points to a file called <code>activity_main.xml</code> in the <code>/res/layout</code> directory of the project. To view the layout, select the <code>activity_main.xml</code> file from under the <code>res/layout</code> folder and double click it. This will bring out the layout inspector. However, we will be using the xml code to build this UI. To view the xml code, click on the "Code" button in the top left of the LayoutInspector. You will then see a A vie, that controls layout of the Android interface, that looks like this:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="nt">&lt;RelativeLayout</span><span class="w"> </span><span class="na">xmlns:android=</span><span class="s">&quot;http://schemas.android.com/apk/res/android&quot;</span>
+<span class="w">    </span><span class="na">xmlns:tools=</span><span class="s">&quot;http://schemas.android.com/tools&quot;</span>
+<span class="w">    </span><span class="na">android:layout_width=</span><span class="s">&quot;match_parent&quot;</span>
+<span class="w">    </span><span class="na">android:layout_height=</span><span class="s">&quot;match_parent&quot;</span>
+<span class="w">    </span><span class="na">android:paddingBottom=</span><span class="s">&quot;@dimen/activity_vertical_margin&quot;</span>
+<span class="w">    </span><span class="na">android:paddingLeft=</span><span class="s">&quot;@dimen/activity_horizontal_margin&quot;</span>
+<span class="w">    </span><span class="na">android:paddingRight=</span><span class="s">&quot;@dimen/activity_horizontal_margin&quot;</span>
+<span class="w">    </span><span class="na">android:paddingTop=</span><span class="s">&quot;@dimen/activity_vertical_margin&quot;</span>
+<span class="w">    </span><span class="na">tools:context=</span><span class="s">&quot;com.aziflaj.todolist.MainActivity&quot;</span><span class="nt">&gt;</span>
+
+<span class="w">    </span><span class="nt">&lt;TextView</span>
+<span class="w">        </span><span class="na">android:layout_width=</span><span class="s">&quot;wrap_content&quot;</span>
+<span class="w">        </span><span class="na">android:layout_height=</span><span class="s">&quot;wrap_content&quot;</span>
+<span class="w">        </span><span class="na">android:text=</span><span class="s">&quot;Hello World!&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/RelativeLayout&gt;</span>
+</code></pre></div></td></tr></table></div>
+<p>In the <code>main</code> view, you will add a <code>ListView</code>, which will contain a ToDo item in each row. To do this, replace the <code>TextView</code> element with the code below:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nt">&lt;ListView</span>
+<span class="w">        </span><span class="na">android:id=</span><span class="s">&quot;@+id/list_todo&quot;</span>
+<span class="w">        </span><span class="na">android:layout_width=</span><span class="s">&quot;wrap_content&quot;</span>
+<span class="w">        </span><span class="na">android:layout_height=</span><span class="s">&quot;wrap_content&quot;</span>
+<span class="w">        </span><span class="na">app:layout_constraintBottom_toBottomOf=</span><span class="s">&quot;parent&quot;</span>
+<span class="w">        </span><span class="na">app:layout_constraintLeft_toLeftOf=</span><span class="s">&quot;parent&quot;</span>
+<span class="w">        </span><span class="na">app:layout_constraintRight_toRightOf=</span><span class="s">&quot;parent&quot;</span>
+<span class="w">        </span><span class="na">app:layout_constraintTop_toTopOf=</span><span class="s">&quot;parent&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+</code></pre></div></td></tr></table></div>
+<p>Now you will define a list item, which will represent a task in the interface.</p>
+<p>Create a new layout file in the <code>/res/layout</code> folder called <code>item_todo.xml</code>. You can do this by right clicking on the <code>layout</code> directory under the <code>res</code> directory and selecting the "New Layout Resource File" option.</p>
+<p>You will add two elements to this file, a <code>TextView</code> to show the task, and a “Done” <code>Button</code> to delete the task. Add this code to <code>item_todo.xml</code>, replacing anything that is already there.</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="nt">&lt;androidx.constraintlayout.widget.ConstraintLayout</span><span class="w"> </span><span class="na">xmlns:android=</span><span class="s">&quot;http://schemas.android.com/apk/res/android&quot;</span>
+<span class="w">    </span><span class="na">android:layout_width=</span><span class="s">&quot;match_parent&quot;</span>
+<span class="w">    </span><span class="na">android:layout_height=</span><span class="s">&quot;match_parent&quot;</span><span class="nt">&gt;</span>
+
+<span class="w">    </span><span class="nt">&lt;RelativeLayout</span><span class="w"> </span><span class="na">xmlns:android=</span><span class="s">&quot;http://schemas.android.com/apk/res/android&quot;</span>
+<span class="w">        </span><span class="na">android:layout_width=</span><span class="s">&quot;match_parent&quot;</span>
+<span class="w">        </span><span class="na">android:layout_height=</span><span class="s">&quot;match_parent&quot;</span>
+<span class="w">        </span><span class="na">android:layout_gravity=</span><span class="s">&quot;center_vertical&quot;</span><span class="nt">&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;TextView</span>
+<span class="w">            </span><span class="na">android:id=</span><span class="s">&quot;@+id/task_title&quot;</span>
+<span class="w">            </span><span class="na">android:layout_width=</span><span class="s">&quot;wrap_content&quot;</span>
+<span class="w">            </span><span class="na">android:layout_height=</span><span class="s">&quot;wrap_content&quot;</span>
+<span class="w">            </span><span class="na">android:layout_alignParentLeft=</span><span class="s">&quot;true&quot;</span>
+<span class="w">            </span><span class="na">android:layout_alignParentStart=</span><span class="s">&quot;true&quot;</span>
+<span class="w">            </span><span class="na">android:text=</span><span class="s">&quot;Hello&quot;</span>
+<span class="w">            </span><span class="na">android:textSize=</span><span class="s">&quot;20sp&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;Button</span>
+<span class="w">            </span><span class="na">android:id=</span><span class="s">&quot;@+id/task_delete&quot;</span>
+<span class="w">            </span><span class="na">android:layout_width=</span><span class="s">&quot;wrap_content&quot;</span>
+<span class="w">            </span><span class="na">android:layout_height=</span><span class="s">&quot;wrap_content&quot;</span>
+<span class="w">            </span><span class="na">android:layout_alignParentEnd=</span><span class="s">&quot;true&quot;</span>
+<span class="w">            </span><span class="na">android:layout_alignParentRight=</span><span class="s">&quot;true&quot;</span>
+<span class="w">            </span><span class="na">android:text=</span><span class="s">&quot;Done&quot;</span><span class="nt">/&gt;</span>
+
+<span class="w">    </span><span class="nt">&lt;/RelativeLayout&gt;</span>
+
+<span class="nt">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span>
+</code></pre></div></td></tr></table></div>
+<p>The app needs a menu item to allow user to add more tasks. Add a <code>main_menu.xml</code> file in the <code>/res/menu</code> directory, following the same procedure as above. The only difference is you will first create a <code>menu</code> directory under the <code>res</code> directory and right click the <code>res/menu</code> directory to add the Layout resource. Once you have created the <code>main_menu.xml</code> layout, double click it to open it, switch to the Code view by clicking the button in the top right, and replace your code with the following:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+
+<span class="w">    </span><span class="nt">&lt;menu</span><span class="w"> </span><span class="na">xmlns:android=</span><span class="s">&quot;http://schemas.android.com/apk/res/android&quot;</span>
+<span class="w">        </span><span class="na">xmlns:app=</span><span class="s">&quot;http://schemas.android.com/apk/res-auto&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;item</span>
+<span class="w">            </span><span class="na">android:id=</span><span class="s">&quot;@+id/action_add_task&quot;</span>
+<span class="w">            </span><span class="na">android:icon=</span><span class="s">&quot;@android:drawable/ic_menu_add&quot;</span>
+<span class="w">            </span><span class="na">android:title=</span><span class="s">&quot;Add Task&quot;</span>
+<span class="w">            </span><span class="na">app:showAsAction=</span><span class="s">&quot;always&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/menu&gt;</span>
+</code></pre></div></td></tr></table></div>
+<p>Next, we need to connect this static UI code to the main cod logic of the app. To do this, you should add the following information to your <code>MainActivity.java</code> file, after the <code>onCreate</code> method.</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@Override</span>
+<span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">onCreateOptionsMenu</span><span class="p">(</span><span class="n">Menu</span><span class="w"> </span><span class="n">menu</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">getMenuInflater</span><span class="p">().</span><span class="na">inflate</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">menu</span><span class="p">.</span><span class="na">main_menu</span><span class="p">,</span><span class="w"> </span><span class="n">menu</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="kd">super</span><span class="p">.</span><span class="na">onCreateOptionsMenu</span><span class="p">(</span><span class="n">menu</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nd">@Override</span>
+<span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">onOptionsItemSelected</span><span class="p">(</span><span class="n">MenuItem</span><span class="w"> </span><span class="n">item</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">item</span><span class="p">.</span><span class="na">getItemId</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="n">R</span><span class="p">.</span><span class="na">id</span><span class="p">.</span><span class="na">action_add_task</span><span class="p">:</span>
+<span class="w">            </span><span class="n">Log</span><span class="p">.</span><span class="na">d</span><span class="p">(</span><span class="n">TAG</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Add a new task&quot;</span><span class="p">);</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+
+<span class="w">        </span><span class="k">default</span><span class="p">:</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="kd">super</span><span class="p">.</span><span class="na">onOptionsItemSelected</span><span class="p">(</span><span class="n">item</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You might have some errors related to <code>imports</code> when you copy and paste code throughout this tutorial. To resolve these, simply hover your mouse over the red-underlined text, and then click on <code>import class</code>. This will add an <code>import</code> statement to the top of the class so that the code can properly utilize the referenced library class.</p>
+</div>
+<p>You will likely have an error after this relating to a <code>TAG</code> constant. To resolve this error, add the following line to the beginning of the <code>MainActivity</code> class: </p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@Override</span>
+<span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">onCreateOptionsMenu</span><span class="p">(</span><span class="n">Menu</span><span class="w"> </span><span class="n">menu</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">getMenuInflater</span><span class="p">().</span><span class="na">inflate</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">menu</span><span class="p">.</span><span class="na">main_menu</span><span class="p">,</span><span class="w"> </span><span class="n">menu</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="kd">super</span><span class="p">.</span><span class="na">onCreateOptionsMenu</span><span class="p">(</span><span class="n">menu</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nd">@Override</span>
+<span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MainActivity</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">AppCompatActivity</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">TAG</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;MainActivity&quot;</span><span class="p">;</span>
+<span class="p">...</span>
+</code></pre></div></td></tr></table></div>
+<p>The <code>onCreateOptionsMenu()</code> method inflates (renders) the menu in the main activity, and uses the <code>onOptionsItemSelected()</code> method to react to different user interactions with the menu item(s). If you run the application, it should look something like this:</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/app-layout.png" /></p>
+<p>If you click the add button, you will see something like this in the Android Studio log:</p>
+<p><code>03-26 22:12:50.327 2549-2549/? D/MainActivity: Add a new task</code></p>
+<p>Next, you will add an AlertDialog to get the task from the user when the add item button is clicked. You already know where to add the code to react to the user, so replace the logging statement in the <code>MainActivity</code> (depicted below)</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">Log</span><span class="p">.</span><span class="na">d</span><span class="p">(</span><span class="n">TAG</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Add a new task&quot;</span><span class="p">);</span>
+</code></pre></div></td></tr></table></div>
+<p>with the following code snippet:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">final</span><span class="w"> </span><span class="n">EditText</span><span class="w"> </span><span class="n">taskEditText</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">EditText</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+<span class="n">AlertDialog</span><span class="w"> </span><span class="n">dialog</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">AlertDialog</span><span class="p">.</span><span class="na">Builder</span><span class="p">(</span><span class="k">this</span><span class="p">)</span>
+<span class="w">        </span><span class="p">.</span><span class="na">setTitle</span><span class="p">(</span><span class="s">&quot;Add a new task&quot;</span><span class="p">)</span>
+<span class="w">        </span><span class="p">.</span><span class="na">setMessage</span><span class="p">(</span><span class="s">&quot;What do you want to do next?&quot;</span><span class="p">)</span>
+<span class="w">        </span><span class="p">.</span><span class="na">setView</span><span class="p">(</span><span class="n">taskEditText</span><span class="p">)</span>
+<span class="w">        </span><span class="p">.</span><span class="na">setPositiveButton</span><span class="p">(</span><span class="s">&quot;Add&quot;</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">DialogInterface</span><span class="p">.</span><span class="na">OnClickListener</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nd">@Override</span>
+<span class="w">            </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onClick</span><span class="p">(</span><span class="n">DialogInterface</span><span class="w"> </span><span class="n">dialog</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">which</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="n">String</span><span class="w"> </span><span class="n">task</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">valueOf</span><span class="p">(</span><span class="n">taskEditText</span><span class="p">.</span><span class="na">getText</span><span class="p">());</span>
+<span class="w">                </span><span class="n">Log</span><span class="p">.</span><span class="na">d</span><span class="p">(</span><span class="n">TAG</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Task to add: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">task</span><span class="p">);</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">})</span>
+<span class="w">        </span><span class="p">.</span><span class="na">setNegativeButton</span><span class="p">(</span><span class="s">&quot;Cancel&quot;</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span>
+<span class="w">        </span><span class="p">.</span><span class="na">create</span><span class="p">();</span>
+<span class="n">dialog</span><span class="p">.</span><span class="na">show</span><span class="p">();</span>
+</code></pre></div></td></tr></table></div>
+<p>Now if you launch your app again, clicking the plus button should give you this:</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/app-modal.png" /></p>
+<p>Enter some text and when you click the add button, the Android Studio log (“logcat”) will show something like this:</p>
+<p><code>03-26 23:32:18.294 12549-12549/? D/MainActivity: Task to add: I want to learn Android Development</code></p>
+<hr />
+<h3 id="step-3-storing-and-retrieving-data"><u>Step 3: Storing and Retrieving Data</u></h3>
+<p>Android ships with an embedded <code>SQLite</code> database. The database needs a table before it can store any tasks, which we will call the “TaskTable”. Create a new <code>db</code> package in the same location as MainActivity.java by click on the package path (e.g., <code>edu.gmu.&lt;your-app.</code>, select "New Package" and then call it <code>db</code>. Then create a new class called <code>TaskContract</code> with the file name TaskContract.java by right click on the db folder and selecting "New Java Class".</p>
+<p>Add this code to TaskContract.java, beneath the package declaration.</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">android.provider.BaseColumns</span><span class="p">;</span>
+
+<span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">TaskContract</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">DB_NAME</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;com.aziflaj.todolist.db&quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">DB_VERSION</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">TaskEntry</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">BaseColumns</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">TABLE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;tasks&quot;</span><span class="p">;</span>
+
+<span class="w">        </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">COL_TASK_TITLE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;title&quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<p>The <code>TaskContract</code> class defines constants which used to access the data in the database. You also need a helper class called <code>TaskDbHelper</code> to open the database. Create this class in the <code>db</code> package (following the same method as above) and add the following code:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="w">   </span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">TaskDbHelper</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">SQLiteOpenHelper</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">   </span><span class="kd">public</span><span class="w"> </span><span class="nf">TaskDbHelper</span><span class="p">(</span><span class="n">Context</span><span class="w"> </span><span class="n">context</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">context</span><span class="p">,</span><span class="w"> </span><span class="n">TaskContract</span><span class="p">.</span><span class="na">DB_NAME</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="n">TaskContract</span><span class="p">.</span><span class="na">DB_VERSION</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="nd">@Override</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onCreate</span><span class="p">(</span><span class="n">SQLiteDatabase</span><span class="w"> </span><span class="n">db</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">createTable</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;CREATE TABLE &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">TABLE</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot; ( &quot;</span><span class="w"> </span><span class="o">+</span>
+<span class="w">                </span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">_ID</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot; INTEGER PRIMARY KEY AUTOINCREMENT, &quot;</span><span class="w"> </span><span class="o">+</span>
+<span class="w">                </span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">COL_TASK_TITLE</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot; TEXT NOT NULL);&quot;</span><span class="p">;</span>
+
+<span class="w">        </span><span class="n">db</span><span class="p">.</span><span class="na">execSQL</span><span class="p">(</span><span class="n">createTable</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="nd">@Override</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onUpgrade</span><span class="p">(</span><span class="n">SQLiteDatabase</span><span class="w"> </span><span class="n">db</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">oldVersion</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">newVersion</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">db</span><span class="p">.</span><span class="na">execSQL</span><span class="p">(</span><span class="s">&quot;DROP TABLE IF EXISTS &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">TABLE</span><span class="p">);</span>
+<span class="w">        </span><span class="n">onCreate</span><span class="p">(</span><span class="n">db</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<p>Now we need to adapt <code>MainActivity</code> to store data in the database. Add this code where you defined the <code>DialogInterface.OnClickListener()</code> for the AlertDialog‘s add button, replacing:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">String</span><span class="w"> </span><span class="n">task</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">valueOf</span><span class="p">(</span><span class="n">taskEditText</span><span class="p">.</span><span class="na">getText</span><span class="p">());</span>
+<span class="n">Log</span><span class="p">.</span><span class="na">d</span><span class="p">(</span><span class="n">TAG</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Task to add: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">task</span><span class="p">);</span>
+</code></pre></div></td></tr></table></div>
+<p>with: </p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span>
+<span class="normal">9</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">String</span><span class="w"> </span><span class="n">task</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">valueOf</span><span class="p">(</span><span class="n">taskEditText</span><span class="p">.</span><span class="na">getText</span><span class="p">());</span>
+<span class="w">                                </span><span class="n">SQLiteDatabase</span><span class="w"> </span><span class="n">db</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mHelper</span><span class="p">.</span><span class="na">getWritableDatabase</span><span class="p">();</span>
+<span class="w">                                </span><span class="n">ContentValues</span><span class="w"> </span><span class="n">values</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ContentValues</span><span class="p">();</span>
+<span class="w">                                </span><span class="n">values</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">COL_TASK_TITLE</span><span class="p">,</span><span class="w"> </span><span class="n">task</span><span class="p">);</span>
+<span class="w">                                </span><span class="n">db</span><span class="p">.</span><span class="na">insertWithOnConflict</span><span class="p">(</span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">TABLE</span><span class="p">,</span>
+<span class="w">                                        </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">                                        </span><span class="n">values</span><span class="p">,</span>
+<span class="w">                                        </span><span class="n">SQLiteDatabase</span><span class="p">.</span><span class="na">CONFLICT_REPLACE</span><span class="p">);</span>
+<span class="w">                                </span><span class="n">db</span><span class="p">.</span><span class="na">close</span><span class="p">();</span>
+</code></pre></div></td></tr></table></div>
+<p>This makes the whole <code>onOptionsItemSelected()</code> method look like:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@Override</span>
+<span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">onOptionsItemSelected</span><span class="p">(</span><span class="n">MenuItem</span><span class="w"> </span><span class="n">item</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">item</span><span class="p">.</span><span class="na">getItemId</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="n">R</span><span class="p">.</span><span class="na">id</span><span class="p">.</span><span class="na">action_add_task</span><span class="p">:</span>
+<span class="w">            </span><span class="kd">final</span><span class="w"> </span><span class="n">EditText</span><span class="w"> </span><span class="n">taskEditText</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">EditText</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+<span class="w">            </span><span class="n">AlertDialog</span><span class="w"> </span><span class="n">dialog</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">AlertDialog</span><span class="p">.</span><span class="na">Builder</span><span class="p">(</span><span class="k">this</span><span class="p">)</span>
+<span class="w">                    </span><span class="p">.</span><span class="na">setTitle</span><span class="p">(</span><span class="s">&quot;Add a new task&quot;</span><span class="p">)</span>
+<span class="w">                    </span><span class="p">.</span><span class="na">setMessage</span><span class="p">(</span><span class="s">&quot;What do you want to do next?&quot;</span><span class="p">)</span>
+<span class="w">                    </span><span class="p">.</span><span class="na">setView</span><span class="p">(</span><span class="n">taskEditText</span><span class="p">)</span>
+<span class="w">                    </span><span class="p">.</span><span class="na">setPositiveButton</span><span class="p">(</span><span class="s">&quot;Add&quot;</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">DialogInterface</span><span class="p">.</span><span class="na">OnClickListener</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                        </span><span class="nd">@Override</span>
+<span class="w">                        </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onClick</span><span class="p">(</span><span class="n">DialogInterface</span><span class="w"> </span><span class="n">dialog</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">which</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                            </span><span class="n">String</span><span class="w"> </span><span class="n">task</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">valueOf</span><span class="p">(</span><span class="n">taskEditText</span><span class="p">.</span><span class="na">getText</span><span class="p">());</span>
+<span class="w">                            </span><span class="n">SQLiteDatabase</span><span class="w"> </span><span class="n">db</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mHelper</span><span class="p">.</span><span class="na">getWritableDatabase</span><span class="p">();</span>
+<span class="w">                            </span><span class="n">ContentValues</span><span class="w"> </span><span class="n">values</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ContentValues</span><span class="p">();</span>
+<span class="w">                            </span><span class="n">values</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">COL_TASK_TITLE</span><span class="p">,</span><span class="w"> </span><span class="n">task</span><span class="p">);</span>
+<span class="w">                            </span><span class="n">db</span><span class="p">.</span><span class="na">insertWithOnConflict</span><span class="p">(</span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">TABLE</span><span class="p">,</span>
+<span class="w">                                    </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">                                    </span><span class="n">values</span><span class="p">,</span>
+<span class="w">                                    </span><span class="n">SQLiteDatabase</span><span class="p">.</span><span class="na">CONFLICT_REPLACE</span><span class="p">);</span>
+<span class="w">                            </span><span class="n">db</span><span class="p">.</span><span class="na">close</span><span class="p">();</span>
+<span class="w">                        </span><span class="p">}</span>
+<span class="w">                    </span><span class="p">})</span>
+<span class="w">                    </span><span class="p">.</span><span class="na">setNegativeButton</span><span class="p">(</span><span class="s">&quot;Cancel&quot;</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span>
+<span class="w">                    </span><span class="p">.</span><span class="na">create</span><span class="p">();</span>
+<span class="w">            </span><span class="n">dialog</span><span class="p">.</span><span class="na">show</span><span class="p">();</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+
+<span class="w">        </span><span class="k">default</span><span class="p">:</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="kd">super</span><span class="p">.</span><span class="na">onOptionsItemSelected</span><span class="p">(</span><span class="n">item</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<p>Next, add a private instance of <code>TaskDbHelper</code> in the MainActivity class, directly underneath where we had the tag before:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MainActivity</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">AppCompatActivity</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">TAG</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;MainActivity&quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">TaskDbHelper</span><span class="w"> </span><span class="n">mHelper</span><span class="p">;</span>
+</code></pre></div></td></tr></table></div>
+<p>And initialize it in the onCreate() method:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onCreate</span><span class="p">(</span><span class="n">Bundle</span><span class="w"> </span><span class="n">savedInstanceState</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kd">super</span><span class="p">.</span><span class="na">onCreate</span><span class="p">(</span><span class="n">savedInstanceState</span><span class="p">);</span>
+<span class="w">        </span><span class="n">setContentView</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">layout</span><span class="p">.</span><span class="na">activity_main</span><span class="p">);</span>
+
+<span class="w">        </span><span class="n">mHelper</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">TaskDbHelper</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<p>Now we need to fetch all the data from the database and show it in the main view. Get a reference to the ListView created in activity_main.xml file by adding an instance of the ListView:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MainActivity</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">AppCompatActivity</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">TAG</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;MainActivity&quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">TaskDbHelper</span><span class="w"> </span><span class="n">mHelper</span><span class="p">;</span>
+</code></pre></div></td></tr></table></div>
+<p>And initialize it in the onCreate() method:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MainActivity</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">AppCompatActivity</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">TAG</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;MainActivity&quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">TaskDbHelper</span><span class="w"> </span><span class="n">mHelper</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">ListView</span><span class="w"> </span><span class="n">mTaskListView</span><span class="p">;</span>
+</code></pre></div></td></tr></table></div>
+<p>Initialize the reference by adding this line of code to the <code>onCreate()</code> method, right after creating <code>mHelper</code>:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onCreate</span><span class="p">(</span><span class="n">Bundle</span><span class="w"> </span><span class="n">savedInstanceState</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kd">super</span><span class="p">.</span><span class="na">onCreate</span><span class="p">(</span><span class="n">savedInstanceState</span><span class="p">);</span>
+<span class="w">        </span><span class="n">setContentView</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">layout</span><span class="p">.</span><span class="na">activity_main</span><span class="p">);</span>
+
+<span class="w">        </span><span class="n">mHelper</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">TaskDbHelper</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+<span class="w">        </span><span class="n">mTaskListView</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">ListView</span><span class="p">)</span><span class="w"> </span><span class="n">findViewById</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">id</span><span class="p">.</span><span class="na">list_todo</span><span class="p">);</span>
+</code></pre></div></td></tr></table></div>
+<p>Next we are going to add a method that handles updating the UI. To do this, add the following method in your <code>MainActivity</code> class:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">updateUI</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">taskList</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span>
+<span class="w">        </span><span class="n">SQLiteDatabase</span><span class="w"> </span><span class="n">db</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mHelper</span><span class="p">.</span><span class="na">getReadableDatabase</span><span class="p">();</span>
+<span class="w">        </span><span class="n">Cursor</span><span class="w"> </span><span class="n">cursor</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">db</span><span class="p">.</span><span class="na">query</span><span class="p">(</span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">TABLE</span><span class="p">,</span>
+<span class="w">                </span><span class="k">new</span><span class="w"> </span><span class="n">String</span><span class="o">[]</span><span class="p">{</span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">_ID</span><span class="p">,</span><span class="w"> </span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">COL_TASK_TITLE</span><span class="p">},</span>
+<span class="w">                </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span>
+<span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">cursor</span><span class="p">.</span><span class="na">moveToNext</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cursor</span><span class="p">.</span><span class="na">getColumnIndex</span><span class="p">(</span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">COL_TASK_TITLE</span><span class="p">);</span>
+<span class="w">            </span><span class="n">taskList</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">cursor</span><span class="p">.</span><span class="na">getString</span><span class="p">(</span><span class="n">idx</span><span class="p">));</span>
+<span class="w">        </span><span class="p">}</span>
+
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">mAdapter</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">mAdapter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayAdapter</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="k">this</span><span class="p">,</span>
+<span class="w">                    </span><span class="n">R</span><span class="p">.</span><span class="na">layout</span><span class="p">.</span><span class="na">item_todo</span><span class="p">,</span>
+<span class="w">                    </span><span class="n">R</span><span class="p">.</span><span class="na">id</span><span class="p">.</span><span class="na">task_title</span><span class="p">,</span>
+<span class="w">                    </span><span class="n">taskList</span><span class="p">);</span>
+<span class="w">            </span><span class="n">mTaskListView</span><span class="p">.</span><span class="na">setAdapter</span><span class="p">(</span><span class="n">mAdapter</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">mAdapter</span><span class="p">.</span><span class="na">clear</span><span class="p">();</span>
+<span class="w">            </span><span class="n">mAdapter</span><span class="p">.</span><span class="na">addAll</span><span class="p">(</span><span class="n">taskList</span><span class="p">);</span>
+<span class="w">            </span><span class="n">mAdapter</span><span class="p">.</span><span class="na">notifyDataSetChanged</span><span class="p">();</span>
+<span class="w">        </span><span class="p">}</span>
+
+<span class="w">        </span><span class="n">cursor</span><span class="p">.</span><span class="na">close</span><span class="p">();</span>
+<span class="w">        </span><span class="n">db</span><span class="p">.</span><span class="na">close</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<p>Add a private <code>ArrayAdatper</code> field to the <code>MainActivity</code> class:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MainActivity</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">AppCompatActivity</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">TAG</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;MainActivity&quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">TaskDbHelper</span><span class="w"> </span><span class="n">mHelper</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">ListView</span><span class="w"> </span><span class="n">mTaskListView</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">ArrayAdapter</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">mAdapter</span><span class="p">;</span>
+</code></pre></div></td></tr></table></div>
+<p>This <code>ArrayAdapter</code> will help populate the ListView with the data.</p>
+<p>If you don’t understand the <code>updateUI()</code> method, that’s OK. Instead of logging the tasks, add them into an <code>ArrayList</code> of Strings. It then checks if <code>mAdapter</code> is created or not. If it isn’t, and <code>mAdapter</code> is null, create and set it as the adapter of the <code>ListView</code> (see below code you already have):</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">mAdapter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayAdapter</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="k">this</span><span class="p">,</span>
+<span class="w">        </span><span class="n">R</span><span class="p">.</span><span class="na">layout</span><span class="p">.</span><span class="na">item_todo</span><span class="p">,</span><span class="w"> </span><span class="c1">// what view to use for the items</span>
+<span class="w">        </span><span class="n">R</span><span class="p">.</span><span class="na">id</span><span class="p">.</span><span class="na">task_title</span><span class="p">,</span><span class="w"> </span><span class="c1">// where to put the String of data</span>
+<span class="w">        </span><span class="n">taskList</span><span class="p">);</span><span class="w"> </span><span class="c1">// where to get all the data</span>
+
+<span class="n">mTaskListView</span><span class="p">.</span><span class="na">setAdapter</span><span class="p">(</span><span class="n">mAdapter</span><span class="p">);</span><span class="w"> </span><span class="c1">// set it as the adapter of the ListView instance</span>
+</code></pre></div></td></tr></table></div>
+<p>If the adapter is already created (which implies that it’s assigned to the <code>ListView</code>), clear it, re-populate it and notify the view that the data has changed. This means that the view will repaint on the screen with the new data.</p>
+<p>To see the updated data, you need to call the <code>updateUI()</code> method every time the underlying data of the app changes. So, add it in two places:</p>
+<ul>
+<li>In the onCreate() method, that initially shows all the data</li>
+<li>After adding a new task using the AlertDialog</li>
+</ul>
+<p>See the two code snippets below for where <code>updateUI()</code> should be added:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span>
+<span class="normal">9</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onCreate</span><span class="p">(</span><span class="n">Bundle</span><span class="w"> </span><span class="n">savedInstanceState</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kd">super</span><span class="p">.</span><span class="na">onCreate</span><span class="p">(</span><span class="n">savedInstanceState</span><span class="p">);</span>
+<span class="w">        </span><span class="n">setContentView</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">layout</span><span class="p">.</span><span class="na">activity_main</span><span class="p">);</span>
+
+<span class="w">        </span><span class="n">mHelper</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">TaskDbHelper</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+<span class="w">        </span><span class="n">mTaskListView</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">ListView</span><span class="p">)</span><span class="w"> </span><span class="n">findViewById</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">id</span><span class="p">.</span><span class="na">list_todo</span><span class="p">);</span>
+
+<span class="w">        </span><span class="n">updateUI</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">onClick</span><span class="p">(</span><span class="n">DialogInterface</span><span class="w"> </span><span class="n">dialog</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">which</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                                </span><span class="n">String</span><span class="w"> </span><span class="n">task</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">valueOf</span><span class="p">(</span><span class="n">taskEditText</span><span class="p">.</span><span class="na">getText</span><span class="p">());</span>
+<span class="w">                                </span><span class="n">SQLiteDatabase</span><span class="w"> </span><span class="n">db</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mHelper</span><span class="p">.</span><span class="na">getWritableDatabase</span><span class="p">();</span>
+<span class="w">                                </span><span class="n">ContentValues</span><span class="w"> </span><span class="n">values</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ContentValues</span><span class="p">();</span>
+<span class="w">                                </span><span class="n">values</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">COL_TASK_TITLE</span><span class="p">,</span><span class="w"> </span><span class="n">task</span><span class="p">);</span>
+<span class="w">                                </span><span class="n">db</span><span class="p">.</span><span class="na">insertWithOnConflict</span><span class="p">(</span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">TABLE</span><span class="p">,</span>
+<span class="w">                                        </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">                                        </span><span class="n">values</span><span class="p">,</span>
+<span class="w">                                        </span><span class="n">SQLiteDatabase</span><span class="p">.</span><span class="na">CONFLICT_REPLACE</span><span class="p">);</span>
+<span class="w">                                </span><span class="n">db</span><span class="p">.</span><span class="na">close</span><span class="p">();</span>
+<span class="w">                                </span><span class="n">updateUI</span><span class="p">();</span>
+</code></pre></div></td></tr></table></div>
+<hr />
+<h3 id="step-4-deleting-tasks"><u>Step 4: Deleting Tasks</u></h3>
+<p>After finishing a task, it should be deleted from the list.</p>
+<p>Open the <code>item_todo.xml</code> layout and add this line to the <code>Button</code> tag:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="w">        </span><span class="nt">&lt;Button</span>
+<span class="w">            </span><span class="na">android:id=</span><span class="s">&quot;@+id/task_delete&quot;</span>
+<span class="w">            </span><span class="na">android:layout_width=</span><span class="s">&quot;wrap_content&quot;</span>
+<span class="w">            </span><span class="na">android:layout_height=</span><span class="s">&quot;wrap_content&quot;</span>
+<span class="w">            </span><span class="na">android:layout_alignParentEnd=</span><span class="s">&quot;true&quot;</span>
+<span class="w">            </span><span class="na">android:layout_alignParentRight=</span><span class="s">&quot;true&quot;</span>
+<span class="w">            </span><span class="na">android:text=</span><span class="s">&quot;Done&quot;</span>
+<span class="w">            </span><span class="na">android:onClick=</span><span class="s">&quot;deleteTask&quot;</span><span class="nt">/&gt;</span>
+</code></pre></div></td></tr></table></div>
+<p>When the button is clicked, it calls this method <code>deleteTask()</code> in the MainActivity class, which you should now add:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">deleteTask</span><span class="p">(</span><span class="n">View</span><span class="w"> </span><span class="n">view</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">View</span><span class="w"> </span><span class="n">parent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">View</span><span class="p">)</span><span class="w"> </span><span class="n">view</span><span class="p">.</span><span class="na">getParent</span><span class="p">();</span>
+<span class="w">        </span><span class="n">TextView</span><span class="w"> </span><span class="n">taskTextView</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">TextView</span><span class="p">)</span><span class="w"> </span><span class="n">parent</span><span class="p">.</span><span class="na">findViewById</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">id</span><span class="p">.</span><span class="na">task_title</span><span class="p">);</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">task</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">valueOf</span><span class="p">(</span><span class="n">taskTextView</span><span class="p">.</span><span class="na">getText</span><span class="p">());</span>
+<span class="w">        </span><span class="n">SQLiteDatabase</span><span class="w"> </span><span class="n">db</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mHelper</span><span class="p">.</span><span class="na">getWritableDatabase</span><span class="p">();</span>
+<span class="w">        </span><span class="n">db</span><span class="p">.</span><span class="na">delete</span><span class="p">(</span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">TABLE</span><span class="p">,</span>
+<span class="w">                </span><span class="n">TaskContract</span><span class="p">.</span><span class="na">TaskEntry</span><span class="p">.</span><span class="na">COL_TASK_TITLE</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot; = ?&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="k">new</span><span class="w"> </span><span class="n">String</span><span class="o">[]</span><span class="p">{</span><span class="n">task</span><span class="p">});</span>
+<span class="w">        </span><span class="n">db</span><span class="p">.</span><span class="na">close</span><span class="p">();</span>
+<span class="w">        </span><span class="n">updateUI</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<p>Now, clicking the <code>Done</code> button will delete the task from the list and the SQLite database!</p>
+<p>Now run your app to test it out! You should see functionality similar to that indicated below:</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/android-tutorial/app-final.png" /></p>
+<hr />
+<h3 id="final-step-congratulations"><u>Final Step: Congratulations!</u></h3>
+<p>Congrats on Building your first Android app. This app demonstrates some important features of Android, such as how to set up a UI View, how to connect different components together, and how to store data from an application.</p>
+<p>If you made this far and you want to explore more, check out the Bonus Tasks you can try below. These tasks have much less direction, and expect that you will look up some information on your own.</p>
+<hr />
+<h3 id="bonus-task-1-change-the-look-and-feel-of-the-ui"><u>Bonus Task 1: Change the Look and Feel of the UI</u></h3>
+<p>For this bonus task, you should use the <code>LayoutInspector</code> to change the look and feel of the UI. For example, try to set the theme to GMU colors, and explore different fonts or layout configurations for the tasks!</p>
+<hr />
+<h3 id="bonus-task-2-add-due-dates"><u>Bonus Task 2: Add Due Dates</u></h3>
+<p>For this Bonus Task, we are challenging you to add due dates to the ToDo list app. This will require modifying the <code>AlertDialog</code> the <code>database</code> and the <code>item_todo</code> layout resource file. Check out the following <a href="https://www.tutlane.com/tutorial/android/android-datepicker-with-examples">resource</a> on how to use the <code>DatePicker</code> component.  </p>
+<hr />
+<h3 id="bonus-task-3-allow-tasks-with-images"><u>Bonus Task 3: Allow Tasks with Images</u></h3>
+<p>For this Bonus Task, you should modify the Tasks so that the user can add an image to them, in case they need to reference it later. For this task, check out this <a href="https://stackoverflow.com/questions/38352148/get-image-from-the-gallery-and-show-in-imageview">SO post</a> that provides some direction on how to get started with this.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      ©2023 SAGE Research Lab
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/sageselab" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/sageselab" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "search": "../assets/javascripts/workers/search.1e90e0fb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e3055991.min.js"></script>
+      
+    
+  </body>
+</html>
